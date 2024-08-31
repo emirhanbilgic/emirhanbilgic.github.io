@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emirhan Bilgiç</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Ensure the image is responsive */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Flexbox container adjustments */
+        #home div {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+        }
+
+        /* Styles for larger screens */
+        @media (min-width: 768px) {
+            #home div img {
+                width: 512px; /* Set a specific width for larger screens */
+                margin-right: 20px;
+            }
+        }
+
+        /* Styles for smaller screens */
+        @media (max-width: 767px) {
+            #home div img {
+                width: 100%; /* Make the image take up full width on smaller screens */
+                margin-right: 0;
+                margin-bottom: 20px; /* Add some space below the image */
+            }
+
+            #home div p {
+                text-align: center; /* Center the text on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Emirhan Bilgiç</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="publications.html">Publications</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section id="home">
+    <div>
+        <img src="images/my-image.png" alt="Emirhan Bilgiç">
+        <p><strong>Hello! This is Emirhan Bilgiç, AI Research Engineer. Welcome to my personal website!</strong></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024</p>
+</footer>
+
+</body>
+</html>
