@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Contact - Emirhan Bilgiç</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .social-links img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+        }
+
+        #contact h2 {
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -22,14 +39,24 @@
 </nav>
 
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:emirhanbilgicai@gmail.com">emirhanbilgicai@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/emirhanbilgic/" target="_blank">LinkedIn Profile</a></p>
-    <p>GitHub: <a href="https://github.com/emirhanbilgic" target="_blank">github.com/emirhanbilgic</a></p>
-    <p>Hugging Face: <a href="https://huggingface.co/emirhanbilgic" target="_blank">huggingface.co/emirhanbilgic</a></p>
-    <p>Kaggle: <a href="https://www.kaggle.com/emirhanbilgic" target="_blank">kaggle.com/emirhanbilgic</a></p>
+    
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/emirhanbilgic/" target="_blank">
+            <img src="images/linkedin-logo.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/emirhanbilgic" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+        </a>
+        <a href="https://huggingface.co/emirhanbilgic" target="_blank">
+            <img src="images/huggingface-logo.png" alt="Hugging Face">
+        </a>
+        <a href="https://www.kaggle.com/emirhanbilgic" target="_blank">
+            <img src="images/kaggle-logo.webp" alt="Kaggle">
+        </a>
+    </div>
+    
 
-    <h2 style="text-align: center;">Send Me a Message</h2>
+    <h2>Send Me a Message</h2>
     <form action="mailto:emirhanbilgicai@gmail.com" method="post" enctype="text/plain">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
