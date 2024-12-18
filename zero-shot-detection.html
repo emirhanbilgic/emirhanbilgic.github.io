@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero-shot Detection - Emirhan Bilgiç</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Keep styling minimal and similar to the first page */
+        
+        /* Center images and captions similar to the first page */
+        .figure-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .figure-caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        /* Match the same basic body styling as the first page */
+        body {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Centered title and authors for the publication section */
+        .centered {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header (identical to first page) -->
+<header>
+    <h1>Publications</h1>
+</header>
+
+<!-- Navigation (identical to first page) -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="publications.html">Publications</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section id="publication">
+    <div class="centered">
+        <h2>Efficient Face Morphing: Identity-Preserving Image Generation</h2>
+        <p><strong>Authors:</strong> Emirhan Bilgiç, Aaron Weissberg, Adrian Popescu</p>
+        <p>Université Paris-Saclay</p>
+    </div>
+
+    <h3>Abstract</h3>
+    <p>
+        The rapid proliferation of AI-generated images has necessitated <strong>robust</strong> and <strong>reliable detection methods</strong>. In this work, we introduce two novel <strong>training-free approaches</strong> to identify AI-generated images effectively: <strong>Inpainting-based Detection</strong> and <strong>Non-parametric Patch Search</strong>.
+    </p>
+
+    <h3>1. Inpainting-Based Detection</h3>
+    <p>
+        Leveraging <strong>stable diffusion-based inpainting</strong>, this method identifies <strong>inconsistencies</strong> in AI-generated images.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/inpainted.jpg" alt="Inpainting-based Detection" style="max-width:35%; height:auto;">
+        <p class="figure-caption"><strong>Figure 1.</strong> Top left: real image, where inpainting fails. Top right: inpainted real image.<br>Bottom left: AI-generated image. Bottom right: inpainted AI-generated image.</p>
+    </div>
+
+    <div class="figure-container">
+        <img src="images/histograms.png" alt="Histogram of Results" style="max-width:35%; height:auto;">
+        <p class="figure-caption"><strong>Figure 2.</strong> Histogram of Results.</p>
+    </div>
+
+    <h3>2. Non-Parametric Patch Search</h3>
+    <p>
+        This method involves building a dataset comprising both real and AI-generated images, from which <strong>small patches</strong> are extracted. For a given input image, <strong>randomly selected patches</strong> are compared against the dataset to find the closest matches.
+    </p>
+
+    <h3>Conclusion</h3>
+    <p>
+        Our proposed methods are <strong>training-free</strong>, <strong>robust</strong>, and adaptable to <strong>real-world scenarios</strong>, offering a significant step forward in <strong>zero-shot detection</strong> of AI-generated content.
+    </p>
+</section>
+
+<!-- Footer (identical structure to first page) -->
+<footer>
+    <p>&copy; 2024 Emirhan Bilgiç</p>
+</footer>
+
+</body>
+</html>
