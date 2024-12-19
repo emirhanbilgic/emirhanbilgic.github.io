@@ -24,13 +24,11 @@
             margin-top: 10px;
         }
 
-        /* Match the same basic body styling as the first page */
         body {
             line-height: 1.6;
             text-align: justify;
         }
 
-        /* Centered title and authors for the publication section */
         .centered {
             text-align: center;
             margin: 20px 0;
@@ -57,8 +55,13 @@
 <section id="publication">
     <div class="centered">
         <h2>Zero-shot Authenticity: Robust, Training-Free AI-Generated Image Detection</h2>
-        <p><strong>Authors:</strong> Emirhan Bilgiç, Aaron Weissberg, Adrian Popescu</p>
+        <p>Emirhan Bilgiç<sup>†</sup>, Aaron Weissberg<sup>†</sup>, Adrian Popescu</p>
         <p>Université Paris-Saclay</p>
+        <p><em><sup>†</sup>Equal contribution</em></p>
+    </div>
+    
+    <div class="centered">
+        <p><strong>arXiv link:</strong> Coming soon!</p>
     </div>
 
     <h3>Abstract</h3>
@@ -68,7 +71,7 @@
 
     <h3>1. Inpainting-Based Detection</h3>
     <p>
-        Leveraging <strong>stable diffusion-based inpainting</strong>, this method identifies <strong>inconsistencies</strong> in AI-generated images.
+        This method employs <strong>stable diffusion-based inpainting</strong> to assess differences in <strong>reconstruction fidelity</strong> between real and AI-generated images. Random regions of images are masked, and inpainting is applied to fill the masked areas. The reconstructed regions are then compared to the original images using the Peak Signal-to-Noise Ratio (PSNR) metric. <strong>The analysis demonstrates that inpainting performs poorly on real images.</strong>
     </p>
 
     <div class="figure-container">
@@ -91,7 +94,6 @@
     </p>
 </section>
 
-<!-- Footer (identical structure to first page) -->
 <footer>
     <p>&copy; 2024 Emirhan Bilgiç</p>
 </footer>
