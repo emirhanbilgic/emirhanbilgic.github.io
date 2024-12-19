@@ -9,45 +9,48 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emirhan Bilgiç</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
-        /* Ensure the image is responsive */
-        img {
-            max-width: 100%;
-            height: auto;
+        body {
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
         }
 
-        /* Flexbox container adjustments */
-        #home div {
+        #home {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
-            flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+            justify-content: center;
+            padding: 40px;
+            background-color: #f9f9f9;
         }
 
-        /* Styles for larger screens */
-        @media (min-width: 768px) {
-            #home div img {
-                width: 512px; /* Set a specific width for larger screens */
-                margin-right: 20px;
+        #home img {
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #home p {
+            max-width: 600px;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            #home {
+                flex-direction: column;
             }
-        }
 
-        /* Styles for smaller screens */
-        @media (max-width: 767px) {
-            #home div img {
-                width: 100%; /* Make the image take up full width on smaller screens */
+            #home img {
                 margin-right: 0;
-                margin-bottom: 20px; /* Add some space below the image */
+                margin-bottom: 20px;
             }
 
-            #home div p {
-                text-align: center; /* Center the text on smaller screens */
+            #home p {
+                text-align: center;
             }
         }
     </style>
@@ -68,10 +71,12 @@
 </nav>
 
 <section id="home">
-    <div>
-        <img src="images/my-image.jpeg" alt="Emirhan Bilgiç">
-        <p><strong>Hello! This is Emirhan Bilgiç, AI researcher. Welcome to my personal website!</strong></p>
-    </div>
+    <img src="images/my_image.png" alt="Emirhan Bilgiç">
+    <p>Hello! This is Emirhan Bilgiç, AI researcher. Welcome to my personal website! 
+       I am passionate about <strong>advancing AI systems</strong> with a focus on <strong>robustness</strong>, <strong>interpretability</strong>, and <strong>ethical deployment</strong>. 
+       My current research explores AI-generated content detection and adversarial robustness. I aim to ensure the secure and responsible 
+       advancement of AI technologies by integrating cognitive insights, continual unlearning, and robust safeguards into generative models.
+    </p>
 </section>
 
 <footer>
