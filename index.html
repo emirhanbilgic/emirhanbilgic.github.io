@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,79 +10,43 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        #home {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            padding: 40px;
-            background-color: #f9f9f9;
-        }
-
-        #home img {
-            max-width: 300px;
-            height: auto;
-            margin-right: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        #home p {
-            max-width: 600px;
-            font-size: 1.2em;
-            color: #555;
-        }
-
-        @media (max-width: 768px) {
-            #home {
-                flex-direction: column;
-            }
-
-            #home img {
-                margin-right: 0;
-                margin-bottom: 20px;
-            }
-
-            #home p {
-                text-align: center;
-            }
-        }
-    </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Emirhan Bilgiç</h1>
-</header>
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html">Emirhan Bilgiç</a></h1>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="publications.html">Publications</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="publications.html">Publications</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
+    <main>
+        <section class="hero">
+            <img src="images/my_image.png" alt="Emirhan Bilgiç">
+            <div class="hero-content">
+                <h2>Hello!</h2>
+                <p>This is Emirhan Bilgiç, AI researcher. Welcome to my personal website!</p>
+                <p>My goal is to address current limitations in AI systems and explore how we can <strong>"safely" push
+                        the boundaries of what these systems can achieve</strong>.</p>
+                <p>My current research explores AI-generated content detection and adversarial robustness. I aim to
+                    ensure the secure and responsible advancement of AI technologies by integrating cognitive insights,
+                    continual unlearning, and robust safeguards into generative models.</p>
+            </div>
+        </section>
+    </main>
 
-<section id="home">
-    <img src="images/my_image.png" alt="Emirhan Bilgiç">
-    <p>Hello! This is Emirhan Bilgiç, AI researcher. Welcome to my personal website! 
-       My goal is to address current limitations in AI systems and explore how we can <strong>"safely" push the boundaries of what these systems can achieve</strong>.<br><br>
-       My current research explores AI-generated content detection and adversarial robustness. I aim to ensure the secure and responsible 
-       advancement of AI technologies by integrating cognitive insights, continual unlearning, and robust safeguards into generative models.
-    </p>
-</section>
-
-<footer>
-    <p>&copy; 2024 Emirhan Bilgiç</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 Emirhan Bilgiç</p>
+    </footer>
 
 </body>
+
 </html>

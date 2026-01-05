@@ -1,98 +1,418 @@
-body {
-    font-family: 'Georgia', serif;
-    line-height: 1.6;
+/* Modern Mobile-First CSS Reset & Variables */
+:root {
+    --primary-color: #2c3e50;
+    /* Deep Slate Blue */
+    --accent-color: #3498db;
+    /* Bright Blue */
+    --accent-hover: #2980b9;
+    --text-color: #333;
+    --text-light: #666;
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --nav-bg: #ffffff;
+    --footer-bg: #2c3e50;
+    --footer-text: #ecf0f1;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --shadow-hover: 0 8px 15px rgba(0, 0, 0, 0.1);
+    --radius: 8px;
+    --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-heading: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
+body {
+    font-family: var(--font-main);
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent-hover);
+}
+
+/* Header & Nav */
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-nav {
-    text-align: center;
-    padding: 10px;
-    background: #444;
+    background: var(--nav-bg);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+header h1 a {
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
 nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+    color: var(--text-color);
+    font-weight: 500;
+    position: relative;
+    padding: 5px 0;
+}
+
+nav a:hover,
+nav a.active {
+    color: var(--accent-color);
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* Mobile Nav Toggle (Implemented via CSS for simplicity, effectively just stacking on small screens) */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+/* Main Layout */
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 20px;
 }
 
 section {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 30px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Home Section */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Circular profile pic */
+    box-shadow: var(--shadow-hover);
+    border: 4px solid #fff;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* Projects & Publications List */
+.item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item-card {
+    display: flex;
+    gap: 25px;
     padding: 20px;
-    margin: 0 20px 20px 20px;
+    border-radius: var(--radius);
+    transition: transform 0.2s, box-shadow 0.2s;
     background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eee;
 }
 
-h2 {
-    color: #444;
+.item-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    margin-top: 20px;
+.item-image {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    flex-shrink: 0;
 }
 
-.welcome-photo {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 20px;
+.item-content {
+    flex: 1;
 }
 
+.item-content h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.item-content ul {
+    padding-left: 20px;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.item-content li {
+    margin-bottom: 8px;
+}
+
+.item-meta {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Responsive Items */
+@media (max-width: 768px) {
+    .item-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .item-content ul {
+        text-align: left;
+    }
+}
+
+/* Forms */
 form {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    gap: 15px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
-input, textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: var(--radius);
     font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s;
 }
 
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+button,
 input[type="submit"] {
-    background: #333;
-    color: #fff;
-    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
     border: none;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    align-self: flex-start;
 }
 
+button:hover,
 input[type="submit"]:hover {
-    background: #555;
+    background-color: var(--accent-hover);
 }
 
-.blog-post {
-    margin-bottom: 30px;
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: var(--footer-bg);
+    color: var(--footer-text);
+    margin-top: auto;
 }
 
-.blog-post img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* GitHub Link in Projects */
+.github-link img {
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.github-link:hover img {
+    opacity: 1;
+}
+/* Contact Page Styles */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.social-group {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-link-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 1px solid #eee;
+    min-width: 220px;
+}
+
+.social-link-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-hover);
+    color: var(--accent-color);
+}
+
+.social-link-item img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.social-link-item span {
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social-link-item {
+        width: 100%;
+        max-width: 300px;
+    }
 }

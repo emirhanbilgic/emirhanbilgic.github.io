@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,7 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Keep styling minimal and similar to the first page */
-        
+
         /* Center images and captions similar to the first page */
         .figure-container {
             text-align: center;
@@ -35,68 +36,84 @@
         }
     </style>
 </head>
+
 <body>
 
-<!-- Header (identical to first page) -->
-<header>
-    <h1>Publications</h1>
-</header>
+    <!-- Header (identical to first page) -->
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html">Emirhan Bilgiç</a></h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="publications.html">Publications</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-<!-- Navigation (identical to first page) -->
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="publications.html">Publications</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
+    <section id="publication">
+        <div class="centered">
+            <h2>Zero-shot Authenticity: Robust, Training-Free AI-Generated Image Detection</h2>
+            <p>Emirhan Bilgiç<sup>†</sup>, Aaron Weissberg<sup>†</sup>, Adrian Popescu</p>
+            <p>Université Paris-Saclay</p>
+            <p><em><sup>†</sup>Equal contribution</em></p>
+        </div>
 
-<section id="publication">
-    <div class="centered">
-        <h2>Zero-shot Authenticity: Robust, Training-Free AI-Generated Image Detection</h2>
-        <p>Emirhan Bilgiç<sup>†</sup>, Aaron Weissberg<sup>†</sup>, Adrian Popescu</p>
-        <p>Université Paris-Saclay</p>
-        <p><em><sup>†</sup>Equal contribution</em></p>
-    </div>
-    
-    <div class="centered">
-        <p><strong>arXiv link:</strong> Coming soon!</p>
-    </div>
+        <div class="centered">
+            <p><strong>arXiv link:</strong> Coming soon!</p>
+        </div>
 
-    <h3>Abstract</h3>
-    <p>
-        The rapid proliferation of AI-generated images has necessitated <strong>robust</strong> and <strong>reliable detection methods</strong>. In this work, we introduce two novel <strong>training-free approaches</strong> to identify AI-generated images effectively: <strong>Inpainting-based Detection</strong> and <strong>Non-parametric Patch Search</strong>.
-    </p>
+        <h3>Abstract</h3>
+        <p>
+            The rapid proliferation of AI-generated images has necessitated <strong>robust</strong> and <strong>reliable
+                detection methods</strong>. In this work, we introduce two novel <strong>training-free
+                approaches</strong> to identify AI-generated images effectively: <strong>Inpainting-based
+                Detection</strong> and <strong>Non-parametric Patch Search</strong>.
+        </p>
 
-    <h3>1. Inpainting-Based Detection</h3>
-    <p>
-        This method employs <strong>stable diffusion-based inpainting</strong> to assess differences in <strong>reconstruction fidelity</strong> between real and AI-generated images. Random regions of images are masked, and inpainting is applied to fill the masked areas. The reconstructed regions are then compared to the original images using the Peak Signal-to-Noise Ratio (PSNR) metric. <strong>The analysis demonstrates that inpainting performs poorly on real images.</strong>
-    </p>
+        <h3>1. Inpainting-Based Detection</h3>
+        <p>
+            This method employs <strong>stable diffusion-based inpainting</strong> to assess differences in
+            <strong>reconstruction fidelity</strong> between real and AI-generated images. Random regions of images are
+            masked, and inpainting is applied to fill the masked areas. The reconstructed regions are then compared to
+            the original images using the Peak Signal-to-Noise Ratio (PSNR) metric. <strong>The analysis demonstrates
+                that inpainting performs poorly on real images.</strong>
+        </p>
 
-    <div class="figure-container">
-        <img src="images/inpainted.jpg" alt="Inpainting-based Detection" style="max-width:35%; height:auto;">
-        <p class="figure-caption"><strong>Figure 1.</strong> Top left: real image, where inpainting fails. Top right: inpainted real image.<br>Bottom left: AI-generated image. Bottom right: inpainted AI-generated image.</p>
-    </div>
+        <div class="figure-container">
+            <img src="images/inpainted.jpg" alt="Inpainting-based Detection" style="max-width:35%; height:auto;">
+            <p class="figure-caption"><strong>Figure 1.</strong> Top left: real image, where inpainting fails. Top
+                right: inpainted real image.<br>Bottom left: AI-generated image. Bottom right: inpainted AI-generated
+                image.</p>
+        </div>
 
-    <div class="figure-container">
-        <img src="images/histograms.png" alt="Histogram of Results" style="max-width:35%; height:auto;">
-        <p class="figure-caption"><strong>Figure 2.</strong> Histogram of Results.</p>
-    </div>
+        <div class="figure-container">
+            <img src="images/histograms.png" alt="Histogram of Results" style="max-width:35%; height:auto;">
+            <p class="figure-caption"><strong>Figure 2.</strong> Histogram of Results.</p>
+        </div>
 
-    <h3>2. Non-Parametric Patch Search</h3>
-    <p>
-        This method involves building a dataset comprising both real and AI-generated images, from which <strong>small patches</strong> are extracted. For a given input image, <strong>randomly selected patches</strong> are compared against the dataset to find the closest matches.
-    </p>
-        In addition to these detection techniques, we introduce an <strong>inpainting-based adversarial attack</strong>, designed to challenge and bypass conventional AI-generated image detection models.
-    <p>  
-        Our proposed methods are <strong>training-free</strong>, <strong>robust</strong>, and adaptable to <strong>real-world scenarios</strong>, offering a significant step forward in <strong>zero-shot detection</strong> of AI-generated content.
-    </p>
-</section>
+        <h3>2. Non-Parametric Patch Search</h3>
+        <p>
+            This method involves building a dataset comprising both real and AI-generated images, from which
+            <strong>small patches</strong> are extracted. For a given input image, <strong>randomly selected
+                patches</strong> are compared against the dataset to find the closest matches.
+        </p>
+        In addition to these detection techniques, we introduce an <strong>inpainting-based adversarial attack</strong>,
+        designed to challenge and bypass conventional AI-generated image detection models.
+        <p>
+            Our proposed methods are <strong>training-free</strong>, <strong>robust</strong>, and adaptable to
+            <strong>real-world scenarios</strong>, offering a significant step forward in <strong>zero-shot
+                detection</strong> of AI-generated content.
+        </p>
+    </section>
 
-<footer>
-    <p>&copy; 2024 Emirhan Bilgiç</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 Emirhan Bilgiç</p>
+    </footer>
 
 </body>
+
 </html>

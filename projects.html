@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,170 +10,227 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<header>
-    <h1>Projects</h1>
-</header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="publications.html">Publications</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
-<section id="projects">
-    <h2>Projects</h2>
-    <p style="font-size: smaller">
-        <strong>Source Codes:</strong>
-        <a href="https://github.com/emirhanbilgic" target="_blank" style="text-decoration: none;">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" style="width: 24px; height: 24px; vertical-align: middle;">
-        </a>
-    </p>
-
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/turkish-tts.png" alt="TTS Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>First Open-Source Turkish Text-to-Speech Model</h3>
-            <ul>
-                <li>Developed the first open-source Turkish TTS model using SpeechT5. Fine-tuned the transformer-based architecture on a Turkish Voice Dataset for speech synthesis.</li>
-                <li>Created a <a href="https://huggingface.co/spaces/emirhanbilgic/Text-to-speech-Turkish" target="_blank">Hugging Face demo</a> and <a href="https://www.youtube.com/watch?v=TZIBQ24UCgA" target="_blank"> YouTube tutorial</a>, providing the <a href="https://huggingface.co/datasets/erenfazlioglu/turkishvoicedataset" target="_blank">full dataset</a>, <a href="https://github.com/emirhanbilgic/Turkish-TTS" target="_blank">training codes</a>, and <a href="https://huggingface.co/emirhanbilgic/speecht5_finetuned_emirhan_tr" target="_blank">model weights</a>. Engineered phoneme tokenization for improved speech quality.</li>
-            </ul>
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html">Emirhan Bilgiç</a></h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="publications.html">Publications</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </article>
+    </header>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/class-imbalance.png" alt="Data Imbalance Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>Neural Network Design for Solving the Data Class Imbalance Problem - Final Thesis</h3>
-            <ul>
-                <li>Designed a novel neural network to tackle class imbalance in datasets, incorporating dynamic data adjustment.</li>
-                <li>Enhanced model performance by implementing automatic hyperparameter optimization and ensemble learning techniques, significantly improving accuracy in imbalanced datasets.</li>
-            </ul>
-        </div>
-    </article>
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p class="mb-20">
+                <strong>Source Codes:</strong>
+                <a href="https://github.com/emirhanbilgic" target="_blank" class="github-link">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                        alt="GitHub Logo" style="width: 24px; height: 24px; vertical-align: middle;">
+                </a>
+            </p>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/gpt.png" alt="LLM From Scratch" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>LLM From Scratch and Instruction Finetuning with LoRA</h3>
-            <ul>
-                <li>Developed a GPT model from scratch, leveraging attention mechanisms and various byte pair encoder implementations to optimize text data processing.</li>
-                <li>Performed instruction finetuning with LoRA, followed by a benchmark evaluation using MMLU-style Q&A, LLM-based scoring, and human ratings.</li>
-                <li>Evaluated model efficiency through various attention mechanism implementations and examined PyTorch buffers for causal attention.</li>
-            </ul>
-        </div>
-    </article>   
+            <div class="item-list">
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/blip.png" alt="Deepfake Detection Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>Deepfake Detection Survey and a VLP Approach</h3>
-            <ul>
-                <li>Conducted a comprehensive survey of deepfake detection techniques, comparing methods in cross-datasets.</li>
-                <li>Introduced a Vision-Language Pre-training (VLP) approach to enhance detection by analyzing image manipulations through targeted questioning. Addressed cross-dataset generalization challenges.</li>
-            </ul>
-        </div>
-    </article>
+                <article class="item-card">
+                    <img src="images/turkish-tts.png" alt="TTS Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>First Open-Source Turkish Text-to-Speech Model</h3>
+                        <ul>
+                            <li>Developed the first open-source Turkish TTS model using SpeechT5. Fine-tuned the
+                                transformer-based architecture on a Turkish Voice Dataset for speech synthesis.</li>
+                            <li>Created a <a href="https://huggingface.co/spaces/emirhanbilgic/Text-to-speech-Turkish"
+                                    target="_blank">Hugging Face demo</a> and <a
+                                    href="https://www.youtube.com/watch?v=TZIBQ24UCgA" target="_blank"> YouTube
+                                    tutorial</a>,
+                                providing the <a
+                                    href="https://huggingface.co/datasets/erenfazlioglu/turkishvoicedataset"
+                                    target="_blank">full dataset</a>, <a
+                                    href="https://github.com/emirhanbilgic/Turkish-TTS" target="_blank">training
+                                    codes</a>, and <a
+                                    href="https://huggingface.co/emirhanbilgic/speecht5_finetuned_emirhan_tr"
+                                    target="_blank">model weights</a>. Engineered phoneme tokenization for improved
+                                speech quality.</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/pred-rnn.png" alt="Next-Frame Prediction Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>Predicting the Next Frames of a Video with AI | Next-Frame Prediction</h3>
-            <ul>
-                <li>Addressed the limitations of CNNs in predicting future video frames by implementing advanced models like CNN-LSTM and PredRNN, and conducted a comparative analysis of their effectiveness.</li>
-                <li>Solved a real-life problem by using cloudiness satellite image data of EUMETSAT on the weather forecast.</li>
-            </ul>
-        </div>
-    </article>
-    
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/hairclipv2.png" alt="HairCLIPv2 Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>HairCLIPv2: Unifying Hair Editing via Proxy Feature Blending</h3>
-            <ul>
-                <li>Implemented the paper <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wei_HairCLIPv2_Unifying_Hair_Editing_via_Proxy_Feature_Blending_ICCV_2023_paper.pdf" target="_blank">HairCLIPv2: Unifying Hair Editing via Proxy Feature Blending</a> presented at ICCV 2023 as a <a href="https://replicate.com/emirhanbilgic/hairclipv2" target="_blank">Replicate demo</a>, making it publicly accessible for hair editing through proxy feature blending.</li>
-            </ul>
-        </div>
-    </article>
+                <article class="item-card">
+                    <img src="images/class-imbalance.png" alt="Data Imbalance Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>Neural Network Design for Solving the Data Class Imbalance Problem - Final Thesis</h3>
+                        <ul>
+                            <li>Designed a novel neural network to tackle class imbalance in datasets, incorporating
+                                dynamic data adjustment.</li>
+                            <li>Enhanced model performance by implementing automatic hyperparameter optimization and
+                                ensemble learning techniques, significantly improving accuracy in imbalanced datasets.
+                            </li>
+                        </ul>
+                    </div>
+                </article>
 
+                <article class="item-card">
+                    <img src="images/gpt.png" alt="LLM From Scratch" class="item-image">
+                    <div class="item-content">
+                        <h3>LLM From Scratch and Instruction Finetuning with LoRA</h3>
+                        <ul>
+                            <li>Developed a GPT model from scratch, leveraging attention mechanisms and various byte
+                                pair encoder implementations to optimize text data processing.</li>
+                            <li>Performed instruction finetuning with LoRA, followed by a benchmark evaluation using
+                                MMLU-style Q&A, LLM-based scoring, and human ratings.</li>
+                            <li>Evaluated model efficiency through various attention mechanism implementations and
+                                examined PyTorch buffers for causal attention.</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/brain.png" alt="Brain Tumor Segmentation Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>Brain Tumor Segmentation</h3>
-            <ul>
-                <li>Benchmarked success using various techniques to solve the brain tumor segmentation problem.</li>
-                <li>In addition to deep learning techniques such as SegNet and UNet; used machine learning techniques such as Adaptive Thresholding, Otsu's Method, K-Means, and Fuzzy C-Means.</li>
-                <li>Using UNet, trained a <a href="https://huggingface.co/emirhanbilgic/hair-segmentation" target="_blank">model</a> and created a <a href="https://huggingface.co/spaces/emirhanbilgic/segment-hair" target="_blank">Hugging Face demo</a> for hair segmentation.</li>
-            </ul>
-        </div>
-    </article>
+                <article class="item-card">
+                    <img src="images/blip.png" alt="Deepfake Detection Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>Deepfake Detection Survey and a VLP Approach</h3>
+                        <ul>
+                            <li>Conducted a comprehensive survey of deepfake detection techniques, comparing methods in
+                                cross-datasets.</li>
+                            <li>Introduced a Vision-Language Pre-training (VLP) approach to enhance detection by
+                                analyzing image manipulations through targeted questioning. Addressed cross-dataset
+                                generalization challenges.</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/facemorph.png" alt="Face Morphing Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>Face Morphing to Identify Future Baby or Person’s Future State</h3>
-            <ul>
-                <li>Used facial landmark detection algorithms, IP-Adapter, and Face ID to embed facial features for diffusion model output generation based on prompts.</li>
-                <li>Created a <a href="https://huggingface.co/spaces/emirhanbilgic/future-baby" target="_blank">Hugging Face demo</a> to demonstrate the process.</li>
-            </ul>
-        </div>
-    </article>
+                <article class="item-card">
+                    <img src="images/pred-rnn.png" alt="Next-Frame Prediction Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>Predicting the Next Frames of a Video with AI | Next-Frame Prediction</h3>
+                        <ul>
+                            <li>Addressed the limitations of CNNs in predicting future video frames by implementing
+                                advanced models like CNN-LSTM and PredRNN, and conducted a comparative analysis of their
+                                effectiveness.</li>
+                            <li>Solved a real-life problem by using cloudiness satellite image data of EUMETSAT on the
+                                weather forecast.</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/dcgan.jpg" alt="DCGAN Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>Creating Images with AI | DCGAN from Scratch</h3>
-            <ul>
-                <li>Developed a DCGAN architecture from scratch to generate images resembling a given dataset.</li>
-                <li>Enhanced the project by integrating DALL-E and Google Translate API to compare outputs and enable language-agnostic image generation.</li>
-            </ul>
-        </div>
-    </article>
+                <article class="item-card">
+                    <img src="images/hairclipv2.png" alt="HairCLIPv2 Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>HairCLIPv2: Unifying Hair Editing via Proxy Feature Blending</h3>
+                        <ul>
+                            <li>Implemented the paper <a
+                                    href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wei_HairCLIPv2_Unifying_Hair_Editing_via_Proxy_Feature_Blending_ICCV_2023_paper.pdf"
+                                    target="_blank">HairCLIPv2: Unifying Hair Editing via Proxy Feature Blending</a>
+                                presented at ICCV 2023 as a <a href="https://replicate.com/emirhanbilgic/hairclipv2"
+                                    target="_blank">Replicate demo</a>, making it publicly accessible for hair editing
+                                through proxy feature blending.</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/neural-network.png" alt="Neural Network from Scratch Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>Creating a Neural Network | Flexible Neural Nets from Scratch and Implementation at System Recognition</h3>
-            <ul>
-                <li>Wrote a neural network in Python with adjustable layers and neurons using object-oriented programming (OOP) approach.</li>
-                <li>Coded the mathematical infrastructure using only basic libraries like NumPy and Pandas, and implemented a static version in MATLAB.</li>
-            </ul>
-        </div>
-    </article>
+                <article class="item-card">
+                    <img src="images/brain.png" alt="Brain Tumor Segmentation Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>Brain Tumor Segmentation</h3>
+                        <ul>
+                            <li>Benchmarked success using various techniques to solve the brain tumor segmentation
+                                problem.</li>
+                            <li>In addition to deep learning techniques such as SegNet and UNet; used machine learning
+                                techniques such as Adaptive Thresholding, Otsu's Method, K-Means, and Fuzzy C-Means.
+                            </li>
+                            <li>Using UNet, trained a <a href="https://huggingface.co/emirhanbilgic/hair-segmentation"
+                                    target="_blank">model</a> and created a <a
+                                    href="https://huggingface.co/spaces/emirhanbilgic/segment-hair"
+                                    target="_blank">Hugging Face demo</a> for hair segmentation.</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/parler-tts.png" alt="PDF Reader Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>PDF Reader</h3>
-            <ul>
-                <li>Created a PDF reader <a href="https://huggingface.co/spaces/emirhanbilgic/read-my-pdf-outloud" target="_blank">Hugging Face demo</a> using Parler TTS model.</li>
-                <li>Engineered output combination due to token limitations and enabled translation using Helsinki NLP open-source models.</li>
-            </ul>
-        </div>
-    </article>
+                <article class="item-card">
+                    <img src="images/facemorph.png" alt="Face Morphing Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>Face Morphing to Identify Future Baby or Person’s Future State</h3>
+                        <ul>
+                            <li>Used facial landmark detection algorithms, IP-Adapter, and Face ID to embed facial
+                                features for diffusion model output generation based on prompts.</li>
+                            <li>Created a <a href="https://huggingface.co/spaces/emirhanbilgic/future-baby"
+                                    target="_blank">Hugging Face demo</a> to demonstrate the process.</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <article class="project-item" style="display: flex; align-items: center;">
-        <img src="images/hairstyler.png" alt="Hairstyler Project Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>Hairstyler</h3>
-            <ul>
-                <li>Created a <a href="https://huggingface.co/spaces/emirhanbilgic/ai-hairstyler" target="_blank">Hugging Face demo</a> to style hair using an inpainting method with ControlNet to protect other details in images.</li>
-                <li>Segmented the hair with a custom hair segmentation model (UNet) and inpainted the hair area using ControlNet inpainting.</li>
-            </ul>
-        </div>
-    </article>
+                <article class="item-card">
+                    <img src="images/dcgan.jpg" alt="DCGAN Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>Creating Images with AI | DCGAN from Scratch</h3>
+                        <ul>
+                            <li>Developed a DCGAN architecture from scratch to generate images resembling a given
+                                dataset.</li>
+                            <li>Enhanced the project by integrating DALL-E and Google Translate API to compare outputs
+                                and enable language-agnostic image generation.</li>
+                        </ul>
+                    </div>
+                </article>
 
-</section>
+                <article class="item-card">
+                    <img src="images/neural-network.png" alt="Neural Network from Scratch Project Image"
+                        class="item-image">
+                    <div class="item-content">
+                        <h3>Creating a Neural Network | Flexible Neural Nets from Scratch and Implementation at System
+                            Recognition</h3>
+                        <ul>
+                            <li>Wrote a neural network in Python with adjustable layers and neurons using
+                                object-oriented programming (OOP) approach.</li>
+                            <li>Coded the mathematical infrastructure using only basic libraries like NumPy and Pandas,
+                                and implemented a static version in MATLAB.</li>
+                        </ul>
+                    </div>
+                </article>
 
-<footer>
-    <p>&copy; 2024 Emirhan Bilgiç</p>
-</footer>
+                <article class="item-card">
+                    <img src="images/parler-tts.png" alt="PDF Reader Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>PDF Reader</h3>
+                        <ul>
+                            <li>Created a PDF reader <a
+                                    href="https://huggingface.co/spaces/emirhanbilgic/read-my-pdf-outloud"
+                                    target="_blank">Hugging Face demo</a> using Parler TTS model.</li>
+                            <li>Engineered output combination due to token limitations and enabled translation using
+                                Helsinki NLP open-source models.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="item-card">
+                    <img src="images/hairstyler.png" alt="Hairstyler Project Image" class="item-image">
+                    <div class="item-content">
+                        <h3>Hairstyler</h3>
+                        <ul>
+                            <li>Created a <a href="https://huggingface.co/spaces/emirhanbilgic/ai-hairstyler"
+                                    target="_blank">Hugging Face demo</a> to style hair using an inpainting method with
+                                ControlNet to protect other details in images.</li>
+                            <li>Segmented the hair with a custom hair segmentation model (UNet) and inpainted the hair
+                                area using ControlNet inpainting.</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Emirhan Bilgiç</p>
+    </footer>
 
 </body>
+
 </html>

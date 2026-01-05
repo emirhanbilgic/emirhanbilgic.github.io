@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,39 +10,45 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Blog</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="publications.html">Publications</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
-<section id="blog">
-    <h2>Blog Posts</h2>
-    
-    <article class="blog-post" style="display: flex; align-items: center;">
-        <img src="images/blog-image-1.png" alt="AI Ethics Blog Post Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <h3>AI Ethics: It's Time to Act</h3>
-            <p>As AI technology advances, the potential risks are becoming more apparent. I recently wrote about why we need to take these concerns seriously before it's too late. <a href="blogpost1.html">Read more...</a></p>
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html">Emirhan Bilgiç</a></h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="publications.html">Publications</a>
+                <a href="blog.html" class="active">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </article>
+    </header>
 
-</section>
+    <main>
+        <section id="blog">
+            <h2>Blog Posts</h2>
+            <div class="item-list">
+                <article class="item-card">
+                    <img src="images/blog-image-1.png" alt="AI Ethics Blog Post Image" class="item-image">
+                    <div class="item-content">
+                        <h3>AI Ethics: It's Time to Act</h3>
+                        <p>As AI technology advances, the potential risks are becoming more apparent. I recently wrote
+                            about why we need to take these concerns seriously before it's too late.</p>
+                        <p class="mt-20"><a href="blogpost1.html" class="btn">Read more...</a></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 
-<footer>
-    <p>&copy; 2024 Emirhan Bilgiç</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 Emirhan Bilgiç</p>
+    </footer>
 
 </body>
+
 </html>

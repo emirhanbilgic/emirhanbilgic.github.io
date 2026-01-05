@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,62 +11,90 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Publications</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="publications.html">Publications</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
-<section id="publications">
-    <h2>Publications</h2>
-
-        <article class="publication-item" style="display: flex; align-items: center; margin-top: 20px;">
-            <img src="images/inpainted.png" alt="Zero-shot Detection" style="width: 128px; height: auto; margin-right: 20px;">
-            <div>
-                <p><strong>Zero-shot Authenticity: Robust, Training-Free AI-Generated Image Detection</strong></p>
-                <p><a href="zero-shot-detection.html">Read more</a></p>
-            </div>
-        </article>
-
-        <article class="publication-item" style="display: flex; align-items: center; margin-top: 20px;">
-            <img src="images/morphing.png" alt="Face Morphing Publication" style="width: 128px; height: auto; margin-right: 20px;">
-            <div>
-                <p><strong>Efficient Face Morphing: Identity-Preserving Image Generation</strong></p>
-                <p><a href="face-morphing.html">Read more</a></p>
-            </div>
-        </article>
-
-    <article class="publication-item" style="display: flex; align-items: center; margin-top: 20px;">
-        <img src="images/usk-image.png" alt="Publication Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <p><strong>The Effect of Surround Inhibition on Sustained Activity in Spiking Neural Networks - 22nd Turkish Neuroscience Congress</strong></p>
-            <p><a href="https://www.researchgate.net/publication/383860955_The_Effect_of_Surround_Inhibition_on_Sustained_Activity_in_Spiking_Neural_Networks" target="_blank">Read the full publication</a></p>
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html">Emirhan Bilgiç</a></h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="publications.html" class="active">Publications</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </article>
+    </header>
 
-    <article class="publication-item" style="display: flex; align-items: center;">
-        <img src="images/publication-image.png" alt="Publication Image" style="width: 128px; height: auto; margin-right: 20px;">
-        <div>
-            <p><strong>Spiking Neural Networks Involving a New Learning Paradigm - ISBCS 2024</strong></p>
-            <p><a href="https://www.researchgate.net/publication/383524864_Spiking_Neural_Networks_Involving_a_New_Learning_Paradigm" target="_blank">Read the full publication</a></p>
-        </div>
-    </article>
+    <main>
+        <section id="publications">
+            <h2>Publications</h2>
 
+            <div class="item-list">
 
-</section>
+                <article class="item-card">
+                    <img src="images/publication-image.jpeg" alt="IEEE SIU Publication" class="item-image">
+                    <div class="item-content">
+                        <h3>Integration of Contrastive Predictive Coding and Spiking Neural Networks</h3>
+                        <div class="item-meta">2025 IEEE Conference on Signal Processing and Communications Applications
+                            (SIU)</div>
+                        <p><strong>Emirhan Bilgiç</strong>, N.S. Şengör, N.B. Yalabık, Y.S. İşler, A.G. Gelen, Rahmi
+                            Elibol</p>
+                        <p>
+                            <a href="https://arxiv.org/pdf/2506.09194" target="_blank">arXiv</a> |
+                            <a href="https://ieeexplore.ieee.org/document/11112390" target="_blank">IEEE Xplore</a>
+                        </p>
+                    </div>
+                </article>
 
-<footer>
-    <p>&copy; 2024 Emirhan Bilgiç</p>
-</footer>
+                <article class="item-card">
+                    <img src="images/publication-image2.png" alt="IEEE ASYU Publication" class="item-image">
+                    <div class="item-content">
+                        <h3>Predictive Coding of Spiking Neural Network in Continuous Time</h3>
+                        <div class="item-meta">2025 IEEE The Innovations in Intelligent Systems and Applications (ASYU)
+                        </div>
+                        <p>Y. S. İşler, <strong>Emirhan Bilgiç</strong>, N. S. Şengör, Rahmi Elibol, A. G. Gelen</p>
+                        <p><a href="https://ieeexplore.ieee.org/document/11208297" target="_blank">Read the full
+                                publication</a></p>
+                    </div>
+                </article>
+
+                <article class="item-card">
+                    <img src="images/publication-image3.jpeg" alt="IEEE ASYU Publication" class="item-image">
+                    <div class="item-content">
+                        <h3>Analysis of Learning and Inference in Spiking Neurons via Synaptic Plasticity</h3>
+                        <div class="item-meta">2025 IEEE The Innovations in Intelligent Systems and Applications (ASYU)
+                        </div>
+                        <p>A. G. Gelen, Özge Bakır, N. S. Şengör, Y. S. İşler, Rahmi Elibol, <strong>Emirhan
+                                Bilgiç</strong></p>
+                        <p><a href="https://ieeexplore.ieee.org/document/11208407" target="_blank">Read the full
+                                publication</a></p>
+                    </div>
+                </article>
+
+                <article class="item-card">
+                    <img src="images/publication-image4.jpeg" alt="IEEE SIU Publication" class="item-image">
+                    <div class="item-content">
+                        <h3>Unsupervised Pattern Recognition with Spiking Neuron Groups</h3>
+                        <div class="item-meta">2025 IEEE Conference on Signal Processing and Communications Applications
+                            (SIU)</div>
+                        <p>A. G. Gelen, N. S. Şengör, Rahmi Elibol, Y. S. İşler, <strong>Emirhan Bilgiç</strong>, N.B.
+                            Yalabık</p>
+                        <p><a href="https://ieeexplore.ieee.org/document/11111912" target="_blank">Read the full
+                                publication</a></p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Emirhan Bilgiç</p>
+    </footer>
 
 </body>
+
 </html>
