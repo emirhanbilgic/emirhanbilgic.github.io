@@ -28,7 +28,170 @@
         </header>
 
         <main>
-            <section id="experiment-area" class="glass-panel">
+            <!-- DEMOGRAPHICS SECTION -->
+            <section id="demographics-area" class="glass-panel">
+                <h1 class="gradient-text">Welcome to the Experiment</h1>
+                <p class="section-intro">Before we begin, please provide some information about yourself. All data is
+                    anonymous and used only for research purposes.</p>
+
+                <form id="demographics-form" class="demographics-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="age">Age Range</label>
+                            <select id="age" required>
+                                <option value="">Select...</option>
+                                <option value="18-24">18-24</option>
+                                <option value="25-34">25-34</option>
+                                <option value="35-44">35-44</option>
+                                <option value="45-54">45-54</option>
+                                <option value="55-64">55-64</option>
+                                <option value="65+">65+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" required>
+                                <option value="">Select...</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="non-binary">Non-binary</option>
+                                <option value="prefer-not">Prefer not to say</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="education">Education Level</label>
+                            <select id="education" required>
+                                <option value="">Select...</option>
+                                <option value="high-school">High School</option>
+                                <option value="bachelors">Bachelor's Degree</option>
+                                <option value="masters">Master's Degree</option>
+                                <option value="phd">PhD / Doctorate</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country of Residence</label>
+                            <input type="text" id="country" placeholder="e.g., France" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="primary-btn">Continue to Training</button>
+                </form>
+            </section>
+
+            <!-- TRAINING SECTION -->
+            <section id="training-area" class="glass-panel hidden">
+                <div class="training-header">
+                    <h1 class="gradient-text">Understanding Heatmaps</h1>
+                    <div class="step-indicator">
+                        <span class="step active" data-step="1">1</span>
+                        <span class="step" data-step="2">2</span>
+                        <span class="step" data-step="3">3</span>
+                    </div>
+                </div>
+
+                <!-- Training Step 1: XAI Introduction -->
+                <div class="training-step" id="training-step-1">
+                    <h2>What is Explainable AI?</h2>
+                    <div class="training-content">
+                        <p>When AI models make decisions (like identifying objects in images), we often want to
+                            understand <strong>why</strong> they made that decision. <strong>Explainable AI
+                                (XAI)</strong> provides tools to visualize what the model is "looking at".</p>
+
+                        <div class="info-box">
+                            <h3>🔍 Heatmaps</h3>
+                            <p>A <strong>heatmap</strong> is a visual representation that highlights which parts of an
+                                image the AI model considers most important for its decision. Brighter/warmer colors
+                                indicate higher importance.</p>
+                        </div>
+
+                        <div class="colormap-legend">
+                            <h3>The Jet Colormap</h3>
+                            <div class="colormap-bar"></div>
+                            <div class="colormap-labels">
+                                <span>Low importance</span>
+                                <span>Medium</span>
+                                <span>High importance</span>
+                            </div>
+                            <p class="colormap-description">
+                                <strong>Blue</strong> = Low attention (cold) →
+                                <strong>Green/Yellow</strong> = Medium attention →
+                                <strong>Red</strong> = High attention (hot)
+                            </p>
+                        </div>
+                    </div>
+                    <button class="primary-btn" onclick="nextTrainingStep()">Next: See an Example</button>
+                </div>
+
+                <!-- Training Step 2: Example with Explanation -->
+                <div class="training-step hidden" id="training-step-2">
+                    <h2>Example: Understanding a Heatmap</h2>
+                    <div class="training-content">
+                        <div class="example-comparison">
+                            <div class="example-card">
+                                <div class="badge">Original Image</div>
+                                <img id="example-original" src="data/2007_001763/Target_1/original.png"
+                                    alt="Example Original">
+                                <p class="example-caption">An image containing a cat and a dog</p>
+                            </div>
+                            <div class="example-card">
+                                <div class="badge heatmap-badge">Heatmap for "Cat"</div>
+                                <img id="example-heatmap" src="data/2007_001763/Target_1/legrad.png"
+                                    alt="Example Heatmap">
+                                <p class="example-caption">The model highlights the <strong>cat</strong> (red/yellow
+                                    areas)</p>
+                            </div>
+                        </div>
+
+                        <div class="explanation-box">
+                            <p>In this example, when asked about <strong>"Cat"</strong>, the heatmap shows warm colors
+                                (red/yellow) concentrated on the cat. This means the model is correctly focusing on the
+                                cat region to identify it.</p>
+                        </div>
+                    </div>
+                    <button class="primary-btn" onclick="nextTrainingStep()">Next: Practice Question</button>
+                </div>
+
+                <!-- Training Step 3: Practice Question -->
+                <div class="training-step hidden" id="training-step-3">
+                    <h2>Practice: Can You Read the Heatmap?</h2>
+                    <div class="training-content">
+                        <div class="example-comparison">
+                            <div class="example-card">
+                                <div class="badge">Original Image</div>
+                                <img src="data/2007_001763/Target_2/original.png" alt="Practice Original">
+                            </div>
+                            <div class="example-card">
+                                <div class="badge heatmap-badge">Generated Heatmap</div>
+                                <img src="data/2007_001763/Target_2/legrad.png" alt="Practice Heatmap">
+                            </div>
+                        </div>
+
+                        <div class="practice-question">
+                            <p><strong>Question:</strong> Based on the heatmap, which class is the model focusing on?
+                            </p>
+                            <div class="practice-options">
+                                <button class="option-btn practice-opt" data-correct="false"
+                                    onclick="checkPractice(this)">Cat</button>
+                                <button class="option-btn practice-opt" data-correct="true"
+                                    onclick="checkPractice(this)">Dog</button>
+                                <button class="option-btn practice-opt" data-correct="false"
+                                    onclick="checkPractice(this)">Neither</button>
+                            </div>
+                            <div id="practice-feedback" class="hidden">
+                                <p class="practice-result"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="primary-btn hidden" id="start-experiment-btn" onclick="startMainExperiment()">Begin
+                        the Experiment</button>
+                </div>
+            </section>
+
+            <section id="experiment-area" class="glass-panel hidden">
                 <div class="image-comparison">
                     <div class="image-card">
                         <div class="badge">Original Image</div>
@@ -41,7 +204,8 @@
                 </div>
 
                 <div class="interaction-area">
-                    <h2 id="question-text">This is the heatmap generated by the model when classifying based on a given
+                    <h2 id="question-text">This is the heatmap generated by the model when classifying based on a
+                        given
                         class. Which class do you think is given?</h2>
 
                     <div id="options-container" class="options-grid">
@@ -49,19 +213,50 @@
                     </div>
 
                     <div id="feedback-area" class="hidden">
-                        <div id="feedback-message" class="feedback-message"></div>
-                        <div class="trust-survey">
-                            <p>How much do you trust this explainability method for this instance? (0-5)</p>
-                            <div class="trust-buttons">
-                                <button class="trust-btn" data-value="0">0</button>
-                                <button class="trust-btn" data-value="1">1</button>
-                                <button class="trust-btn" data-value="2">2</button>
-                                <button class="trust-btn" data-value="3">3</button>
-                                <button class="trust-btn" data-value="4">4</button>
-                                <button class="trust-btn" data-value="5">5</button>
+                        <!-- Confirmation prompt before final answer -->
+                        <div id="confirm-section">
+                            <p class="last-choice-prompt">Last choice?</p>
+                            <div class="confirm-buttons">
+                                <button id="change-btn" class="secondary-btn">Change</button>
+                                <button id="confirm-btn" class="primary-btn">Confirm</button>
                             </div>
                         </div>
-                        <button id="next-btn" class="primary-btn">Next Question</button>
+
+                        <!-- Final result shown after confirmation -->
+                        <div id="result-section" class="hidden">
+                            <div id="feedback-message" class="feedback-message"></div>
+                        </div>
+
+                        <div id="clarity-survey" class="hidden">
+                            <div class="clarity-explanation">
+                                <p><strong>Rate the clarity of this heatmap:</strong></p>
+                                <p class="clarity-note">If you found it difficult to identify the target, it may be
+                                    because the visualization method wasn't clear enough — not your fault!</p>
+                            </div>
+                            <div class="clarity-scale">
+                                <div class="clarity-option" data-value="1">
+                                    <span class="clarity-number">1</span>
+                                    <span class="clarity-label">Very unclear</span>
+                                </div>
+                                <div class="clarity-option" data-value="2">
+                                    <span class="clarity-number">2</span>
+                                    <span class="clarity-label">Unclear</span>
+                                </div>
+                                <div class="clarity-option" data-value="3">
+                                    <span class="clarity-number">3</span>
+                                    <span class="clarity-label">Neutral</span>
+                                </div>
+                                <div class="clarity-option" data-value="4">
+                                    <span class="clarity-number">4</span>
+                                    <span class="clarity-label">Clear</span>
+                                </div>
+                                <div class="clarity-option" data-value="5">
+                                    <span class="clarity-number">5</span>
+                                    <span class="clarity-label">Very clear</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="next-btn" class="primary-btn hidden">Next Question</button>
                     </div>
                 </div>
             </section>
@@ -80,7 +275,7 @@
                             </div>
                             <div class="stat-card">
                                 <span id="legrad-trust">0.0</span>
-                                <label>Avg Reliability</label>
+                                <label>Avg Clarity</label>
                             </div>
                         </div>
                     </div>
@@ -94,7 +289,7 @@
                             </div>
                             <div class="stat-card">
                                 <span id="omp-trust">0.0</span>
-                                <label>Avg Reliability</label>
+                                <label>Avg Clarity</label>
                             </div>
                         </div>
                     </div>
