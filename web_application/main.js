@@ -70,11 +70,11 @@ function checkPractice(btn) {
     feedbackEl.classList.remove('hidden');
     if (isCorrect) {
         feedbackEl.classList.add('correct');
-        resultEl.textContent = '✓ Correct! The heatmap shows the model focusing on the dog.';
+        resultEl.textContent = '✓ Correct. The heatmap shows the model focusing on the dog.';
         resultEl.style.color = 'var(--success)';
     } else {
         feedbackEl.classList.add('incorrect');
-        resultEl.textContent = '✗ Not quite. Look at where the red/yellow colors are concentrated — that\'s the dog!';
+        resultEl.textContent = '✗ Not quite. Look at where the red/orange colors are concentrated - that\'s the dog.';
         resultEl.style.color = 'var(--error)';
     }
 
@@ -154,13 +154,15 @@ function showQuestion() {
         optionsContainer.appendChild(btn);
     });
 
+    // Store original button texts for restoration
+    originalButtonTexts = [...q.options];
+
     // Reset state for new question
     currentSelection = null;
 
     // Reset UI
     document.getElementById('feedback-area').classList.add('hidden');
     document.getElementById('options-container').classList.remove('hidden');
-    document.getElementById('confirm-section').classList.remove('hidden');
     document.getElementById('result-section').classList.add('hidden');
     document.getElementById('clarity-survey').classList.add('hidden');
     document.getElementById('next-btn').classList.add('hidden');
@@ -177,42 +179,35 @@ function showQuestion() {
 
 // Track current selection
 let currentSelection = null;
+let originalButtonTexts = []; // Store original button texts
 
 function handleAnswer(selectedIndex) {
+    const btns = document.querySelectorAll('#options-container .option-btn');
+
+    // If clicking the same button that's already selected, confirm the answer
+    if (currentSelection === selectedIndex) {
+        confirmAnswer();
+        return;
+    }
+
+    // First click - select and show "Confirm" on the button
     currentSelection = selectedIndex;
 
-    // Highlight selected answer (no correct/wrong yet)
-    const btns = document.querySelectorAll('.option-btn');
+    // Reset all buttons to their original text and remove selection
     btns.forEach((btn, index) => {
         btn.classList.remove('selected');
-        if (index === selectedIndex) {
-            btn.classList.add('selected');
+        if (originalButtonTexts[index]) {
+            btn.textContent = originalButtonTexts[index];
         }
     });
 
-    // Show feedback area with "Last choice?" prompt
-    document.getElementById('feedback-area').classList.remove('hidden');
-    document.getElementById('confirm-section').classList.remove('hidden');
-    document.getElementById('result-section').classList.add('hidden');
+    // Highlight and change text of selected button
+    btns[selectedIndex].classList.add('selected');
+    btns[selectedIndex].textContent = 'Confirm';
 }
 
-// Change button - allow re-selection
-document.getElementById('change-btn').onclick = () => {
-    // Just hide the feedback area, user can click another option
-    document.getElementById('feedback-area').classList.add('hidden');
-
-    // Remove selection highlight
-    document.querySelectorAll('.option-btn').forEach(btn => {
-        btn.classList.remove('selected');
-    });
-
-    currentSelection = null;
-};
-
-// Confirm button - reveal result
-document.getElementById('confirm-btn').onclick = () => {
+function confirmAnswer() {
     if (currentSelection === null) {
-        alert('Please select an answer first.');
         return;
     }
 
@@ -230,20 +225,27 @@ document.getElementById('confirm-btn').onclick = () => {
 
     if (isCorrect) score++;
 
-    // Hide confirm section
-    document.getElementById('confirm-section').classList.add('hidden');
-
-    // Disable all buttons and show correct/wrong
-    const btns = document.querySelectorAll('.option-btn');
+    // Disable all buttons and show correct/wrong on user's selection
+    const btns = document.querySelectorAll('#options-container .option-btn');
     btns.forEach((btn, index) => {
         btn.disabled = true;
+        // Restore original text
+        if (originalButtonTexts[index]) {
+            btn.textContent = originalButtonTexts[index];
+        }
         btn.classList.remove('selected');
-        if (index === q.correct_index) {
+        // Color the user's selection green or red
+        if (index === currentSelection) {
+            btn.classList.add(isCorrect ? 'correct' : 'wrong');
+        }
+        // Also show the correct answer if user was wrong
+        if (!isCorrect && index === q.correct_index) {
             btn.classList.add('correct');
-        } else if (index === currentSelection && !isCorrect) {
-            btn.classList.add('wrong');
         }
     });
+
+    // Show feedback area with result
+    document.getElementById('feedback-area').classList.remove('hidden');
 
     // Show result message
     const resultSection = document.getElementById('result-section');
@@ -254,7 +256,7 @@ document.getElementById('confirm-btn').onclick = () => {
 
     // Show clarity survey
     document.getElementById('clarity-survey').classList.remove('hidden');
-};
+}
 
 // Clarity Rating Handling
 document.querySelectorAll('.clarity-option').forEach(opt => {

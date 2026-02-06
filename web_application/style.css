@@ -207,9 +207,24 @@ h2 {
 }
 
 .option-btn.selected {
-    background: rgba(99, 102, 241, 0.3);
-    border-color: var(--primary);
-    box-shadow: 0 0 15px rgba(99, 102, 241, 0.3);
+    background: rgba(99, 102, 241, 0.15);
+    border: 3px solid var(--primary);
+    color: var(--text-main);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6), inset 0 0 10px rgba(99, 102, 241, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Keep the purple border even after correct/wrong feedback */
+.option-btn.selected.correct {
+    background: rgba(34, 197, 94, 0.2);
+    border: 3px solid var(--primary);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+}
+
+.option-btn.selected.wrong {
+    background: rgba(239, 68, 68, 0.2);
+    border: 3px solid var(--primary);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
 }
 
 .hidden {
@@ -796,8 +811,11 @@ footer {
 }
 
 .clarity-option.selected {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    background: var(--primary);
     border-color: var(--primary);
+    color: white;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    transform: translateY(-2px);
 }
 
 .clarity-option.selected .clarity-number,
