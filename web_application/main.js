@@ -44,6 +44,9 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1' && !d
 // DEMOGRAPHICS PHASE
 // ==================
 
+// Current Firestore Document ID
+let currentDocId = null;
+
 document.getElementById('demographics-form').addEventListener('submit', function (e) {
     e.preventDefault();
 
@@ -57,10 +60,34 @@ document.getElementById('demographics-form').addEventListener('submit', function
 
     console.log('Demographics collected:', demographics);
 
+    // Save initial session to Firebase
+    createExperimentSession();
+
     // Transition to training phase
     document.getElementById('demographics-area').classList.add('hidden');
     document.getElementById('training-area').classList.remove('hidden');
 });
+
+function createExperimentSession() {
+    if (!db) return;
+
+    const initialData = {
+        demographics: demographics,
+        startTime: firebase.firestore.FieldValue.serverTimestamp(),
+        userAgent: navigator.userAgent,
+        status: "started", // Track incomplete sessions
+        responses: [] // Initialize empty
+    };
+
+    db.collection("experiments").add(initialData)
+        .then((docRef) => {
+            currentDocId = docRef.id;
+            console.log("Session started with ID: ", currentDocId);
+        })
+        .catch((error) => {
+            console.error("Error creating session: ", error);
+        });
+}
 
 // ==================
 // TRAINING PHASE
@@ -521,19 +548,31 @@ function showCompletion() {
 
     // Submit to Server (Firebase or Local)
     const submissionData = {
-        demographics: demographics,
+        // demographics: demographics, // Already saved
         responses: userResponses,
         stats: statsArray,
         durationSeconds: durationSeconds,
         attentionCheckPassed: attentionCheckPassed,
-        timestamp: new Date()
+        endTime: firebase.firestore.FieldValue.serverTimestamp(),
+        status: "completed"
     };
 
     if (db) {
         // Use Firebase
-        db.collection("experiments").add(submissionData)
-            .then((docRef) => {
-                console.log("Document written with ID: ", docRef.id);
+        let promise;
+        if (currentDocId) {
+            // Update existing document
+            promise = db.collection("experiments").doc(currentDocId).update(submissionData);
+        } else {
+            // Fallback: Create new if ID missing for some reason
+            submissionData.demographics = demographics; // Ensure demographics are included if new
+            submissionData.startTime = experimentStartTime;
+            promise = db.collection("experiments").add(submissionData);
+        }
+
+        promise
+            .then(() => {
+                console.log("Document updated/written successfully");
                 const completionMsg = document.createElement('p');
                 completionMsg.textContent = "✓ Results saved to cloud (Firebase).";
                 completionMsg.style.color = "var(--success)";
@@ -542,16 +581,19 @@ function showCompletion() {
                 document.getElementById('completion-area').appendChild(completionMsg);
             })
             .catch((error) => {
-                console.error("Error adding document: ", error);
-                const errorMsg = document.createElement('p');
-                errorMsg.textContent = "⚠ Error saving to cloud: " + error.message;
-                errorMsg.style.color = "var(--error)";
-                errorMsg.style.textAlign = "center";
-                errorMsg.style.marginTop = "1rem";
-                document.getElementById('completion-area').appendChild(errorMsg);
+                console.error("Error updating/adding document: ", error);
+                const completionMsg = document.createElement('p'); // fixed var name from errorMsg to match above for consistency roughly
+                completionMsg.textContent = "⚠ Error saving to cloud: " + error.message;
+                completionMsg.style.color = "var(--error)";
+                completionMsg.style.textAlign = "center";
+                completionMsg.style.marginTop = "1rem";
+                document.getElementById('completion-area').appendChild(completionMsg);
             });
     } else {
         // Fallback to Local API (if running server.py)
+        // Ensure demographics are included for local save as it's one-shot
+        submissionData.demographics = demographics;
+
         fetch('/api/submit_results', {
             method: 'POST',
             headers: {

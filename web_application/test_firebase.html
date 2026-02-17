@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Firebase Diagnostics</title>
+    <!-- Firebase SDKs (Compat - same as index.html) -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+    <!-- Config -->
+    <script src="firebase_config.js"></script>
+</head>
+
+<body>
+    <h1>Firebase Diagnostics (Compat Mode)</h1>
+    <div id="output">Running checks...</div>
+
+    <script>
+        const output = document.getElementById('output');
+        function log(msg, color = 'black') {
+            const p = document.createElement('p');
+            p.textContent = msg;
+            p.style.color = color;
+            output.appendChild(p);
+            console.log(msg);
+        }
+
+        try {
+            if (typeof firebaseConfig === 'undefined') {
+                log('FAIL: firebase_config.js not loaded.', 'red');
+            } else {
+                log('Config loaded. Project ID: ' + firebaseConfig.projectId);
+
+                // In compat mode, it's firebase.initializeApp
+                if (!firebase.apps.length) {
+                    firebase.initializeApp(firebaseConfig);
+                    log('Firebase initialized (Compat).');
+                }
+
+                const db = firebase.firestore();
+                log('Attempting verify write to "experiments" collection...');
+
+                db.collection("experiments").add({
+                    timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                    message: "Diagnostic write test from Compat script",
+                    userAgent: navigator.userAgent,
+                    test: true
+                })
+                    .then((docRef) => {
+                        log('SUCCESS: Document written to "experiments" with ID: ' + docRef.id, 'green');
+                    })
+                    .catch((error) => {
+                        log('FAIL: Error adding document: ' + error.message, 'red');
+                        if (error.code === 'permission-denied') {
+                            log('HINT: Check Firestore Security Rules for "experiments".', 'orange');
+                        }
+                    });
+            }
+        } catch (e) {
+            log('CRITICAL ERROR: ' + e.message, 'red');
+        }
+    </script>
+</body>
+
+</html>
