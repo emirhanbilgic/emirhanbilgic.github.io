@@ -12,12 +12,17 @@ const TOTAL_QUESTIONS_LIMIT = 30;
 // ==================
 // FIREBASE INIT
 // ==================
+// ==================
+// FIREBASE INIT
+// ==================
 let db;
 try {
     if (typeof firebase !== 'undefined' && typeof firebaseConfig !== 'undefined') {
         firebase.initializeApp(firebaseConfig);
         db = firebase.firestore();
-        console.log("Firebase initialized");
+        console.log("Firebase initialized successfully.");
+    } else {
+        console.log("Firebase not initialized. Checks: firebase loaded?", typeof firebase !== 'undefined', "config loaded?", typeof firebaseConfig !== 'undefined');
     }
 } catch (e) {
     console.error("Firebase init error:", e);
