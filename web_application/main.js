@@ -24,6 +24,34 @@ try {
 }
 
 // ==================
+// FIREBASE INIT
+// ==================
+let db;
+try {
+    if (typeof firebase !== 'undefined' && typeof firebaseConfig !== 'undefined') {
+        firebase.initializeApp(firebaseConfig);
+        db = firebase.firestore();
+        console.log("Firebase initialized successfully.");
+    } else {
+        console.log("Firebase not initialized. Checks: firebase loaded?", typeof firebase !== 'undefined', "config loaded?", typeof firebaseConfig !== 'undefined');
+    }
+} catch (e) {
+    console.error("Firebase init error:", e);
+    alert("Firebase Initialization Error: " + e.message);
+}
+
+// Check for deployment issues
+if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1' && !db) {
+    setTimeout(() => {
+        let msg = "WARNING: You are running on a live site but Firebase is not connected.\n\n";
+        if (typeof firebase === 'undefined') msg += "- Firebase SDK not loaded. Check index.html.\n";
+        if (typeof firebaseConfig === 'undefined') msg += "- firebase_config.js not loaded or empty.\n";
+        msg += "\nData will NOT be saved.";
+        alert(msg);
+    }, 2000);
+}
+
+// ==================
 // DEMOGRAPHICS PHASE
 // ==================
 
