@@ -1,6 +1,8 @@
-// TODO: Replace with your Firebase project configuration
-// You can find this in the Firebase Console -> Project Settings -> General -> Your apps -> SDK setup and configuration
-const firebaseConfig = {
+// Firebase Configuration
+// This file is loaded by index.html before main.js
+// It simply defines the config object for main.js to use.
+
+var firebaseConfig = {
     apiKey: "AIzaSyAkAU-QWbpx2ok3RXS9jyvqB37aLiEyWYI",
     authDomain: "user-study-35d9e.firebaseapp.com",
     projectId: "user-study-35d9e",
