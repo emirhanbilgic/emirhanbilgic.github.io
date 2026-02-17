@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reproduction</title>
+</head>
+<body>
+    <script>
+        const userResponses = [
+            { method: "M1", isCorrect: true, clarityScore: 5 },
+            { method: "M1", isCorrect: false, clarityScore: null }, // potential issue?
+            { method: "M2", isCorrect: true, clarityScore: 3 }
+        ];
+
+        const stats = {};
+
+        userResponses.forEach(resp => {
+            const method = resp.method;
+            if (!stats[method]) {
+                stats[method] = { correct: 0, total: 0, claritySum: 0 };
+            }
+
+            stats[method].total++;
+            if (resp.isCorrect) stats[method].correct++;
+            if (resp.clarityScore !== null) stats[method].claritySum += resp.clarityScore;
+        });
+
+        const statsArray = Object.keys(stats).map(method => {
+            const s = stats[method];
+            return {
+                method: method,
+                accuracy: s.total > 0 ? (s.correct / s.total) * 100 : 0,
+                avgClarity: s.total > 0 ? (s.claritySum / s.total) : 0
+            };
+        });
+
+        console.log(statsArray);
+        
+        // potential issue: clarityScore is null in one response.
+        // The code says: if (resp.clarityScore !== null) stats[method].claritySum += resp.clarityScore;
+        // So claritySum will be 5. total is 2. avgClarity = 2.5.
+        // Seems fine.
+
+        // What if total > 0 but ALL clarityScores are null?
+        // claritySum = 0. avgClarity = 0. Fine.
+
+        // What about attentionCheckPassed?
+        // const attentionCheckResponse = Object.values(userResponses).find(r => r.questionId === 'attention_check');
+        // If undefined, attentionCheckPassed = false. Fine.
+        
+        // Wait! The user error says "Unsupported field value: undefined".
+        // It was found in `experiments/a2kQHqG6k4Oku2eONgdq`.
+        
+        // Let's look at `experimentStartTime`.
+        // It is initialized in `startMainExperiment`.
+        // If the user refreshed the page or something weird happened, it might be undefined?
+        // But `durationSeconds = (experimentEndTime - experimentStartTime) / 1000;`
+        // If experimentStartTime is undefined, durationSeconds would be NaN.
+        // Firestore DOES NOT support NaN. It supports null, but not NaN or undefined.
+        
+        const experimentStartTime = undefined;
+        const experimentEndTime = new Date();
+        const durationSeconds = (experimentEndTime - experimentStartTime) / 1000;
+        console.log("Duration:", durationSeconds); // NaN
+        
+        // So if durationSeconds is NaN, Firestore throws "Unsupported field value: NaN" (or maybe undefined if the calc failed differently?)
+        // Wait, "Unsupported field value: undefined".
+        
+        // What produces undefined?
+        // accessing a missing property?
+        
+        // let's check userResponses.
+        // "All Responses: (31) [{…}, ...]"
+        // userResponses[currentQuestionIndex] = { ... }
+        // If there are skipped indices?
+        // The loop is `questions.forEach`.
+        // But userResponses is initialized as `[]`.
+        // And we assign `userResponses[currentQuestionIndex]`.
+        // If `currentQuestionIndex` skips, we get empty slots (undefined).
+        // But the logic increments `currentQuestionIndex` by 1.
+        
+        // However, `attentionCheckResponse` logic:
+        // const attentionCheckResponse = Object.values(userResponses).find(r => r.questionId === 'attention_check');
+        // If `userResponses` has holes, `Object.values` cleans them up?
+        // No, `userResponses` is an array.
+        // If I have `a = []; a[1] = 1;` -> `a` is `[empty, 1]`.
+        // `Object.values(a)` is `[1]`.
+        
+        // Let's verify if `submissionData` has any undefined.
+    </script>
+</body>
+</html>

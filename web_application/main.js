@@ -267,7 +267,9 @@ function generateSessionQuestions(allQuestions) {
         ],
         correct_index: 0,
         correct_name: "Cat",
-        method: "Attention Check"
+        method: "Attention Check",
+        target_type: "n/a",
+        heatmap_type: "n/a"
     };
 
     // Insert at index 15 (making it the 16th question)
@@ -557,17 +559,26 @@ function showCompletion() {
         status: "completed"
     };
 
+    // Sanitize submissionData to remove any undefined values (Firestore rejects them)
+    // We replace undefined with null
+    const sanitizeForFirestore = (obj) => {
+        return JSON.parse(JSON.stringify(obj, (k, v) => v === undefined ? null : v));
+    };
+
+    const validSubmissionData = sanitizeForFirestore(submissionData);
+
+
     if (db) {
         // Use Firebase
         let promise;
         if (currentDocId) {
             // Update existing document
-            promise = db.collection("experiments").doc(currentDocId).update(submissionData);
+            promise = db.collection("experiments").doc(currentDocId).update(validSubmissionData);
         } else {
             // Fallback: Create new if ID missing for some reason
-            submissionData.demographics = demographics; // Ensure demographics are included if new
-            submissionData.startTime = experimentStartTime;
-            promise = db.collection("experiments").add(submissionData);
+            validSubmissionData.demographics = demographics; // Ensure demographics are included if new
+            validSubmissionData.startTime = experimentStartTime;
+            promise = db.collection("experiments").add(validSubmissionData);
         }
 
         promise
@@ -592,14 +603,14 @@ function showCompletion() {
     } else {
         // Fallback to Local API (if running server.py)
         // Ensure demographics are included for local save as it's one-shot
-        submissionData.demographics = demographics;
+        validSubmissionData.demographics = demographics;
 
         fetch('/api/submit_results', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(submissionData)
+            body: JSON.stringify(validSubmissionData)
         })
             .then(response => response.json())
             .then(data => {
