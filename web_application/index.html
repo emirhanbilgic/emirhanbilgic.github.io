@@ -78,7 +78,22 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="primary-btn">Continue to Training</button>
+                    <div class="form-row">
+                        <div class="form-group full-width" style="align-items: center;">
+                            <label for="ai-expertise">AI/ML Expertise (1=None, 7=Expert)</label>
+                            <div class="range-container"
+                                style="display: flex; align-items: center; gap: 10px; width: 100%; max-width: 400px;">
+                                <span>1</span>
+                                <input type="range" id="ai-expertise" min="1" max="7" value="4" style="flex: 1;">
+                                <span>7</span>
+                            </div>
+                            <div style="text-align: center; font-size: 0.9rem; margin-top: 5px;">
+                                Current: <span id="ai-expertise-val">4</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="primary-btn">Continue</button>
                 </form>
             </section>
 
@@ -97,15 +112,18 @@
                 <div class="training-step" id="training-step-1">
                     <h2>What is Explainable AI?</h2>
                     <div class="training-content">
-                        <p>When AI models make decisions (like identifying objects in images), we often want to
-                            understand <strong>why</strong> they made that decision. <strong>Explainable AI
-                                (XAI)</strong> provides tools to visualize what the model is "looking at".</p>
+                        <p>When an AI system makes a decision, such as recognizing an object in a photo, it doesn’t
+                            usually explain how the decision is made. Explainable AI (XAI) aims to provide methods that
+                            help humans understand how and why a model reaches a particular decision. One common
+                            approach is to create visual explanations that highlight which parts of the image the model
+                            focused on when making its choice.</p>
 
                         <div class="info-box">
                             <h3>🔍 Heatmaps</h3>
-                            <p>A <strong>heatmap</strong> is a visual representation that highlights which parts of an
-                                image the AI model considers most important for its decision. Brighter/warmer colors
-                                indicate higher importance.</p>
+                            <p>In Explainable AI, a common way to highlight which parts of an image the AI model
+                                considers most important for its decision is the <strong>Heatmap</strong>. Heatmap uses
+                                a spectrum of colors (from cold blue to warm red) to highlight the importance of the
+                                area in the image for the decision.</p>
                         </div>
 
                         <div class="colormap-legend">
@@ -253,40 +271,70 @@
 
             <section id="completion-area" class="glass-panel hidden">
                 <h1 class="gradient-text">Experiment Completed</h1>
-                <p>Thank you for participating! Here are your detailed results:</p>
+                <p>Thank you for participating!</p>
 
-                <div class="stats-grid">
-                    <div class="stat-group">
-                        <h3>LeGrad Performance</h3>
-                        <div class="stat-row">
-                            <div class="stat-card">
-                                <span id="legrad-acc">0%</span>
-                                <label>Accuracy</label>
+                <div id="feedback-form-container">
+                    <div class="form-group full-width" style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 1rem; font-size: 1.1rem;">How would you rate the
+                            difficulty of the tasks? (1: Difficult, 5: Easy)</label>
+                        <div class="clarity-scale" id="difficulty-scale">
+                            <div class="clarity-option feedback-opt" data-type="difficulty" data-value="1">
+                                <span class="clarity-number">1</span>
+                                <span class="clarity-label">Difficult</span>
                             </div>
-                            <div class="stat-card">
-                                <span id="legrad-trust">0.0</span>
-                                <label>Avg Clarity</label>
+                            <div class="clarity-option feedback-opt" data-type="difficulty" data-value="2">
+                                <span class="clarity-number">2</span>
+                            </div>
+                            <div class="clarity-option feedback-opt" data-type="difficulty" data-value="3">
+                                <span class="clarity-number">3</span>
+                                <span class="clarity-label">Neutral</span>
+                            </div>
+                            <div class="clarity-option feedback-opt" data-type="difficulty" data-value="4">
+                                <span class="clarity-number">4</span>
+                            </div>
+                            <div class="clarity-option feedback-opt" data-type="difficulty" data-value="5">
+                                <span class="clarity-number">5</span>
+                                <span class="clarity-label">Easy</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="stat-group">
-                        <h3>LeGrad OMP Performance</h3>
-                        <div class="stat-row">
-                            <div class="stat-card">
-                                <span id="omp-acc">0%</span>
-                                <label>Accuracy</label>
+                    <div class="form-group full-width" style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 1rem; font-size: 1.1rem;">How would you rate the
+                            consistency of the heatmaps across images? (1: Inconsistent, 5: Consistent)</label>
+                        <div class="clarity-scale" id="consistency-scale">
+                            <div class="clarity-option feedback-opt" data-type="consistency" data-value="1">
+                                <span class="clarity-number">1</span>
+                                <span class="clarity-label">Inconsistent</span>
                             </div>
-                            <div class="stat-card">
-                                <span id="omp-trust">0.0</span>
-                                <label>Avg Clarity</label>
+                            <div class="clarity-option feedback-opt" data-type="consistency" data-value="2">
+                                <span class="clarity-number">2</span>
+                            </div>
+                            <div class="clarity-option feedback-opt" data-type="consistency" data-value="3">
+                                <span class="clarity-number">3</span>
+                                <span class="clarity-label">Neutral</span>
+                            </div>
+                            <div class="clarity-option feedback-opt" data-type="consistency" data-value="4">
+                                <span class="clarity-number">4</span>
+                            </div>
+                            <div class="clarity-option feedback-opt" data-type="consistency" data-value="5">
+                                <span class="clarity-number">5</span>
+                                <span class="clarity-label">Consistent</span>
                             </div>
                         </div>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button id="finish-experiment-btn" class="primary-btn" onclick="submitFeedback()">Finish
+                            Experiment</button>
                     </div>
                 </div>
 
-                <button onclick="location.reload()" class="primary-btn" style="margin-top: 2rem;">Restart
-                    Experiment</button>
+                <div id="final-thank-you" class="hidden" style="text-align: center; margin-top: 2rem;">
+                    <h2 class="gradient-text">Thank You!</h2>
+                    <p>Your responses have been saved.</p>
+                </div>
+
             </section>
         </main>
 

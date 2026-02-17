@@ -47,15 +47,21 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1' && !d
 // Current Firestore Document ID
 let currentDocId = null;
 
+// Update slider value display
+document.getElementById('ai-expertise').addEventListener('input', function (e) {
+    document.getElementById('ai-expertise-val').textContent = e.target.value;
+});
+
 document.getElementById('demographics-form').addEventListener('submit', function (e) {
     e.preventDefault();
 
-    // Collect demographics data (AI familiarity removed)
+    // Collect demographics data
     demographics = {
         age: document.getElementById('age').value,
         gender: document.getElementById('gender').value,
         education: document.getElementById('education').value,
-        country: document.getElementById('country').value
+        country: document.getElementById('country').value,
+        aiExpertise: document.getElementById('ai-expertise').value
     };
 
     console.log('Demographics collected:', demographics);
@@ -451,82 +457,55 @@ document.getElementById('next-btn').onclick = () => {
     }
 };
 
+// Feedback State
+let feedbackData = {
+    difficulty: null,
+    consistency: null
+};
+
 function showCompletion() {
     document.getElementById('experiment-area').classList.add('hidden');
     document.getElementById('completion-area').classList.remove('hidden');
 
-    // Calculate Stats
-    // We have 5 methods (or 10 if we split OMP).
-    // The user requirement said: "show 5 different methods (so, for each method, we have 6 heatmaps...)".
-    // My manifest has method names like "CheferCAM" and "CheferCAM OMP".
-    // If we want to show stats per "Base Method" (e.g. CheferCAM) and distinguishing OMP vs Normal,
-    // we can group by the exact method string in the question object.
+    // Initialize feedback option listeners
+    document.querySelectorAll('.feedback-opt').forEach(opt => {
+        opt.onclick = () => {
+            const type = opt.dataset.type;
+            const val = parseInt(opt.dataset.value);
 
+            feedbackData[type] = val;
+
+            // Visual selection
+            const parent = opt.parentElement;
+            parent.querySelectorAll('.feedback-opt').forEach(o => o.classList.remove('selected'));
+            opt.classList.add('selected');
+        };
+    });
+}
+
+function submitFeedback() {
+    if (feedbackData.difficulty === null || feedbackData.consistency === null) {
+        alert("Please answer both feedback questions to finish.");
+        return;
+    }
+
+    // Disable button to prevent double submit
+    const btn = document.getElementById('finish-experiment-btn');
+    btn.disabled = true;
+    btn.textContent = "Saving...";
+
+    // Calculate basic stats for the record (internal use only, not shown to user)
     const stats = {};
-
     userResponses.forEach(resp => {
         const method = resp.method;
         if (!stats[method]) {
             stats[method] = { correct: 0, total: 0, claritySum: 0 };
         }
-
         stats[method].total++;
         if (resp.isCorrect) stats[method].correct++;
         if (resp.clarityScore !== null) stats[method].claritySum += resp.clarityScore;
     });
 
-    // Generate HTML for stats
-    let statsHtml = '<div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">';
-
-    Object.keys(stats).sort().forEach(method => {
-        const s = stats[method];
-        const acc = s.total > 0 ? (s.correct / s.total) * 100 : 0;
-        const avgClarity = s.total > 0 ? (s.claritySum / s.total) : 0;
-
-        statsHtml += `
-            <div class="stat-group" style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 12px;">
-                <h3 style="margin-bottom: 0.5rem; font-size: 1.1rem;">${method}</h3>
-                <div class="stat-row">
-                    <div class="stat-card">
-                        <span>${Math.round(acc)}%</span>
-                        <label>Accuracy</label>
-                    </div>
-                    <div class="stat-card">
-                        <span>${avgClarity.toFixed(1)}</span>
-                        <label>Avg Clarity</label>
-                    </div>
-                </div>
-            </div>
-        `;
-    });
-
-    statsHtml += '</div>';
-
-    // Inject into completion area, replacing the hardcoded structure
-    // We need to find a container. The existing HTML has specific IDs like 'legrad-acc'.
-    // We will replace the content of '.stats-grid' or append to it.
-    // The previous view showed: <div class="stats-grid">...</div>
-    // I can stick this new grid into the DOM.
-
-    const container = document.querySelector('#completion-area .stats-grid');
-    if (container) {
-        container.innerHTML = statsHtml;
-        container.style.display = 'grid'; // ensure grid
-    } else {
-        // specific fallback if structure changed
-        const area = document.getElementById('completion-area');
-        const newDiv = document.createElement('div');
-        newDiv.innerHTML = statsHtml;
-        area.insertBefore(newDiv, area.querySelector('button'));
-    }
-
-    // Log complete session data
-    console.log('=== SESSION COMPLETE ===');
-    console.log('Demographics:', demographics);
-    console.log('Statistics:', stats);
-    console.log('All Responses:', userResponses);
-
-    // Prepare Stats for Server
     const statsArray = Object.keys(stats).map(method => {
         const s = stats[method];
         return {
@@ -540,98 +519,62 @@ function showCompletion() {
     const experimentEndTime = new Date();
     const durationSeconds = (experimentEndTime - experimentStartTime) / 1000;
 
-    // Check if attention check was passed
-    // We look for the question with id "attention_check"
-    // Note: userResponses is an array indexed by question index, so we can't search by ID easily unless we scan it
-    // But since we inserted it at index 15, it should be at index 15. 
-    // Safer to search by questionId though.
     const attentionCheckResponse = Object.values(userResponses).find(r => r.questionId === 'attention_check');
     const attentionCheckPassed = attentionCheckResponse ? attentionCheckResponse.isCorrect : false;
 
     // Submit to Server (Firebase or Local)
     const submissionData = {
-        // demographics: demographics, // Already saved
         responses: userResponses,
-        stats: statsArray,
+        stats: statsArray, // Saved but not shown
+        feedback: feedbackData, // New feedback field
         durationSeconds: durationSeconds,
         attentionCheckPassed: attentionCheckPassed,
         endTime: firebase.firestore.FieldValue.serverTimestamp(),
         status: "completed"
     };
 
-    // Sanitize submissionData to remove any undefined values (Firestore rejects them)
-    // We replace undefined with null
     const sanitizeForFirestore = (obj) => {
         return JSON.parse(JSON.stringify(obj, (k, v) => v === undefined ? null : v));
     };
 
     const validSubmissionData = sanitizeForFirestore(submissionData);
 
+    const onSaveSuccess = () => {
+        console.log("Data saved successfully.");
+        document.getElementById('feedback-form-container').classList.add('hidden');
+        document.getElementById('final-thank-you').classList.remove('hidden');
+    };
+
+    const onSaveError = (error) => {
+        console.error("Error saving data:", error);
+        alert("Error saving data: " + error.message + ". Please try clicking 'Finish' again.");
+        btn.disabled = false;
+        btn.textContent = "Finish Experiment";
+    };
 
     if (db) {
         // Use Firebase
         let promise;
         if (currentDocId) {
-            // Update existing document
             promise = db.collection("experiments").doc(currentDocId).update(validSubmissionData);
         } else {
-            // Fallback: Create new if ID missing for some reason
-            validSubmissionData.demographics = demographics; // Ensure demographics are included if new
+            validSubmissionData.demographics = demographics;
             validSubmissionData.startTime = experimentStartTime;
             promise = db.collection("experiments").add(validSubmissionData);
         }
 
-        promise
-            .then(() => {
-                console.log("Document updated/written successfully");
-                const completionMsg = document.createElement('p');
-                completionMsg.textContent = "✓ Results saved to cloud (Firebase).";
-                completionMsg.style.color = "var(--success)";
-                completionMsg.style.textAlign = "center";
-                completionMsg.style.marginTop = "1rem";
-                document.getElementById('completion-area').appendChild(completionMsg);
-            })
-            .catch((error) => {
-                console.error("Error updating/adding document: ", error);
-                const completionMsg = document.createElement('p'); // fixed var name from errorMsg to match above for consistency roughly
-                completionMsg.textContent = "⚠ Error saving to cloud: " + error.message;
-                completionMsg.style.color = "var(--error)";
-                completionMsg.style.textAlign = "center";
-                completionMsg.style.marginTop = "1rem";
-                document.getElementById('completion-area').appendChild(completionMsg);
-            });
+        promise.then(onSaveSuccess).catch(onSaveError);
     } else {
-        // Fallback to Local API (if running server.py)
-        // Ensure demographics are included for local save as it's one-shot
+        // Fallback to Local API
         validSubmissionData.demographics = demographics;
-
         fetch('/api/submit_results', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(validSubmissionData)
         })
             .then(response => response.json())
-            .then(data => {
-                console.log('Data saved successfully, User ID:', data.user_id);
-                const completionMsg = document.createElement('p');
-                completionMsg.textContent = "✓ Results saved to local database.";
-                completionMsg.style.color = "var(--success)";
-                completionMsg.style.textAlign = "center";
-                completionMsg.style.marginTop = "1rem";
-                document.getElementById('completion-area').appendChild(completionMsg);
-            })
-            .catch(error => {
-                console.error('Error saving data:', error);
-                const errorMsg = document.createElement('p');
-                errorMsg.textContent = "⚠ Notice: Could not save data. (Firebase config missing AND Local Server offline)";
-                errorMsg.style.color = "var(--text-secondary)";
-                errorMsg.style.fontSize = "0.9rem";
-                errorMsg.style.textAlign = "center";
-                errorMsg.style.marginTop = "1rem";
-                document.getElementById('completion-area').appendChild(errorMsg);
-            });
+            .then(onSaveSuccess)
+            .catch(onSaveError);
     }
 }
 
