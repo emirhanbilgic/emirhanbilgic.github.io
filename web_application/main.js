@@ -6,6 +6,7 @@ let currentTrainingStep = 1;
 
 // Demographics data storage
 let demographics = {};
+let experimentStartTime;
 
 const TOTAL_QUESTIONS_LIMIT = 30;
 
@@ -121,7 +122,11 @@ function startMainExperiment() {
     document.getElementById('training-area').classList.add('hidden');
     document.getElementById('experiment-area').classList.remove('hidden');
 
+    // Show progress bar
+    document.querySelector('.progress-wrapper').classList.remove('hidden');
+
     // Load and start the experiment
+    experimentStartTime = new Date();
     loadQuestions();
 }
 
@@ -218,6 +223,32 @@ function generateSessionQuestions(allQuestions) {
     shuffleArray(selectedQuestions);
 
     questions = selectedQuestions;
+
+    // Insert Attention Check (Question 16, Index 15)
+    // Image: 2007_001763 (Cat/Dog)
+    // Heatmap: Target_1_LeGrad/omp.png (Attention Check)
+    const attentionCheckQuestion = {
+        id: "attention_check",
+        image_id: "2007_001763",
+        // Ensure paths are correct relative to index.html
+        original_image: "data/2007_001763/Target_1/original.png",
+        heatmap_image: "heatmaps_data/2007_001763/Target_1_LeGrad/omp.png",
+        options: [
+            "Cat",
+            "Dog",
+            "None of them"
+        ],
+        correct_index: 0,
+        correct_name: "Cat",
+        method: "Attention Check"
+    };
+
+    // Insert at index 15 (making it the 16th question)
+    if (questions.length >= 15) {
+        questions.splice(15, 0, attentionCheckQuestion);
+    } else {
+        questions.push(attentionCheckQuestion);
+    }
 
     // Update UI Total
     document.getElementById('total-q').textContent = questions.length;
@@ -476,11 +507,25 @@ function showCompletion() {
         };
     });
 
+    // Calculate Duration and Attention Check
+    const experimentEndTime = new Date();
+    const durationSeconds = (experimentEndTime - experimentStartTime) / 1000;
+
+    // Check if attention check was passed
+    // We look for the question with id "attention_check"
+    // Note: userResponses is an array indexed by question index, so we can't search by ID easily unless we scan it
+    // But since we inserted it at index 15, it should be at index 15. 
+    // Safer to search by questionId though.
+    const attentionCheckResponse = Object.values(userResponses).find(r => r.questionId === 'attention_check');
+    const attentionCheckPassed = attentionCheckResponse ? attentionCheckResponse.isCorrect : false;
+
     // Submit to Server (Firebase or Local)
     const submissionData = {
         demographics: demographics,
         responses: userResponses,
         stats: statsArray,
+        durationSeconds: durationSeconds,
+        attentionCheckPassed: attentionCheckPassed,
         timestamp: new Date()
     };
 
