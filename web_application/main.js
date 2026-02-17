@@ -7,7 +7,21 @@ let currentTrainingStep = 1;
 // Demographics data storage
 let demographics = {};
 
-const TOTAL_QUESTIONS_LIMIT = 20;
+const TOTAL_QUESTIONS_LIMIT = 30;
+
+// ==================
+// FIREBASE INIT
+// ==================
+let db;
+try {
+    if (typeof firebase !== 'undefined' && typeof firebaseConfig !== 'undefined') {
+        firebase.initializeApp(firebaseConfig);
+        db = firebase.firestore();
+        console.log("Firebase initialized");
+    }
+} catch (e) {
+    console.error("Firebase init error:", e);
+}
 
 // ==================
 // DEMOGRAPHICS PHASE
@@ -100,29 +114,100 @@ function startMainExperiment() {
 // ==================
 
 function loadQuestions() {
-    const pool = [...QUESTIONS_DATA];
+    if (typeof MANIFEST !== 'undefined') {
+        generateSessionQuestions(MANIFEST);
+    } else {
+        console.error('MANIFEST not found. Please ensure data.js is loaded.');
+        alert('Failed to load experiment data. data.js might be missing.');
+    }
+}
 
-    const t1_pool = pool.filter(q => q.target_type === 'Target_1');
-    const t2_pool = pool.filter(q => q.target_type === 'Target_2');
-    const tf_pool = pool.filter(q => q.target_type === 'Target_fake');
+function generateSessionQuestions(allQuestions) {
+    // 1. Group by Method and Heatmap Type
+    // We expect 5 methods * 6 heatmap types = 30 groups
+    // Methods: CheferCAM, CheferCAM OMP, AttentionCAM, AttentionCAM OMP, ...
+    // Types: Target_1 (normal), Target_1 (omp) ... wait, the manifest has "method" field that distinguishes OMP vs Normal
+    // Let's look at the structure I generated:
+    // method: "CheferCAM" or "CheferCAM OMP"
+    // target_type: "Target_1", "Target_2", "Target_fake"
+    // heatmap_type: "normal" or "omp" -> actually this is redundant if method name has OMP.
+    // Let's group by (Method Name, Target Type).
 
-    shuffleArray(t1_pool);
-    shuffleArray(t2_pool);
-    shuffleArray(tf_pool);
+    // There are 10 distinct method names in manifest: 
+    // [CheferCAM, CheferCAM OMP, AttentionCAM, AttentionCAM OMP, DAAM, DAAM OMP, GradCAM, GradCAM OMP, LeGrad, LeGrad OMP]
+    // And 3 Target Types: [Target_1, Target_2, Target_fake]
+    // Total combinations = 10 * 3 = 30.
 
-    // Pick 7, 7, 6
-    const selected = [
-        ...t1_pool.slice(0, 7),
-        ...t2_pool.slice(0, 7),
-        ...tf_pool.slice(0, 6)
-    ];
+    // Correction: User said "each image has 6 heatmaps for each method"
+    // "target 1, target 2, fake" AND "target 1 omp, target 2 omp, fake omp"
+    // My manifest generator created "Method" and "Method OMP" as separate methods in the JSON 'method' field.
+    // So "CheferCAM" (normal) and "CheferCAM OMP" are sufficient to distinguish.
 
-    shuffleArray(selected);
-    questions = selected;
+    const groups = {};
+
+    allQuestions.forEach(q => {
+        const key = `${q.method}|${q.target_type}`;
+        if (!groups[key]) {
+            groups[key] = [];
+        }
+        groups[key].push(q);
+    });
+
+    // Check if we have all 30 groups
+    const groupKeys = Object.keys(groups);
+    console.log(`Found ${groupKeys.length} unique question groups.`);
+
+    let selectedQuestions = [];
+
+    // 2. Select one random question from each group
+    // To serve "each image leads to the same level of task difficulty", 
+    // ideally we should try to not repeat images if possible, or distribute them evenly.
+    // There are 50 images. We need 30 questions. We can definitely pick 30 unique images.
+
+    // Let's try to pick 30 unique images first.
+    // Get all available image IDs
+    const allImageIds = [...new Set(allQuestions.map(q => q.image_id))];
+    shuffleArray(allImageIds);
+
+    // We have 30 groups. Assign one image to each group?
+    // We might not be able to guarantee that *every* group has *every* image (though they should).
+    // Let's assume completeness for now (generated manifest checks for all files).
+
+    // Strategy:
+    // Shuffle the groups.
+    // For each group, try to pick an image that hasn't been used yet.
+
+    shuffleArray(groupKeys);
+
+    const usedImageIds = new Set();
+
+    groupKeys.forEach(key => {
+        const candidates = groups[key];
+        shuffleArray(candidates);
+
+        // Try to find a candidate with an unused image
+        let chosen = candidates.find(q => !usedImageIds.has(q.image_id));
+
+        // If all candidates for this group have usually been used (unlikely with 50 images and 30 slots),
+        // just pick the first one.
+        if (!chosen) {
+            chosen = candidates[0];
+        }
+
+        usedImageIds.add(chosen.image_id);
+        selectedQuestions.push(chosen);
+    });
+
+    // 3. Shuffle the final selection of 30 questions so they are mixed
+    shuffleArray(selectedQuestions);
+
+    questions = selectedQuestions;
+
+    // Update UI Total
+    document.getElementById('total-q').textContent = questions.length;
 
     initExperiment();
 }
-
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -217,7 +302,10 @@ function confirmAnswer() {
     // Record response
     userResponses[currentQuestionIndex] = {
         questionId: q.id,
+        imageId: q.image_id,
         method: q.method,
+        targetType: q.target_type,
+        heatmapType: q.heatmap_type,
         answer: currentSelection,
         isCorrect: isCorrect,
         clarityScore: null
@@ -292,35 +380,145 @@ function showCompletion() {
     document.getElementById('completion-area').classList.remove('hidden');
 
     // Calculate Stats
-    const stats = {
-        'LeGrad': { correct: 0, total: 0, claritySum: 0 },
-        'LeGrad OMP': { correct: 0, total: 0, claritySum: 0 }
-    };
+    // We have 5 methods (or 10 if we split OMP).
+    // The user requirement said: "show 5 different methods (so, for each method, we have 6 heatmaps...)".
+    // My manifest has method names like "CheferCAM" and "CheferCAM OMP".
+    // If we want to show stats per "Base Method" (e.g. CheferCAM) and distinguishing OMP vs Normal,
+    // we can group by the exact method string in the question object.
+
+    const stats = {};
 
     userResponses.forEach(resp => {
-        const s = stats[resp.method];
-        s.total++;
-        if (resp.isCorrect) s.correct++;
-        s.claritySum += resp.clarityScore;
+        const method = resp.method;
+        if (!stats[method]) {
+            stats[method] = { correct: 0, total: 0, claritySum: 0 };
+        }
+
+        stats[method].total++;
+        if (resp.isCorrect) stats[method].correct++;
+        if (resp.clarityScore !== null) stats[method].claritySum += resp.clarityScore;
     });
 
-    const legradAcc = stats['LeGrad'].total > 0 ? (stats['LeGrad'].correct / stats['LeGrad'].total) * 100 : 0;
-    const legradAvgClarity = stats['LeGrad'].total > 0 ? (stats['LeGrad'].claritySum / stats['LeGrad'].total) : 0;
+    // Generate HTML for stats
+    let statsHtml = '<div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">';
 
-    const ompAcc = stats['LeGrad OMP'].total > 0 ? (stats['LeGrad OMP'].correct / stats['LeGrad OMP'].total) * 100 : 0;
-    const ompAvgClarity = stats['LeGrad OMP'].total > 0 ? (stats['LeGrad OMP'].claritySum / stats['LeGrad OMP'].total) : 0;
+    Object.keys(stats).sort().forEach(method => {
+        const s = stats[method];
+        const acc = s.total > 0 ? (s.correct / s.total) * 100 : 0;
+        const avgClarity = s.total > 0 ? (s.claritySum / s.total) : 0;
 
-    document.getElementById('legrad-acc').textContent = `${Math.round(legradAcc)}%`;
-    document.getElementById('legrad-trust').textContent = legradAvgClarity.toFixed(1);
+        statsHtml += `
+            <div class="stat-group" style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 12px;">
+                <h3 style="margin-bottom: 0.5rem; font-size: 1.1rem;">${method}</h3>
+                <div class="stat-row">
+                    <div class="stat-card">
+                        <span>${Math.round(acc)}%</span>
+                        <label>Accuracy</label>
+                    </div>
+                    <div class="stat-card">
+                        <span>${avgClarity.toFixed(1)}</span>
+                        <label>Avg Clarity</label>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
 
-    document.getElementById('omp-acc').textContent = `${Math.round(ompAcc)}%`;
-    document.getElementById('omp-trust').textContent = ompAvgClarity.toFixed(1);
+    statsHtml += '</div>';
+
+    // Inject into completion area, replacing the hardcoded structure
+    // We need to find a container. The existing HTML has specific IDs like 'legrad-acc'.
+    // We will replace the content of '.stats-grid' or append to it.
+    // The previous view showed: <div class="stats-grid">...</div>
+    // I can stick this new grid into the DOM.
+
+    const container = document.querySelector('#completion-area .stats-grid');
+    if (container) {
+        container.innerHTML = statsHtml;
+        container.style.display = 'grid'; // ensure grid
+    } else {
+        // specific fallback if structure changed
+        const area = document.getElementById('completion-area');
+        const newDiv = document.createElement('div');
+        newDiv.innerHTML = statsHtml;
+        area.insertBefore(newDiv, area.querySelector('button'));
+    }
 
     // Log complete session data
     console.log('=== SESSION COMPLETE ===');
     console.log('Demographics:', demographics);
     console.log('Statistics:', stats);
     console.log('All Responses:', userResponses);
+
+    // Prepare Stats for Server
+    const statsArray = Object.keys(stats).map(method => {
+        const s = stats[method];
+        return {
+            method: method,
+            accuracy: s.total > 0 ? (s.correct / s.total) * 100 : 0,
+            avgClarity: s.total > 0 ? (s.claritySum / s.total) : 0
+        };
+    });
+
+    // Submit to Server (Firebase or Local)
+    const submissionData = {
+        demographics: demographics,
+        responses: userResponses,
+        stats: statsArray,
+        timestamp: new Date()
+    };
+
+    if (db) {
+        // Use Firebase
+        db.collection("experiments").add(submissionData)
+            .then((docRef) => {
+                console.log("Document written with ID: ", docRef.id);
+                const completionMsg = document.createElement('p');
+                completionMsg.textContent = "✓ Results saved to cloud (Firebase).";
+                completionMsg.style.color = "var(--success)";
+                completionMsg.style.textAlign = "center";
+                completionMsg.style.marginTop = "1rem";
+                document.getElementById('completion-area').appendChild(completionMsg);
+            })
+            .catch((error) => {
+                console.error("Error adding document: ", error);
+                const errorMsg = document.createElement('p');
+                errorMsg.textContent = "⚠ Error saving to cloud: " + error.message;
+                errorMsg.style.color = "var(--error)";
+                errorMsg.style.textAlign = "center";
+                errorMsg.style.marginTop = "1rem";
+                document.getElementById('completion-area').appendChild(errorMsg);
+            });
+    } else {
+        // Fallback to Local API (if running server.py)
+        fetch('/api/submit_results', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(submissionData)
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Data saved successfully, User ID:', data.user_id);
+                const completionMsg = document.createElement('p');
+                completionMsg.textContent = "✓ Results saved to local database.";
+                completionMsg.style.color = "var(--success)";
+                completionMsg.style.textAlign = "center";
+                completionMsg.style.marginTop = "1rem";
+                document.getElementById('completion-area').appendChild(completionMsg);
+            })
+            .catch(error => {
+                console.error('Error saving data:', error);
+                const errorMsg = document.createElement('p');
+                errorMsg.textContent = "⚠ Notice: Could not save data. (Firebase config missing AND Local Server offline)";
+                errorMsg.style.color = "var(--text-secondary)";
+                errorMsg.style.fontSize = "0.9rem";
+                errorMsg.style.textAlign = "center";
+                errorMsg.style.marginTop = "1rem";
+                document.getElementById('completion-area').appendChild(errorMsg);
+            });
+    }
 }
 
 // NOTE: loadQuestions() is now called from startMainExperiment() after training completion
