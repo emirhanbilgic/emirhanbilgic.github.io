@@ -23,23 +23,6 @@ try {
     console.error("Firebase init error:", e);
 }
 
-// ==================
-// FIREBASE INIT
-// ==================
-let db;
-try {
-    if (typeof firebase !== 'undefined' && typeof firebaseConfig !== 'undefined') {
-        firebase.initializeApp(firebaseConfig);
-        db = firebase.firestore();
-        console.log("Firebase initialized successfully.");
-    } else {
-        console.log("Firebase not initialized. Checks: firebase loaded?", typeof firebase !== 'undefined', "config loaded?", typeof firebaseConfig !== 'undefined');
-    }
-} catch (e) {
-    console.error("Firebase init error:", e);
-    alert("Firebase Initialization Error: " + e.message);
-}
-
 // Check for deployment issues
 if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1' && !db) {
     setTimeout(() => {
