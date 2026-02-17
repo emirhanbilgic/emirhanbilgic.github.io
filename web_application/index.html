@@ -237,34 +237,57 @@
 
                         <div id="clarity-survey" class="hidden">
                             <div class="clarity-explanation">
-                                <p><strong>Rate the clarity of this heatmap:</strong></p>
-                                <p class="clarity-note">If you found it difficult to identify the target, it may be
-                                    because the visualization method wasn't clear enough — not your fault!</p>
+                                <p><strong>1. Overall the explanation provided for the model prediction can be
+                                        trusted?</strong></p>
                             </div>
-                            <div class="clarity-scale">
-                                <div class="clarity-option" data-value="1">
+                            <div class="clarity-scale" id="trust-scale">
+                                <div class="clarity-option per-q-feedback" data-type="trust" data-value="1">
                                     <span class="clarity-number">1</span>
-                                    <span class="clarity-label">Very unclear</span>
+                                    <span class="clarity-label">Not Trusted</span>
                                 </div>
-                                <div class="clarity-option" data-value="2">
+                                <div class="clarity-option per-q-feedback" data-type="trust" data-value="2">
                                     <span class="clarity-number">2</span>
-                                    <span class="clarity-label">Unclear</span>
                                 </div>
-                                <div class="clarity-option" data-value="3">
+                                <div class="clarity-option per-q-feedback" data-type="trust" data-value="3">
                                     <span class="clarity-number">3</span>
                                     <span class="clarity-label">Neutral</span>
                                 </div>
-                                <div class="clarity-option" data-value="4">
+                                <div class="clarity-option per-q-feedback" data-type="trust" data-value="4">
                                     <span class="clarity-number">4</span>
-                                    <span class="clarity-label">Clear</span>
                                 </div>
-                                <div class="clarity-option" data-value="5">
+                                <div class="clarity-option per-q-feedback" data-type="trust" data-value="5">
                                     <span class="clarity-number">5</span>
-                                    <span class="clarity-label">Very clear</span>
+                                    <span class="clarity-label">Trusted</span>
+                                </div>
+                            </div>
+
+                            <div class="clarity-explanation" style="margin-top: 1.5rem;">
+                                <p><strong>2. To what extent would you say that this explanation provides misleading
+                                        information about the class?</strong></p>
+                            </div>
+                            <div class="clarity-scale" id="misleading-scale">
+                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="1">
+                                    <span class="clarity-number">1</span>
+                                    <span class="clarity-label">Not Misleading</span>
+                                </div>
+                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="2">
+                                    <span class="clarity-number">2</span>
+                                </div>
+                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="3">
+                                    <span class="clarity-number">3</span>
+                                    <span class="clarity-label">Neutral</span>
+                                </div>
+                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="4">
+                                    <span class="clarity-number">4</span>
+                                </div>
+                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="5">
+                                    <span class="clarity-number">5</span>
+                                    <span class="clarity-label">Very Misleading</span>
                                 </div>
                             </div>
                         </div>
-                        <button id="next-btn" class="primary-btn hidden">Next Question</button>
+                        <button id="next-btn" class="primary-btn hidden" style="margin-top: 1rem;">Next
+                            Question</button>
                     </div>
                 </div>
             </section>

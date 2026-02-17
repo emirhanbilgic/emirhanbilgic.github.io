@@ -390,7 +390,8 @@ function confirmAnswer() {
         heatmapType: q.heatmap_type,
         answer: currentSelection,
         isCorrect: isCorrect,
-        clarityScore: null
+        trustScore: null,
+        misleadingScore: null
     };
 
     if (isCorrect) score++;
@@ -420,34 +421,49 @@ function confirmAnswer() {
     // Show result message
     const resultSection = document.getElementById('result-section');
     const feedbackMsg = document.getElementById('feedback-message');
-    feedbackMsg.textContent = isCorrect ? 'Correct.' : `Wrong. The answer was ${q.options[q.correct_index]}.`;
+    feedbackMsg.textContent = isCorrect ? 'Correct for this specific XAI technique.' : `For this specific XAI technique, the correct answer was ${q.options[q.correct_index]}.`;
     feedbackMsg.style.color = isCorrect ? 'var(--success)' : 'var(--error)';
     resultSection.classList.remove('hidden');
 
-    // Show clarity survey
+    // Show per-question feedback survey
     document.getElementById('clarity-survey').classList.remove('hidden');
 }
 
-// Clarity Rating Handling
-document.querySelectorAll('.clarity-option').forEach(opt => {
+// Per-Question Feedback Handling
+document.querySelectorAll('.per-q-feedback').forEach(opt => {
     opt.onclick = () => {
+        const type = opt.dataset.type; // 'trust' or 'misleading'
         const val = parseInt(opt.dataset.value);
-        userResponses[currentQuestionIndex].clarityScore = val;
 
-        // Highlight selection
-        document.querySelectorAll('.clarity-option').forEach(o => o.classList.remove('selected'));
+        if (type === 'trust') {
+            userResponses[currentQuestionIndex].trustScore = val;
+            // Highlight inside trust-scale
+            document.querySelectorAll('#trust-scale .per-q-feedback').forEach(o => o.classList.remove('selected'));
+        } else if (type === 'misleading') {
+            userResponses[currentQuestionIndex].misleadingScore = val;
+            // Highlight inside misleading-scale
+            document.querySelectorAll('#misleading-scale .per-q-feedback').forEach(o => o.classList.remove('selected'));
+        }
+
         opt.classList.add('selected');
 
-        // Show next button
-        document.getElementById('next-btn').classList.remove('hidden');
+        // Check if both are answered to show next button
+        const currentResp = userResponses[currentQuestionIndex];
+        if (currentResp.trustScore !== null && currentResp.misleadingScore !== null) {
+            document.getElementById('next-btn').classList.remove('hidden');
+        }
     };
 });
 
 document.getElementById('next-btn').onclick = () => {
-    if (userResponses[currentQuestionIndex].clarityScore === null) {
-        alert('Please rate the clarity of the heatmap to continue.');
+    const currentResp = userResponses[currentQuestionIndex];
+    if (currentResp.trustScore === null || currentResp.misleadingScore === null) {
+        alert('Please answer both feedback questions to continue.');
         return;
     }
+
+    // Reset feedback UI for next question
+    document.querySelectorAll('.per-q-feedback').forEach(o => o.classList.remove('selected'));
 
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -499,11 +515,12 @@ function submitFeedback() {
     userResponses.forEach(resp => {
         const method = resp.method;
         if (!stats[method]) {
-            stats[method] = { correct: 0, total: 0, claritySum: 0 };
+            stats[method] = { correct: 0, total: 0, trustSum: 0, misleadingSum: 0 };
         }
         stats[method].total++;
         if (resp.isCorrect) stats[method].correct++;
-        if (resp.clarityScore !== null) stats[method].claritySum += resp.clarityScore;
+        if (resp.trustScore !== null) stats[method].trustSum += resp.trustScore;
+        if (resp.misleadingScore !== null) stats[method].misleadingSum += resp.misleadingScore;
     });
 
     const statsArray = Object.keys(stats).map(method => {
@@ -511,7 +528,8 @@ function submitFeedback() {
         return {
             method: method,
             accuracy: s.total > 0 ? (s.correct / s.total) * 100 : 0,
-            avgClarity: s.total > 0 ? (s.claritySum / s.total) : 0
+            avgTrust: s.total > 0 ? (s.trustSum / s.total) : 0,
+            avgMisleading: s.total > 0 ? (s.misleadingSum / s.total) : 0
         };
     });
 
