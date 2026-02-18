@@ -363,7 +363,7 @@ function showQuestion() {
     document.getElementById('heatmap-img').src = q.heatmap_image;
 
     // Update question text if provided, otherwise use default
-    const defaultQuestion = "What element do you think the heatmap is highlighting in the image? (Red areas of the heatmap)";
+    const defaultQuestion = "Does the saliency map highlight the correct region, and when the class is not present, does it avoid focusing on any specific object?";
     document.getElementById('question-text').textContent = q.question_text || defaultQuestion;
 
     const optionsContainer = document.getElementById('options-container');
