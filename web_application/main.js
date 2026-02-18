@@ -146,6 +146,51 @@ function checkPractice(btn) {
     document.getElementById('start-experiment-btn').classList.remove('hidden');
 }
 
+
+let isReviewingTutorial = false;
+
+function reviewTutorial() {
+    isReviewingTutorial = true;
+
+    // Hide experiment, show training
+    document.getElementById('experiment-area').classList.add('hidden');
+    document.getElementById('training-area').classList.remove('hidden');
+    document.querySelector('.progress-wrapper').classList.add('hidden');
+
+    // Reset training UI to Step 1
+    resetTrainingUI();
+}
+
+function resetTrainingUI() {
+    // Reset internal counter
+    currentTrainingStep = 1;
+
+    // Reset step indicators
+    document.querySelectorAll('.step-indicator .step').forEach((step, index) => {
+        step.classList.remove('active', 'completed');
+        if (index === 0) step.classList.add('active');
+    });
+
+    // Reset content visibility
+    for (let i = 1; i <= 4; i++) {
+        const el = document.getElementById(`training-step-${i}`);
+        if (el) el.classList.add('hidden');
+    }
+    document.getElementById('training-step-1').classList.remove('hidden');
+
+    // Reset Practice buttons
+    document.querySelectorAll('.practice-opt').forEach(btn => {
+        btn.disabled = false;
+        btn.classList.remove('correct', 'wrong');
+    });
+    document.getElementById('practice-feedback').classList.add('hidden');
+
+    // Update button text to "Resume Experiment"
+    const startBtn = document.getElementById('start-experiment-btn');
+    startBtn.textContent = "Resume Experiment";
+    startBtn.classList.add('hidden');
+}
+
 function startMainExperiment() {
     // Mark final training step as completed
     document.querySelector(`.step[data-step="${currentTrainingStep}"]`).classList.remove('active');
@@ -158,9 +203,15 @@ function startMainExperiment() {
     // Show progress bar
     document.querySelector('.progress-wrapper').classList.remove('hidden');
 
-    // Load and start the experiment
-    experimentStartTime = new Date();
-    loadQuestions();
+    if (isReviewingTutorial) {
+        // Resuming from review
+        isReviewingTutorial = false;
+        // Don't reset experiment state
+    } else {
+        // First time starting
+        experimentStartTime = new Date();
+        loadQuestions();
+    }
 }
 
 // ==================
@@ -262,10 +313,10 @@ function generateSessionQuestions(allQuestions) {
     // Heatmap: Target_1_LeGrad/omp.png (Attention Check)
     const attentionCheckQuestion = {
         id: "attention_check",
-        image_id: "2007_001763",
+        image_id: "training_example",
         // Ensure paths are correct relative to index.html
-        original_image: "data/2007_001763/Target_1/original.png",
-        heatmap_image: "heatmaps_data/2007_001763/Target_1_LeGrad/omp.png",
+        original_image: "training_images/cat_dog.png",
+        heatmap_image: "training_images/cat_LeGrad.png",
         options: [
             "Cat",
             "Dog",
@@ -275,7 +326,8 @@ function generateSessionQuestions(allQuestions) {
         correct_name: "Cat",
         method: "Attention Check",
         target_type: "n/a",
-        heatmap_type: "n/a"
+        heatmap_type: "n/a",
+        question_text: "Based on the heatmap, which class is the model focusing on?"
     };
 
     // Insert at index 15 (making it the 16th question)
@@ -309,6 +361,10 @@ function showQuestion() {
 
     document.getElementById('original-img').src = q.original_image;
     document.getElementById('heatmap-img').src = q.heatmap_image;
+
+    // Update question text if provided, otherwise use default
+    const defaultQuestion = "What element do you think the heatmap is highlighting in the image? (Red areas of the heatmap)";
+    document.getElementById('question-text').textContent = q.question_text || defaultQuestion;
 
     const optionsContainer = document.getElementById('options-container');
     optionsContainer.innerHTML = '';
@@ -390,8 +446,7 @@ function confirmAnswer() {
         heatmapType: q.heatmap_type,
         answer: currentSelection,
         isCorrect: isCorrect,
-        trustScore: null,
-        misleadingScore: null
+        trustScore: null
     };
 
     if (isCorrect) score++;
@@ -432,24 +487,37 @@ function confirmAnswer() {
 // Per-Question Feedback Handling
 document.querySelectorAll('.per-q-feedback').forEach(opt => {
     opt.onclick = () => {
-        const type = opt.dataset.type; // 'trust' or 'misleading'
+        const type = opt.dataset.type; // 'trust'
         const val = parseInt(opt.dataset.value);
+
+        // Safety check
+        if (!userResponses[currentQuestionIndex]) {
+            console.warn("User response not initialized, initializing now.");
+            // Fallback initialization if confirmAnswer somehow didn't do it
+            const q = questions[currentQuestionIndex];
+            userResponses[currentQuestionIndex] = {
+                questionId: q.id,
+                imageId: q.image_id,
+                method: q.method,
+                targetType: q.target_type,
+                heatmapType: q.heatmap_type,
+                answer: currentSelection || -1, // Fallback
+                isCorrect: false, // Fallback
+                trustScore: null
+            };
+        }
 
         if (type === 'trust') {
             userResponses[currentQuestionIndex].trustScore = val;
             // Highlight inside trust-scale
             document.querySelectorAll('#trust-scale .per-q-feedback').forEach(o => o.classList.remove('selected'));
-        } else if (type === 'misleading') {
-            userResponses[currentQuestionIndex].misleadingScore = val;
-            // Highlight inside misleading-scale
-            document.querySelectorAll('#misleading-scale .per-q-feedback').forEach(o => o.classList.remove('selected'));
         }
 
         opt.classList.add('selected');
 
-        // Check if both are answered to show next button
+        // Check if answered to show next button
         const currentResp = userResponses[currentQuestionIndex];
-        if (currentResp.trustScore !== null && currentResp.misleadingScore !== null) {
+        if (currentResp && currentResp.trustScore !== null) {
             document.getElementById('next-btn').classList.remove('hidden');
         }
     };
@@ -457,8 +525,8 @@ document.querySelectorAll('.per-q-feedback').forEach(opt => {
 
 document.getElementById('next-btn').onclick = () => {
     const currentResp = userResponses[currentQuestionIndex];
-    if (currentResp.trustScore === null || currentResp.misleadingScore === null) {
-        alert('Please answer both feedback questions to continue.');
+    if (!currentResp || currentResp.trustScore === null) {
+        alert('Please answer the feedback question to continue.');
         return;
     }
 
@@ -515,12 +583,11 @@ function submitFeedback() {
     userResponses.forEach(resp => {
         const method = resp.method;
         if (!stats[method]) {
-            stats[method] = { correct: 0, total: 0, trustSum: 0, misleadingSum: 0 };
+            stats[method] = { correct: 0, total: 0, trustSum: 0 };
         }
         stats[method].total++;
         if (resp.isCorrect) stats[method].correct++;
         if (resp.trustScore !== null) stats[method].trustSum += resp.trustScore;
-        if (resp.misleadingScore !== null) stats[method].misleadingSum += resp.misleadingScore;
     });
 
     const statsArray = Object.keys(stats).map(method => {
@@ -528,8 +595,7 @@ function submitFeedback() {
         return {
             method: method,
             accuracy: s.total > 0 ? (s.correct / s.total) * 100 : 0,
-            avgTrust: s.total > 0 ? (s.trustSum / s.total) : 0,
-            avgMisleading: s.total > 0 ? (s.misleadingSum / s.total) : 0
+            avgTrust: s.total > 0 ? (s.trustSum / s.total) : 0
         };
     });
 

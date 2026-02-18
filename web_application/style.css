@@ -297,6 +297,13 @@ h2 {
     box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
 }
 
+.small-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    align-self: flex-end;
+}
+
 footer {
     text-align: center;
     color: var(--text-dim);

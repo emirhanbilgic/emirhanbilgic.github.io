@@ -20,6 +20,8 @@
                 <span class="gradient-text">Experiment</span> Session
             </div>
             <div class="progress-wrapper hidden">
+                <button id="review-tutorial-btn" class="secondary-btn small-btn" onclick="reviewTutorial()">Review
+                    Tutorial</button>
                 <div class="progress-text">Question <span id="current-q">1</span> of <span id="total-q">20</span></div>
                 <div class="progress-bar-container">
                     <div id="progress-bar" class="progress-bar"></div>
@@ -263,7 +265,7 @@
 
                         <div id="clarity-survey" class="hidden">
                             <div class="clarity-explanation">
-                                <p><strong>1. Overall the explanation provided for the model prediction can be
+                                <p><strong>Overall the explanation provided for the model prediction can be
                                         trusted?</strong></p>
                             </div>
                             <div class="clarity-scale" id="trust-scale">
@@ -288,36 +290,9 @@
                                     <span class="clarity-label">Trusted</span>
                                 </div>
                             </div>
-
-                            <div class="clarity-explanation" style="margin-top: 1.5rem;">
-                                <p><strong>2. To what extent would you say that this explanation provides misleading
-                                        information about the class?</strong></p>
-                            </div>
-                            <div class="clarity-scale" id="misleading-scale">
-                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="1">
-                                    <span class="clarity-number">1</span>
-                                    <span class="clarity-label">Not at all</span>
-                                </div>
-                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="2">
-                                    <span class="clarity-number">2</span>
-                                    <span class="clarity-label">Slightly</span>
-                                </div>
-                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="3">
-                                    <span class="clarity-number">3</span>
-                                    <span class="clarity-label">Moderately</span>
-                                </div>
-                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="4">
-                                    <span class="clarity-number">4</span>
-                                    <span class="clarity-label">Mostly</span>
-                                </div>
-                                <div class="clarity-option per-q-feedback" data-type="misleading" data-value="5">
-                                    <span class="clarity-number">5</span>
-                                    <span class="clarity-label">Completely</span>
-                                </div>
-                            </div>
+                            <button id="next-btn" class="primary-btn hidden" style="margin-top: 1rem;">Next
+                                Question</button>
                         </div>
-                        <button id="next-btn" class="primary-btn hidden" style="margin-top: 1rem;">Next
-                            Question</button>
                     </div>
                 </div>
             </section>
