@@ -596,11 +596,12 @@ function submitFeedback() {
     userResponses.forEach(resp => {
         const method = resp.method;
         if (!stats[method]) {
-            stats[method] = { correct: 0, total: 0, trustSum: 0 };
+            stats[method] = { correct: 0, total: 0, trustSum: 0, confidenceSum: 0 };
         }
         stats[method].total++;
         if (resp.isCorrect) stats[method].correct++;
         if (resp.trustScore !== null) stats[method].trustSum += resp.trustScore;
+        if (resp.confidence !== null && resp.confidence !== undefined) stats[method].confidenceSum += resp.confidence;
     });
 
     const statsArray = Object.keys(stats).map(method => {
@@ -608,7 +609,8 @@ function submitFeedback() {
         return {
             method: method,
             accuracy: s.total > 0 ? (s.correct / s.total) * 100 : 0,
-            avgTrust: s.total > 0 ? (s.trustSum / s.total) : 0
+            avgTrust: s.total > 0 ? (s.trustSum / s.total) : 0,
+            avgConfidence: s.total > 0 ? (s.confidenceSum / s.total) : 0
         };
     });
 
