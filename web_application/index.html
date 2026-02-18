@@ -105,6 +105,7 @@
                         <span class="step active" data-step="1">1</span>
                         <span class="step" data-step="2">2</span>
                         <span class="step" data-step="3">3</span>
+                        <span class="step" data-step="4">4</span>
                     </div>
                 </div>
 
@@ -151,14 +152,12 @@
                         <div class="example-comparison">
                             <div class="example-card">
                                 <div class="badge">Original Image</div>
-                                <img id="example-original" src="data/2007_001763/Target_1/original.png"
-                                    alt="Example Original">
+                                <img id="example-original" src="training_images/cat_dog.png" alt="Example Original">
                                 <p class="example-caption">An image containing a cat and a dog</p>
                             </div>
                             <div class="example-card">
                                 <div class="badge heatmap-badge">Heatmap for "Cat"</div>
-                                <img id="example-heatmap" src="data/2007_001763/Target_1/legrad_omp.png"
-                                    alt="Example Heatmap">
+                                <img id="example-heatmap" src="training_images/cat_LeGrad.png" alt="Example Heatmap">
                                 <p class="example-caption">The model highlights the <strong>cat</strong> (red/orange
                                     areas)</p>
                             </div>
@@ -170,21 +169,48 @@
                                 cat region to identify it.</p>
                         </div>
                     </div>
+                    <button class="primary-btn" onclick="nextTrainingStep()">Next: "None of them" Example</button>
+                </div>
+
+                <!-- Training Step 3: "None of them" Example -->
+                <div class="training-step hidden" id="training-step-3">
+                    <h2>Example: When the Object is Missing</h2>
+                    <div class="training-content">
+                        <div class="example-comparison">
+                            <div class="example-card">
+                                <div class="badge">Original Image</div>
+                                <img src="training_images/cat_dog.png" alt="Example Original">
+                                <p class="example-caption">Image with Cat and Dog (No Sheep)</p>
+                            </div>
+                            <div class="example-card">
+                                <div class="badge heatmap-badge">Heatmap for "Sheep"</div>
+                                <img src="training_images/sheep_LeGrad.png" alt="Example Heatmap">
+                                <p class="example-caption">The model is asked to find <strong>Sheep</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="explanation-box">
+                            <p>Sometimes the model is asked about an object that is <strong>not present</strong> in the
+                                image. In this case, the heatmap might look scattered, random, or highlight irrelevant
+                                areas. Since there is no "Sheep" in the image, the correct answer is <strong>"None of
+                                    them"</strong>.</p>
+                        </div>
+                    </div>
                     <button class="primary-btn" onclick="nextTrainingStep()">Next: Practice Question</button>
                 </div>
 
-                <!-- Training Step 3: Practice Question -->
-                <div class="training-step hidden" id="training-step-3">
+                <!-- Training Step 4: Practice Question -->
+                <div class="training-step hidden" id="training-step-4">
                     <h2>Practice: Can You Read the Heatmap?</h2>
                     <div class="training-content">
                         <div class="example-comparison">
                             <div class="example-card">
                                 <div class="badge">Original Image</div>
-                                <img src="data/2007_001763/Target_2/original.png" alt="Practice Original">
+                                <img src="training_images/cat_dog.png" alt="Practice Original">
                             </div>
                             <div class="example-card">
                                 <div class="badge heatmap-badge">Generated Heatmap</div>
-                                <img src="data/2007_001763/Target_2/legrad_omp.png" alt="Practice Heatmap">
+                                <img src="training_images/dog_LeGrad.png" alt="Practice Heatmap">
                             </div>
                         </div>
 
