@@ -2,8 +2,8 @@ const MANIFEST = [
   {
     "id": 0,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -18,8 +18,8 @@ const MANIFEST = [
   {
     "id": 1,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -34,8 +34,8 @@ const MANIFEST = [
   {
     "id": 2,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -50,8 +50,8 @@ const MANIFEST = [
   {
     "id": 3,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -66,8 +66,8 @@ const MANIFEST = [
   {
     "id": 4,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -82,8 +82,8 @@ const MANIFEST = [
   {
     "id": 5,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -98,8 +98,8 @@ const MANIFEST = [
   {
     "id": 6,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -114,8 +114,8 @@ const MANIFEST = [
   {
     "id": 7,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -130,8 +130,8 @@ const MANIFEST = [
   {
     "id": 8,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -146,8 +146,8 @@ const MANIFEST = [
   {
     "id": 9,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -162,8 +162,8 @@ const MANIFEST = [
   {
     "id": 10,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -178,8 +178,8 @@ const MANIFEST = [
   {
     "id": 11,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -194,8 +194,8 @@ const MANIFEST = [
   {
     "id": 12,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -210,8 +210,8 @@ const MANIFEST = [
   {
     "id": 13,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -226,8 +226,8 @@ const MANIFEST = [
   {
     "id": 14,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -242,8 +242,8 @@ const MANIFEST = [
   {
     "id": 15,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -258,8 +258,8 @@ const MANIFEST = [
   {
     "id": 16,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -274,8 +274,8 @@ const MANIFEST = [
   {
     "id": 17,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -290,8 +290,8 @@ const MANIFEST = [
   {
     "id": 18,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -306,8 +306,8 @@ const MANIFEST = [
   {
     "id": 19,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -322,8 +322,8 @@ const MANIFEST = [
   {
     "id": 20,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -338,8 +338,8 @@ const MANIFEST = [
   {
     "id": 21,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -354,8 +354,8 @@ const MANIFEST = [
   {
     "id": 22,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -370,8 +370,8 @@ const MANIFEST = [
   {
     "id": 23,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -386,8 +386,8 @@ const MANIFEST = [
   {
     "id": 24,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -402,8 +402,8 @@ const MANIFEST = [
   {
     "id": 25,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -418,8 +418,8 @@ const MANIFEST = [
   {
     "id": 26,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -434,8 +434,8 @@ const MANIFEST = [
   {
     "id": 27,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -450,8 +450,8 @@ const MANIFEST = [
   {
     "id": 28,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -466,8 +466,8 @@ const MANIFEST = [
   {
     "id": 29,
     "image_id": "2007_000904",
-    "original_image": "full_data_two_animals/2007_000904/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_000904/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_000904/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -482,8 +482,8 @@ const MANIFEST = [
   {
     "id": 30,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -498,8 +498,8 @@ const MANIFEST = [
   {
     "id": 31,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -514,8 +514,8 @@ const MANIFEST = [
   {
     "id": 32,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -530,8 +530,8 @@ const MANIFEST = [
   {
     "id": 33,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -546,8 +546,8 @@ const MANIFEST = [
   {
     "id": 34,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -562,8 +562,8 @@ const MANIFEST = [
   {
     "id": 35,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -578,8 +578,8 @@ const MANIFEST = [
   {
     "id": 36,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -594,8 +594,8 @@ const MANIFEST = [
   {
     "id": 37,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -610,8 +610,8 @@ const MANIFEST = [
   {
     "id": 38,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -626,8 +626,8 @@ const MANIFEST = [
   {
     "id": 39,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -642,8 +642,8 @@ const MANIFEST = [
   {
     "id": 40,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -658,8 +658,8 @@ const MANIFEST = [
   {
     "id": 41,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -674,8 +674,8 @@ const MANIFEST = [
   {
     "id": 42,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -690,8 +690,8 @@ const MANIFEST = [
   {
     "id": 43,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -706,8 +706,8 @@ const MANIFEST = [
   {
     "id": 44,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -722,8 +722,8 @@ const MANIFEST = [
   {
     "id": 45,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -738,8 +738,8 @@ const MANIFEST = [
   {
     "id": 46,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -754,8 +754,8 @@ const MANIFEST = [
   {
     "id": 47,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -770,8 +770,8 @@ const MANIFEST = [
   {
     "id": 48,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -786,8 +786,8 @@ const MANIFEST = [
   {
     "id": 49,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -802,8 +802,8 @@ const MANIFEST = [
   {
     "id": 50,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -818,8 +818,8 @@ const MANIFEST = [
   {
     "id": 51,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -834,8 +834,8 @@ const MANIFEST = [
   {
     "id": 52,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -850,8 +850,8 @@ const MANIFEST = [
   {
     "id": 53,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -866,8 +866,8 @@ const MANIFEST = [
   {
     "id": 54,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -882,8 +882,8 @@ const MANIFEST = [
   {
     "id": 55,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -898,8 +898,8 @@ const MANIFEST = [
   {
     "id": 56,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -914,8 +914,8 @@ const MANIFEST = [
   {
     "id": 57,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -930,8 +930,8 @@ const MANIFEST = [
   {
     "id": 58,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -946,8 +946,8 @@ const MANIFEST = [
   {
     "id": 59,
     "image_id": "2007_001594",
-    "original_image": "full_data_two_animals/2007_001594/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001594/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001594/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -962,8 +962,8 @@ const MANIFEST = [
   {
     "id": 60,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -978,8 +978,8 @@ const MANIFEST = [
   {
     "id": 61,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -994,8 +994,8 @@ const MANIFEST = [
   {
     "id": 62,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1010,8 +1010,8 @@ const MANIFEST = [
   {
     "id": 63,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1026,8 +1026,8 @@ const MANIFEST = [
   {
     "id": 64,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1042,8 +1042,8 @@ const MANIFEST = [
   {
     "id": 65,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1058,8 +1058,8 @@ const MANIFEST = [
   {
     "id": 66,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1074,8 +1074,8 @@ const MANIFEST = [
   {
     "id": 67,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1090,8 +1090,8 @@ const MANIFEST = [
   {
     "id": 68,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1106,8 +1106,8 @@ const MANIFEST = [
   {
     "id": 69,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1122,8 +1122,8 @@ const MANIFEST = [
   {
     "id": 70,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1138,8 +1138,8 @@ const MANIFEST = [
   {
     "id": 71,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1154,8 +1154,8 @@ const MANIFEST = [
   {
     "id": 72,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1170,8 +1170,8 @@ const MANIFEST = [
   {
     "id": 73,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1186,8 +1186,8 @@ const MANIFEST = [
   {
     "id": 74,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1202,8 +1202,8 @@ const MANIFEST = [
   {
     "id": 75,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1218,8 +1218,8 @@ const MANIFEST = [
   {
     "id": 76,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1234,8 +1234,8 @@ const MANIFEST = [
   {
     "id": 77,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1250,8 +1250,8 @@ const MANIFEST = [
   {
     "id": 78,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1266,8 +1266,8 @@ const MANIFEST = [
   {
     "id": 79,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1282,8 +1282,8 @@ const MANIFEST = [
   {
     "id": 80,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1298,8 +1298,8 @@ const MANIFEST = [
   {
     "id": 81,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1314,8 +1314,8 @@ const MANIFEST = [
   {
     "id": 82,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1330,8 +1330,8 @@ const MANIFEST = [
   {
     "id": 83,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1346,8 +1346,8 @@ const MANIFEST = [
   {
     "id": 84,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1362,8 +1362,8 @@ const MANIFEST = [
   {
     "id": 85,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1378,8 +1378,8 @@ const MANIFEST = [
   {
     "id": 86,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1394,8 +1394,8 @@ const MANIFEST = [
   {
     "id": 87,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1410,8 +1410,8 @@ const MANIFEST = [
   {
     "id": 88,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1426,8 +1426,8 @@ const MANIFEST = [
   {
     "id": 89,
     "image_id": "2007_001763",
-    "original_image": "full_data_two_animals/2007_001763/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001763/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001763/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1442,8 +1442,8 @@ const MANIFEST = [
   {
     "id": 90,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1458,8 +1458,8 @@ const MANIFEST = [
   {
     "id": 91,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1474,8 +1474,8 @@ const MANIFEST = [
   {
     "id": 92,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1490,8 +1490,8 @@ const MANIFEST = [
   {
     "id": 93,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1506,8 +1506,8 @@ const MANIFEST = [
   {
     "id": 94,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1522,8 +1522,8 @@ const MANIFEST = [
   {
     "id": 95,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1538,8 +1538,8 @@ const MANIFEST = [
   {
     "id": 96,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1554,8 +1554,8 @@ const MANIFEST = [
   {
     "id": 97,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1570,8 +1570,8 @@ const MANIFEST = [
   {
     "id": 98,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1586,8 +1586,8 @@ const MANIFEST = [
   {
     "id": 99,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1602,8 +1602,8 @@ const MANIFEST = [
   {
     "id": 100,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1618,8 +1618,8 @@ const MANIFEST = [
   {
     "id": 101,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1634,8 +1634,8 @@ const MANIFEST = [
   {
     "id": 102,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1650,8 +1650,8 @@ const MANIFEST = [
   {
     "id": 103,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1666,8 +1666,8 @@ const MANIFEST = [
   {
     "id": 104,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1682,8 +1682,8 @@ const MANIFEST = [
   {
     "id": 105,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1698,8 +1698,8 @@ const MANIFEST = [
   {
     "id": 106,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1714,8 +1714,8 @@ const MANIFEST = [
   {
     "id": 107,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1730,8 +1730,8 @@ const MANIFEST = [
   {
     "id": 108,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1746,8 +1746,8 @@ const MANIFEST = [
   {
     "id": 109,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1762,8 +1762,8 @@ const MANIFEST = [
   {
     "id": 110,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1778,8 +1778,8 @@ const MANIFEST = [
   {
     "id": 111,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1794,8 +1794,8 @@ const MANIFEST = [
   {
     "id": 112,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1810,8 +1810,8 @@ const MANIFEST = [
   {
     "id": 113,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1826,8 +1826,8 @@ const MANIFEST = [
   {
     "id": 114,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1842,8 +1842,8 @@ const MANIFEST = [
   {
     "id": 115,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1858,8 +1858,8 @@ const MANIFEST = [
   {
     "id": 116,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1874,8 +1874,8 @@ const MANIFEST = [
   {
     "id": 117,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1890,8 +1890,8 @@ const MANIFEST = [
   {
     "id": 118,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1906,8 +1906,8 @@ const MANIFEST = [
   {
     "id": 119,
     "image_id": "2007_001825",
-    "original_image": "full_data_two_animals/2007_001825/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_001825/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_001825/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1922,8 +1922,8 @@ const MANIFEST = [
   {
     "id": 120,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1938,8 +1938,8 @@ const MANIFEST = [
   {
     "id": 121,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1954,8 +1954,8 @@ const MANIFEST = [
   {
     "id": 122,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1970,8 +1970,8 @@ const MANIFEST = [
   {
     "id": 123,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -1986,8 +1986,8 @@ const MANIFEST = [
   {
     "id": 124,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2002,8 +2002,8 @@ const MANIFEST = [
   {
     "id": 125,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2018,8 +2018,8 @@ const MANIFEST = [
   {
     "id": 126,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2034,8 +2034,8 @@ const MANIFEST = [
   {
     "id": 127,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2050,8 +2050,8 @@ const MANIFEST = [
   {
     "id": 128,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2066,8 +2066,8 @@ const MANIFEST = [
   {
     "id": 129,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2082,8 +2082,8 @@ const MANIFEST = [
   {
     "id": 130,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2098,8 +2098,8 @@ const MANIFEST = [
   {
     "id": 131,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2114,8 +2114,8 @@ const MANIFEST = [
   {
     "id": 132,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2130,8 +2130,8 @@ const MANIFEST = [
   {
     "id": 133,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2146,8 +2146,8 @@ const MANIFEST = [
   {
     "id": 134,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2162,8 +2162,8 @@ const MANIFEST = [
   {
     "id": 135,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2178,8 +2178,8 @@ const MANIFEST = [
   {
     "id": 136,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2194,8 +2194,8 @@ const MANIFEST = [
   {
     "id": 137,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2210,8 +2210,8 @@ const MANIFEST = [
   {
     "id": 138,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2226,8 +2226,8 @@ const MANIFEST = [
   {
     "id": 139,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2242,8 +2242,8 @@ const MANIFEST = [
   {
     "id": 140,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2258,8 +2258,8 @@ const MANIFEST = [
   {
     "id": 141,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2274,8 +2274,8 @@ const MANIFEST = [
   {
     "id": 142,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2290,8 +2290,8 @@ const MANIFEST = [
   {
     "id": 143,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2306,8 +2306,8 @@ const MANIFEST = [
   {
     "id": 144,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2322,8 +2322,8 @@ const MANIFEST = [
   {
     "id": 145,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2338,8 +2338,8 @@ const MANIFEST = [
   {
     "id": 146,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2354,8 +2354,8 @@ const MANIFEST = [
   {
     "id": 147,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2370,8 +2370,8 @@ const MANIFEST = [
   {
     "id": 148,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2386,8 +2386,8 @@ const MANIFEST = [
   {
     "id": 149,
     "image_id": "2007_002268",
-    "original_image": "full_data_two_animals/2007_002268/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002268/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002268/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2402,8 +2402,8 @@ const MANIFEST = [
   {
     "id": 150,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2418,8 +2418,8 @@ const MANIFEST = [
   {
     "id": 151,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2434,8 +2434,8 @@ const MANIFEST = [
   {
     "id": 152,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2450,8 +2450,8 @@ const MANIFEST = [
   {
     "id": 153,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2466,8 +2466,8 @@ const MANIFEST = [
   {
     "id": 154,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2482,8 +2482,8 @@ const MANIFEST = [
   {
     "id": 155,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2498,8 +2498,8 @@ const MANIFEST = [
   {
     "id": 156,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2514,8 +2514,8 @@ const MANIFEST = [
   {
     "id": 157,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2530,8 +2530,8 @@ const MANIFEST = [
   {
     "id": 158,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2546,8 +2546,8 @@ const MANIFEST = [
   {
     "id": 159,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2562,8 +2562,8 @@ const MANIFEST = [
   {
     "id": 160,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2578,8 +2578,8 @@ const MANIFEST = [
   {
     "id": 161,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2594,8 +2594,8 @@ const MANIFEST = [
   {
     "id": 162,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2610,8 +2610,8 @@ const MANIFEST = [
   {
     "id": 163,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2626,8 +2626,8 @@ const MANIFEST = [
   {
     "id": 164,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2642,8 +2642,8 @@ const MANIFEST = [
   {
     "id": 165,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2658,8 +2658,8 @@ const MANIFEST = [
   {
     "id": 166,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2674,8 +2674,8 @@ const MANIFEST = [
   {
     "id": 167,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2690,8 +2690,8 @@ const MANIFEST = [
   {
     "id": 168,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2706,8 +2706,8 @@ const MANIFEST = [
   {
     "id": 169,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2722,8 +2722,8 @@ const MANIFEST = [
   {
     "id": 170,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2738,8 +2738,8 @@ const MANIFEST = [
   {
     "id": 171,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2754,8 +2754,8 @@ const MANIFEST = [
   {
     "id": 172,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2770,8 +2770,8 @@ const MANIFEST = [
   {
     "id": 173,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2786,8 +2786,8 @@ const MANIFEST = [
   {
     "id": 174,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2802,8 +2802,8 @@ const MANIFEST = [
   {
     "id": 175,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2818,8 +2818,8 @@ const MANIFEST = [
   {
     "id": 176,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2834,8 +2834,8 @@ const MANIFEST = [
   {
     "id": 177,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2850,8 +2850,8 @@ const MANIFEST = [
   {
     "id": 178,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2866,8 +2866,8 @@ const MANIFEST = [
   {
     "id": 179,
     "image_id": "2007_002597",
-    "original_image": "full_data_two_animals/2007_002597/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_002597/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_002597/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -2882,8 +2882,8 @@ const MANIFEST = [
   {
     "id": 180,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -2898,8 +2898,8 @@ const MANIFEST = [
   {
     "id": 181,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -2914,8 +2914,8 @@ const MANIFEST = [
   {
     "id": 182,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -2930,8 +2930,8 @@ const MANIFEST = [
   {
     "id": 183,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -2946,8 +2946,8 @@ const MANIFEST = [
   {
     "id": 184,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -2962,8 +2962,8 @@ const MANIFEST = [
   {
     "id": 185,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -2978,8 +2978,8 @@ const MANIFEST = [
   {
     "id": 186,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -2994,8 +2994,8 @@ const MANIFEST = [
   {
     "id": 187,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3010,8 +3010,8 @@ const MANIFEST = [
   {
     "id": 188,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3026,8 +3026,8 @@ const MANIFEST = [
   {
     "id": 189,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3042,8 +3042,8 @@ const MANIFEST = [
   {
     "id": 190,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3058,8 +3058,8 @@ const MANIFEST = [
   {
     "id": 191,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3074,8 +3074,8 @@ const MANIFEST = [
   {
     "id": 192,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3090,8 +3090,8 @@ const MANIFEST = [
   {
     "id": 193,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3106,8 +3106,8 @@ const MANIFEST = [
   {
     "id": 194,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3122,8 +3122,8 @@ const MANIFEST = [
   {
     "id": 195,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3138,8 +3138,8 @@ const MANIFEST = [
   {
     "id": 196,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3154,8 +3154,8 @@ const MANIFEST = [
   {
     "id": 197,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3170,8 +3170,8 @@ const MANIFEST = [
   {
     "id": 198,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3186,8 +3186,8 @@ const MANIFEST = [
   {
     "id": 199,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3202,8 +3202,8 @@ const MANIFEST = [
   {
     "id": 200,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3218,8 +3218,8 @@ const MANIFEST = [
   {
     "id": 201,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3234,8 +3234,8 @@ const MANIFEST = [
   {
     "id": 202,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3250,8 +3250,8 @@ const MANIFEST = [
   {
     "id": 203,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3266,8 +3266,8 @@ const MANIFEST = [
   {
     "id": 204,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3282,8 +3282,8 @@ const MANIFEST = [
   {
     "id": 205,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3298,8 +3298,8 @@ const MANIFEST = [
   {
     "id": 206,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3314,8 +3314,8 @@ const MANIFEST = [
   {
     "id": 207,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3330,8 +3330,8 @@ const MANIFEST = [
   {
     "id": 208,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3346,8 +3346,8 @@ const MANIFEST = [
   {
     "id": 209,
     "image_id": "2007_004537",
-    "original_image": "full_data_two_animals/2007_004537/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_004537/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_004537/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -3362,8 +3362,8 @@ const MANIFEST = [
   {
     "id": 210,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_DAAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3378,8 +3378,8 @@ const MANIFEST = [
   {
     "id": 211,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_DAAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3394,8 +3394,8 @@ const MANIFEST = [
   {
     "id": 212,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_LeGrad/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3410,8 +3410,8 @@ const MANIFEST = [
   {
     "id": 213,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_LeGrad/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3426,8 +3426,8 @@ const MANIFEST = [
   {
     "id": 214,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3442,8 +3442,8 @@ const MANIFEST = [
   {
     "id": 215,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3458,8 +3458,8 @@ const MANIFEST = [
   {
     "id": 216,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_DAAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3474,8 +3474,8 @@ const MANIFEST = [
   {
     "id": 217,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_DAAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3490,8 +3490,8 @@ const MANIFEST = [
   {
     "id": 218,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3506,8 +3506,8 @@ const MANIFEST = [
   {
     "id": 219,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3522,8 +3522,8 @@ const MANIFEST = [
   {
     "id": 220,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3538,8 +3538,8 @@ const MANIFEST = [
   {
     "id": 221,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3554,8 +3554,8 @@ const MANIFEST = [
   {
     "id": 222,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3570,8 +3570,8 @@ const MANIFEST = [
   {
     "id": 223,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3586,8 +3586,8 @@ const MANIFEST = [
   {
     "id": 224,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3602,8 +3602,8 @@ const MANIFEST = [
   {
     "id": 225,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3618,8 +3618,8 @@ const MANIFEST = [
   {
     "id": 226,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_LeGrad/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3634,8 +3634,8 @@ const MANIFEST = [
   {
     "id": 227,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_LeGrad/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3650,8 +3650,8 @@ const MANIFEST = [
   {
     "id": 228,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_GradCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3666,8 +3666,8 @@ const MANIFEST = [
   {
     "id": 229,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_1_GradCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3682,8 +3682,8 @@ const MANIFEST = [
   {
     "id": 230,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3698,8 +3698,8 @@ const MANIFEST = [
   {
     "id": 231,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3714,8 +3714,8 @@ const MANIFEST = [
   {
     "id": 232,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_DAAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3730,8 +3730,8 @@ const MANIFEST = [
   {
     "id": 233,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_DAAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3746,8 +3746,8 @@ const MANIFEST = [
   {
     "id": 234,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3762,8 +3762,8 @@ const MANIFEST = [
   {
     "id": 235,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3778,8 +3778,8 @@ const MANIFEST = [
   {
     "id": 236,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_GradCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3794,8 +3794,8 @@ const MANIFEST = [
   {
     "id": 237,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_2_GradCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3810,8 +3810,8 @@ const MANIFEST = [
   {
     "id": 238,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3826,8 +3826,8 @@ const MANIFEST = [
   {
     "id": 239,
     "image_id": "2007_006944",
-    "original_image": "full_data_two_animals/2007_006944/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_006944/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_006944/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Horse",
       "Sheep",
@@ -3842,8 +3842,8 @@ const MANIFEST = [
   {
     "id": 240,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3858,8 +3858,8 @@ const MANIFEST = [
   {
     "id": 241,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3874,8 +3874,8 @@ const MANIFEST = [
   {
     "id": 242,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3890,8 +3890,8 @@ const MANIFEST = [
   {
     "id": 243,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3906,8 +3906,8 @@ const MANIFEST = [
   {
     "id": 244,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3922,8 +3922,8 @@ const MANIFEST = [
   {
     "id": 245,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3938,8 +3938,8 @@ const MANIFEST = [
   {
     "id": 246,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3954,8 +3954,8 @@ const MANIFEST = [
   {
     "id": 247,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3970,8 +3970,8 @@ const MANIFEST = [
   {
     "id": 248,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -3986,8 +3986,8 @@ const MANIFEST = [
   {
     "id": 249,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4002,8 +4002,8 @@ const MANIFEST = [
   {
     "id": 250,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4018,8 +4018,8 @@ const MANIFEST = [
   {
     "id": 251,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4034,8 +4034,8 @@ const MANIFEST = [
   {
     "id": 252,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4050,8 +4050,8 @@ const MANIFEST = [
   {
     "id": 253,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4066,8 +4066,8 @@ const MANIFEST = [
   {
     "id": 254,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4082,8 +4082,8 @@ const MANIFEST = [
   {
     "id": 255,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4098,8 +4098,8 @@ const MANIFEST = [
   {
     "id": 256,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4114,8 +4114,8 @@ const MANIFEST = [
   {
     "id": 257,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4130,8 +4130,8 @@ const MANIFEST = [
   {
     "id": 258,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4146,8 +4146,8 @@ const MANIFEST = [
   {
     "id": 259,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4162,8 +4162,8 @@ const MANIFEST = [
   {
     "id": 260,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4178,8 +4178,8 @@ const MANIFEST = [
   {
     "id": 261,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4194,8 +4194,8 @@ const MANIFEST = [
   {
     "id": 262,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4210,8 +4210,8 @@ const MANIFEST = [
   {
     "id": 263,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4226,8 +4226,8 @@ const MANIFEST = [
   {
     "id": 264,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4242,8 +4242,8 @@ const MANIFEST = [
   {
     "id": 265,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4258,8 +4258,8 @@ const MANIFEST = [
   {
     "id": 266,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4274,8 +4274,8 @@ const MANIFEST = [
   {
     "id": 267,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4290,8 +4290,8 @@ const MANIFEST = [
   {
     "id": 268,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4306,8 +4306,8 @@ const MANIFEST = [
   {
     "id": 269,
     "image_id": "2007_007417",
-    "original_image": "full_data_two_animals/2007_007417/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_007417/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_007417/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -4322,8 +4322,8 @@ const MANIFEST = [
   {
     "id": 270,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4338,8 +4338,8 @@ const MANIFEST = [
   {
     "id": 271,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4354,8 +4354,8 @@ const MANIFEST = [
   {
     "id": 272,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4370,8 +4370,8 @@ const MANIFEST = [
   {
     "id": 273,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4386,8 +4386,8 @@ const MANIFEST = [
   {
     "id": 274,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4402,8 +4402,8 @@ const MANIFEST = [
   {
     "id": 275,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4418,8 +4418,8 @@ const MANIFEST = [
   {
     "id": 276,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4434,8 +4434,8 @@ const MANIFEST = [
   {
     "id": 277,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4450,8 +4450,8 @@ const MANIFEST = [
   {
     "id": 278,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4466,8 +4466,8 @@ const MANIFEST = [
   {
     "id": 279,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4482,8 +4482,8 @@ const MANIFEST = [
   {
     "id": 280,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4498,8 +4498,8 @@ const MANIFEST = [
   {
     "id": 281,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4514,8 +4514,8 @@ const MANIFEST = [
   {
     "id": 282,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4530,8 +4530,8 @@ const MANIFEST = [
   {
     "id": 283,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4546,8 +4546,8 @@ const MANIFEST = [
   {
     "id": 284,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4562,8 +4562,8 @@ const MANIFEST = [
   {
     "id": 285,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4578,8 +4578,8 @@ const MANIFEST = [
   {
     "id": 286,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4594,8 +4594,8 @@ const MANIFEST = [
   {
     "id": 287,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4610,8 +4610,8 @@ const MANIFEST = [
   {
     "id": 288,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4626,8 +4626,8 @@ const MANIFEST = [
   {
     "id": 289,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4642,8 +4642,8 @@ const MANIFEST = [
   {
     "id": 290,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4658,8 +4658,8 @@ const MANIFEST = [
   {
     "id": 291,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4674,8 +4674,8 @@ const MANIFEST = [
   {
     "id": 292,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4690,8 +4690,8 @@ const MANIFEST = [
   {
     "id": 293,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4706,8 +4706,8 @@ const MANIFEST = [
   {
     "id": 294,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4722,8 +4722,8 @@ const MANIFEST = [
   {
     "id": 295,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4738,8 +4738,8 @@ const MANIFEST = [
   {
     "id": 296,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4754,8 +4754,8 @@ const MANIFEST = [
   {
     "id": 297,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4770,8 +4770,8 @@ const MANIFEST = [
   {
     "id": 298,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4786,8 +4786,8 @@ const MANIFEST = [
   {
     "id": 299,
     "image_id": "2007_009331",
-    "original_image": "full_data_two_animals/2007_009331/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2007_009331/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2007_009331/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -4802,8 +4802,8 @@ const MANIFEST = [
   {
     "id": 300,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4818,8 +4818,8 @@ const MANIFEST = [
   {
     "id": 301,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4834,8 +4834,8 @@ const MANIFEST = [
   {
     "id": 302,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4850,8 +4850,8 @@ const MANIFEST = [
   {
     "id": 303,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4866,8 +4866,8 @@ const MANIFEST = [
   {
     "id": 304,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4882,8 +4882,8 @@ const MANIFEST = [
   {
     "id": 305,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4898,8 +4898,8 @@ const MANIFEST = [
   {
     "id": 306,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4914,8 +4914,8 @@ const MANIFEST = [
   {
     "id": 307,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4930,8 +4930,8 @@ const MANIFEST = [
   {
     "id": 308,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4946,8 +4946,8 @@ const MANIFEST = [
   {
     "id": 309,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4962,8 +4962,8 @@ const MANIFEST = [
   {
     "id": 310,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4978,8 +4978,8 @@ const MANIFEST = [
   {
     "id": 311,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -4994,8 +4994,8 @@ const MANIFEST = [
   {
     "id": 312,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5010,8 +5010,8 @@ const MANIFEST = [
   {
     "id": 313,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5026,8 +5026,8 @@ const MANIFEST = [
   {
     "id": 314,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5042,8 +5042,8 @@ const MANIFEST = [
   {
     "id": 315,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5058,8 +5058,8 @@ const MANIFEST = [
   {
     "id": 316,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5074,8 +5074,8 @@ const MANIFEST = [
   {
     "id": 317,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5090,8 +5090,8 @@ const MANIFEST = [
   {
     "id": 318,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5106,8 +5106,8 @@ const MANIFEST = [
   {
     "id": 319,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5122,8 +5122,8 @@ const MANIFEST = [
   {
     "id": 320,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5138,8 +5138,8 @@ const MANIFEST = [
   {
     "id": 321,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5154,8 +5154,8 @@ const MANIFEST = [
   {
     "id": 322,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5170,8 +5170,8 @@ const MANIFEST = [
   {
     "id": 323,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5186,8 +5186,8 @@ const MANIFEST = [
   {
     "id": 324,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5202,8 +5202,8 @@ const MANIFEST = [
   {
     "id": 325,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5218,8 +5218,8 @@ const MANIFEST = [
   {
     "id": 326,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5234,8 +5234,8 @@ const MANIFEST = [
   {
     "id": 327,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5250,8 +5250,8 @@ const MANIFEST = [
   {
     "id": 328,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5266,8 +5266,8 @@ const MANIFEST = [
   {
     "id": 329,
     "image_id": "2008_002536",
-    "original_image": "full_data_two_animals/2008_002536/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2008_002536/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2008_002536/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5282,8 +5282,8 @@ const MANIFEST = [
   {
     "id": 330,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5298,8 +5298,8 @@ const MANIFEST = [
   {
     "id": 331,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5314,8 +5314,8 @@ const MANIFEST = [
   {
     "id": 332,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5330,8 +5330,8 @@ const MANIFEST = [
   {
     "id": 333,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5346,8 +5346,8 @@ const MANIFEST = [
   {
     "id": 334,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5362,8 +5362,8 @@ const MANIFEST = [
   {
     "id": 335,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5378,8 +5378,8 @@ const MANIFEST = [
   {
     "id": 336,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5394,8 +5394,8 @@ const MANIFEST = [
   {
     "id": 337,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5410,8 +5410,8 @@ const MANIFEST = [
   {
     "id": 338,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5426,8 +5426,8 @@ const MANIFEST = [
   {
     "id": 339,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5442,8 +5442,8 @@ const MANIFEST = [
   {
     "id": 340,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5458,8 +5458,8 @@ const MANIFEST = [
   {
     "id": 341,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5474,8 +5474,8 @@ const MANIFEST = [
   {
     "id": 342,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5490,8 +5490,8 @@ const MANIFEST = [
   {
     "id": 343,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5506,8 +5506,8 @@ const MANIFEST = [
   {
     "id": 344,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5522,8 +5522,8 @@ const MANIFEST = [
   {
     "id": 345,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5538,8 +5538,8 @@ const MANIFEST = [
   {
     "id": 346,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5554,8 +5554,8 @@ const MANIFEST = [
   {
     "id": 347,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5570,8 +5570,8 @@ const MANIFEST = [
   {
     "id": 348,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5586,8 +5586,8 @@ const MANIFEST = [
   {
     "id": 349,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5602,8 +5602,8 @@ const MANIFEST = [
   {
     "id": 350,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5618,8 +5618,8 @@ const MANIFEST = [
   {
     "id": 351,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5634,8 +5634,8 @@ const MANIFEST = [
   {
     "id": 352,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5650,8 +5650,8 @@ const MANIFEST = [
   {
     "id": 353,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5666,8 +5666,8 @@ const MANIFEST = [
   {
     "id": 354,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5682,8 +5682,8 @@ const MANIFEST = [
   {
     "id": 355,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5698,8 +5698,8 @@ const MANIFEST = [
   {
     "id": 356,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5714,8 +5714,8 @@ const MANIFEST = [
   {
     "id": 357,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5730,8 +5730,8 @@ const MANIFEST = [
   {
     "id": 358,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5746,8 +5746,8 @@ const MANIFEST = [
   {
     "id": 359,
     "image_id": "2010_002763",
-    "original_image": "full_data_two_animals/2010_002763/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_002763/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_002763/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Cow",
@@ -5762,8 +5762,8 @@ const MANIFEST = [
   {
     "id": 360,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5778,8 +5778,8 @@ const MANIFEST = [
   {
     "id": 361,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5794,8 +5794,8 @@ const MANIFEST = [
   {
     "id": 362,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5810,8 +5810,8 @@ const MANIFEST = [
   {
     "id": 363,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5826,8 +5826,8 @@ const MANIFEST = [
   {
     "id": 364,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5842,8 +5842,8 @@ const MANIFEST = [
   {
     "id": 365,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5858,8 +5858,8 @@ const MANIFEST = [
   {
     "id": 366,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5874,8 +5874,8 @@ const MANIFEST = [
   {
     "id": 367,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5890,8 +5890,8 @@ const MANIFEST = [
   {
     "id": 368,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5906,8 +5906,8 @@ const MANIFEST = [
   {
     "id": 369,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5922,8 +5922,8 @@ const MANIFEST = [
   {
     "id": 370,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5938,8 +5938,8 @@ const MANIFEST = [
   {
     "id": 371,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5954,8 +5954,8 @@ const MANIFEST = [
   {
     "id": 372,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5970,8 +5970,8 @@ const MANIFEST = [
   {
     "id": 373,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -5986,8 +5986,8 @@ const MANIFEST = [
   {
     "id": 374,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6002,8 +6002,8 @@ const MANIFEST = [
   {
     "id": 375,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6018,8 +6018,8 @@ const MANIFEST = [
   {
     "id": 376,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6034,8 +6034,8 @@ const MANIFEST = [
   {
     "id": 377,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6050,8 +6050,8 @@ const MANIFEST = [
   {
     "id": 378,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6066,8 +6066,8 @@ const MANIFEST = [
   {
     "id": 379,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6082,8 +6082,8 @@ const MANIFEST = [
   {
     "id": 380,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6098,8 +6098,8 @@ const MANIFEST = [
   {
     "id": 381,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6114,8 +6114,8 @@ const MANIFEST = [
   {
     "id": 382,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6130,8 +6130,8 @@ const MANIFEST = [
   {
     "id": 383,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6146,8 +6146,8 @@ const MANIFEST = [
   {
     "id": 384,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6162,8 +6162,8 @@ const MANIFEST = [
   {
     "id": 385,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6178,8 +6178,8 @@ const MANIFEST = [
   {
     "id": 386,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6194,8 +6194,8 @@ const MANIFEST = [
   {
     "id": 387,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6210,8 +6210,8 @@ const MANIFEST = [
   {
     "id": 388,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6226,8 +6226,8 @@ const MANIFEST = [
   {
     "id": 389,
     "image_id": "2010_003670",
-    "original_image": "full_data_two_animals/2010_003670/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_003670/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_003670/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -6242,8 +6242,8 @@ const MANIFEST = [
   {
     "id": 390,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6258,8 +6258,8 @@ const MANIFEST = [
   {
     "id": 391,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6274,8 +6274,8 @@ const MANIFEST = [
   {
     "id": 392,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6290,8 +6290,8 @@ const MANIFEST = [
   {
     "id": 393,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6306,8 +6306,8 @@ const MANIFEST = [
   {
     "id": 394,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6322,8 +6322,8 @@ const MANIFEST = [
   {
     "id": 395,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6338,8 +6338,8 @@ const MANIFEST = [
   {
     "id": 396,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6354,8 +6354,8 @@ const MANIFEST = [
   {
     "id": 397,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6370,8 +6370,8 @@ const MANIFEST = [
   {
     "id": 398,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6386,8 +6386,8 @@ const MANIFEST = [
   {
     "id": 399,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6402,8 +6402,8 @@ const MANIFEST = [
   {
     "id": 400,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6418,8 +6418,8 @@ const MANIFEST = [
   {
     "id": 401,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6434,8 +6434,8 @@ const MANIFEST = [
   {
     "id": 402,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6450,8 +6450,8 @@ const MANIFEST = [
   {
     "id": 403,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6466,8 +6466,8 @@ const MANIFEST = [
   {
     "id": 404,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6482,8 +6482,8 @@ const MANIFEST = [
   {
     "id": 405,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6498,8 +6498,8 @@ const MANIFEST = [
   {
     "id": 406,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6514,8 +6514,8 @@ const MANIFEST = [
   {
     "id": 407,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6530,8 +6530,8 @@ const MANIFEST = [
   {
     "id": 408,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6546,8 +6546,8 @@ const MANIFEST = [
   {
     "id": 409,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6562,8 +6562,8 @@ const MANIFEST = [
   {
     "id": 410,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6578,8 +6578,8 @@ const MANIFEST = [
   {
     "id": 411,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6594,8 +6594,8 @@ const MANIFEST = [
   {
     "id": 412,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6610,8 +6610,8 @@ const MANIFEST = [
   {
     "id": 413,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6626,8 +6626,8 @@ const MANIFEST = [
   {
     "id": 414,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6642,8 +6642,8 @@ const MANIFEST = [
   {
     "id": 415,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6658,8 +6658,8 @@ const MANIFEST = [
   {
     "id": 416,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6674,8 +6674,8 @@ const MANIFEST = [
   {
     "id": 417,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6690,8 +6690,8 @@ const MANIFEST = [
   {
     "id": 418,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6706,8 +6706,8 @@ const MANIFEST = [
   {
     "id": 419,
     "image_id": "2010_004760",
-    "original_image": "full_data_two_animals/2010_004760/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_004760/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_004760/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6722,8 +6722,8 @@ const MANIFEST = [
   {
     "id": 420,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6738,8 +6738,8 @@ const MANIFEST = [
   {
     "id": 421,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6754,8 +6754,8 @@ const MANIFEST = [
   {
     "id": 422,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6770,8 +6770,8 @@ const MANIFEST = [
   {
     "id": 423,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6786,8 +6786,8 @@ const MANIFEST = [
   {
     "id": 424,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6802,8 +6802,8 @@ const MANIFEST = [
   {
     "id": 425,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6818,8 +6818,8 @@ const MANIFEST = [
   {
     "id": 426,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6834,8 +6834,8 @@ const MANIFEST = [
   {
     "id": 427,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6850,8 +6850,8 @@ const MANIFEST = [
   {
     "id": 428,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6866,8 +6866,8 @@ const MANIFEST = [
   {
     "id": 429,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6882,8 +6882,8 @@ const MANIFEST = [
   {
     "id": 430,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6898,8 +6898,8 @@ const MANIFEST = [
   {
     "id": 431,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6914,8 +6914,8 @@ const MANIFEST = [
   {
     "id": 432,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6930,8 +6930,8 @@ const MANIFEST = [
   {
     "id": 433,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6946,8 +6946,8 @@ const MANIFEST = [
   {
     "id": 434,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6962,8 +6962,8 @@ const MANIFEST = [
   {
     "id": 435,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6978,8 +6978,8 @@ const MANIFEST = [
   {
     "id": 436,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -6994,8 +6994,8 @@ const MANIFEST = [
   {
     "id": 437,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7010,8 +7010,8 @@ const MANIFEST = [
   {
     "id": 438,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7026,8 +7026,8 @@ const MANIFEST = [
   {
     "id": 439,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7042,8 +7042,8 @@ const MANIFEST = [
   {
     "id": 440,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7058,8 +7058,8 @@ const MANIFEST = [
   {
     "id": 441,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7074,8 +7074,8 @@ const MANIFEST = [
   {
     "id": 442,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7090,8 +7090,8 @@ const MANIFEST = [
   {
     "id": 443,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7106,8 +7106,8 @@ const MANIFEST = [
   {
     "id": 444,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7122,8 +7122,8 @@ const MANIFEST = [
   {
     "id": 445,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7138,8 +7138,8 @@ const MANIFEST = [
   {
     "id": 446,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7154,8 +7154,8 @@ const MANIFEST = [
   {
     "id": 447,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7170,8 +7170,8 @@ const MANIFEST = [
   {
     "id": 448,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7186,8 +7186,8 @@ const MANIFEST = [
   {
     "id": 449,
     "image_id": "2010_005796",
-    "original_image": "full_data_two_animals/2010_005796/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2010_005796/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2010_005796/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -7202,8 +7202,8 @@ const MANIFEST = [
   {
     "id": 450,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7218,8 +7218,8 @@ const MANIFEST = [
   {
     "id": 451,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7234,8 +7234,8 @@ const MANIFEST = [
   {
     "id": 452,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7250,8 +7250,8 @@ const MANIFEST = [
   {
     "id": 453,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7266,8 +7266,8 @@ const MANIFEST = [
   {
     "id": 454,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7282,8 +7282,8 @@ const MANIFEST = [
   {
     "id": 455,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7298,8 +7298,8 @@ const MANIFEST = [
   {
     "id": 456,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7314,8 +7314,8 @@ const MANIFEST = [
   {
     "id": 457,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7330,8 +7330,8 @@ const MANIFEST = [
   {
     "id": 458,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7346,8 +7346,8 @@ const MANIFEST = [
   {
     "id": 459,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7362,8 +7362,8 @@ const MANIFEST = [
   {
     "id": 460,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7378,8 +7378,8 @@ const MANIFEST = [
   {
     "id": 461,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7394,8 +7394,8 @@ const MANIFEST = [
   {
     "id": 462,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7410,8 +7410,8 @@ const MANIFEST = [
   {
     "id": 463,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7426,8 +7426,8 @@ const MANIFEST = [
   {
     "id": 464,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7442,8 +7442,8 @@ const MANIFEST = [
   {
     "id": 465,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7458,8 +7458,8 @@ const MANIFEST = [
   {
     "id": 466,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7474,8 +7474,8 @@ const MANIFEST = [
   {
     "id": 467,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7490,8 +7490,8 @@ const MANIFEST = [
   {
     "id": 468,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7506,8 +7506,8 @@ const MANIFEST = [
   {
     "id": 469,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7522,8 +7522,8 @@ const MANIFEST = [
   {
     "id": 470,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7538,8 +7538,8 @@ const MANIFEST = [
   {
     "id": 471,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7554,8 +7554,8 @@ const MANIFEST = [
   {
     "id": 472,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7570,8 +7570,8 @@ const MANIFEST = [
   {
     "id": 473,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7586,8 +7586,8 @@ const MANIFEST = [
   {
     "id": 474,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7602,8 +7602,8 @@ const MANIFEST = [
   {
     "id": 475,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7618,8 +7618,8 @@ const MANIFEST = [
   {
     "id": 476,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7634,8 +7634,8 @@ const MANIFEST = [
   {
     "id": 477,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7650,8 +7650,8 @@ const MANIFEST = [
   {
     "id": 478,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7666,8 +7666,8 @@ const MANIFEST = [
   {
     "id": 479,
     "image_id": "2011_000219",
-    "original_image": "full_data_two_animals/2011_000219/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000219/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000219/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7682,8 +7682,8 @@ const MANIFEST = [
   {
     "id": 480,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7698,8 +7698,8 @@ const MANIFEST = [
   {
     "id": 481,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7714,8 +7714,8 @@ const MANIFEST = [
   {
     "id": 482,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7730,8 +7730,8 @@ const MANIFEST = [
   {
     "id": 483,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7746,8 +7746,8 @@ const MANIFEST = [
   {
     "id": 484,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7762,8 +7762,8 @@ const MANIFEST = [
   {
     "id": 485,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7778,8 +7778,8 @@ const MANIFEST = [
   {
     "id": 486,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7794,8 +7794,8 @@ const MANIFEST = [
   {
     "id": 487,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7810,8 +7810,8 @@ const MANIFEST = [
   {
     "id": 488,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7826,8 +7826,8 @@ const MANIFEST = [
   {
     "id": 489,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7842,8 +7842,8 @@ const MANIFEST = [
   {
     "id": 490,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7858,8 +7858,8 @@ const MANIFEST = [
   {
     "id": 491,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7874,8 +7874,8 @@ const MANIFEST = [
   {
     "id": 492,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7890,8 +7890,8 @@ const MANIFEST = [
   {
     "id": 493,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7906,8 +7906,8 @@ const MANIFEST = [
   {
     "id": 494,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7922,8 +7922,8 @@ const MANIFEST = [
   {
     "id": 495,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7938,8 +7938,8 @@ const MANIFEST = [
   {
     "id": 496,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7954,8 +7954,8 @@ const MANIFEST = [
   {
     "id": 497,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7970,8 +7970,8 @@ const MANIFEST = [
   {
     "id": 498,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -7986,8 +7986,8 @@ const MANIFEST = [
   {
     "id": 499,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8002,8 +8002,8 @@ const MANIFEST = [
   {
     "id": 500,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8018,8 +8018,8 @@ const MANIFEST = [
   {
     "id": 501,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8034,8 +8034,8 @@ const MANIFEST = [
   {
     "id": 502,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8050,8 +8050,8 @@ const MANIFEST = [
   {
     "id": 503,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8066,8 +8066,8 @@ const MANIFEST = [
   {
     "id": 504,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8082,8 +8082,8 @@ const MANIFEST = [
   {
     "id": 505,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8098,8 +8098,8 @@ const MANIFEST = [
   {
     "id": 506,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8114,8 +8114,8 @@ const MANIFEST = [
   {
     "id": 507,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8130,8 +8130,8 @@ const MANIFEST = [
   {
     "id": 508,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8146,8 +8146,8 @@ const MANIFEST = [
   {
     "id": 509,
     "image_id": "2011_000548",
-    "original_image": "full_data_two_animals/2011_000548/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000548/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000548/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -8162,8 +8162,8 @@ const MANIFEST = [
   {
     "id": 510,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8178,8 +8178,8 @@ const MANIFEST = [
   {
     "id": 511,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8194,8 +8194,8 @@ const MANIFEST = [
   {
     "id": 512,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8210,8 +8210,8 @@ const MANIFEST = [
   {
     "id": 513,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8226,8 +8226,8 @@ const MANIFEST = [
   {
     "id": 514,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8242,8 +8242,8 @@ const MANIFEST = [
   {
     "id": 515,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8258,8 +8258,8 @@ const MANIFEST = [
   {
     "id": 516,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8274,8 +8274,8 @@ const MANIFEST = [
   {
     "id": 517,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8290,8 +8290,8 @@ const MANIFEST = [
   {
     "id": 518,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8306,8 +8306,8 @@ const MANIFEST = [
   {
     "id": 519,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8322,8 +8322,8 @@ const MANIFEST = [
   {
     "id": 520,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8338,8 +8338,8 @@ const MANIFEST = [
   {
     "id": 521,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8354,8 +8354,8 @@ const MANIFEST = [
   {
     "id": 522,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8370,8 +8370,8 @@ const MANIFEST = [
   {
     "id": 523,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8386,8 +8386,8 @@ const MANIFEST = [
   {
     "id": 524,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8402,8 +8402,8 @@ const MANIFEST = [
   {
     "id": 525,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8418,8 +8418,8 @@ const MANIFEST = [
   {
     "id": 526,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8434,8 +8434,8 @@ const MANIFEST = [
   {
     "id": 527,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8450,8 +8450,8 @@ const MANIFEST = [
   {
     "id": 528,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8466,8 +8466,8 @@ const MANIFEST = [
   {
     "id": 529,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8482,8 +8482,8 @@ const MANIFEST = [
   {
     "id": 530,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8498,8 +8498,8 @@ const MANIFEST = [
   {
     "id": 531,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8514,8 +8514,8 @@ const MANIFEST = [
   {
     "id": 532,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8530,8 +8530,8 @@ const MANIFEST = [
   {
     "id": 533,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8546,8 +8546,8 @@ const MANIFEST = [
   {
     "id": 534,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8562,8 +8562,8 @@ const MANIFEST = [
   {
     "id": 535,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8578,8 +8578,8 @@ const MANIFEST = [
   {
     "id": 536,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8594,8 +8594,8 @@ const MANIFEST = [
   {
     "id": 537,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8610,8 +8610,8 @@ const MANIFEST = [
   {
     "id": 538,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8626,8 +8626,8 @@ const MANIFEST = [
   {
     "id": 539,
     "image_id": "2011_000834",
-    "original_image": "full_data_two_animals/2011_000834/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_000834/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_000834/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8642,8 +8642,8 @@ const MANIFEST = [
   {
     "id": 540,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8658,8 +8658,8 @@ const MANIFEST = [
   {
     "id": 541,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8674,8 +8674,8 @@ const MANIFEST = [
   {
     "id": 542,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8690,8 +8690,8 @@ const MANIFEST = [
   {
     "id": 543,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8706,8 +8706,8 @@ const MANIFEST = [
   {
     "id": 544,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8722,8 +8722,8 @@ const MANIFEST = [
   {
     "id": 545,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8738,8 +8738,8 @@ const MANIFEST = [
   {
     "id": 546,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8754,8 +8754,8 @@ const MANIFEST = [
   {
     "id": 547,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8770,8 +8770,8 @@ const MANIFEST = [
   {
     "id": 548,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8786,8 +8786,8 @@ const MANIFEST = [
   {
     "id": 549,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8802,8 +8802,8 @@ const MANIFEST = [
   {
     "id": 550,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8818,8 +8818,8 @@ const MANIFEST = [
   {
     "id": 551,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8834,8 +8834,8 @@ const MANIFEST = [
   {
     "id": 552,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8850,8 +8850,8 @@ const MANIFEST = [
   {
     "id": 553,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8866,8 +8866,8 @@ const MANIFEST = [
   {
     "id": 554,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8882,8 +8882,8 @@ const MANIFEST = [
   {
     "id": 555,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8898,8 +8898,8 @@ const MANIFEST = [
   {
     "id": 556,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8914,8 +8914,8 @@ const MANIFEST = [
   {
     "id": 557,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8930,8 +8930,8 @@ const MANIFEST = [
   {
     "id": 558,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8946,8 +8946,8 @@ const MANIFEST = [
   {
     "id": 559,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8962,8 +8962,8 @@ const MANIFEST = [
   {
     "id": 560,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8978,8 +8978,8 @@ const MANIFEST = [
   {
     "id": 561,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -8994,8 +8994,8 @@ const MANIFEST = [
   {
     "id": 562,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -9010,8 +9010,8 @@ const MANIFEST = [
   {
     "id": 563,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -9026,8 +9026,8 @@ const MANIFEST = [
   {
     "id": 564,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -9042,8 +9042,8 @@ const MANIFEST = [
   {
     "id": 565,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -9058,8 +9058,8 @@ const MANIFEST = [
   {
     "id": 566,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -9074,8 +9074,8 @@ const MANIFEST = [
   {
     "id": 567,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -9090,8 +9090,8 @@ const MANIFEST = [
   {
     "id": 568,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -9106,8 +9106,8 @@ const MANIFEST = [
   {
     "id": 569,
     "image_id": "2011_002464",
-    "original_image": "full_data_two_animals/2011_002464/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/2011_002464/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/2011_002464/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Sheep",
@@ -9122,8 +9122,8 @@ const MANIFEST = [
   {
     "id": 570,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9138,8 +9138,8 @@ const MANIFEST = [
   {
     "id": 571,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9154,8 +9154,8 @@ const MANIFEST = [
   {
     "id": 572,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9170,8 +9170,8 @@ const MANIFEST = [
   {
     "id": 573,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9186,8 +9186,8 @@ const MANIFEST = [
   {
     "id": 574,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9202,8 +9202,8 @@ const MANIFEST = [
   {
     "id": 575,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9218,8 +9218,8 @@ const MANIFEST = [
   {
     "id": 576,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9234,8 +9234,8 @@ const MANIFEST = [
   {
     "id": 577,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9250,8 +9250,8 @@ const MANIFEST = [
   {
     "id": 578,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9266,8 +9266,8 @@ const MANIFEST = [
   {
     "id": 579,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9282,8 +9282,8 @@ const MANIFEST = [
   {
     "id": 580,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9298,8 +9298,8 @@ const MANIFEST = [
   {
     "id": 581,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9314,8 +9314,8 @@ const MANIFEST = [
   {
     "id": 582,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9330,8 +9330,8 @@ const MANIFEST = [
   {
     "id": 583,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9346,8 +9346,8 @@ const MANIFEST = [
   {
     "id": 584,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9362,8 +9362,8 @@ const MANIFEST = [
   {
     "id": 585,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9378,8 +9378,8 @@ const MANIFEST = [
   {
     "id": 586,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9394,8 +9394,8 @@ const MANIFEST = [
   {
     "id": 587,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9410,8 +9410,8 @@ const MANIFEST = [
   {
     "id": 588,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9426,8 +9426,8 @@ const MANIFEST = [
   {
     "id": 589,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9442,8 +9442,8 @@ const MANIFEST = [
   {
     "id": 590,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9458,8 +9458,8 @@ const MANIFEST = [
   {
     "id": 591,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9474,8 +9474,8 @@ const MANIFEST = [
   {
     "id": 592,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9490,8 +9490,8 @@ const MANIFEST = [
   {
     "id": 593,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9506,8 +9506,8 @@ const MANIFEST = [
   {
     "id": 594,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9522,8 +9522,8 @@ const MANIFEST = [
   {
     "id": 595,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9538,8 +9538,8 @@ const MANIFEST = [
   {
     "id": 596,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9554,8 +9554,8 @@ const MANIFEST = [
   {
     "id": 597,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9570,8 +9570,8 @@ const MANIFEST = [
   {
     "id": 598,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9586,8 +9586,8 @@ const MANIFEST = [
   {
     "id": 599,
     "image_id": "000000129756",
-    "original_image": "full_data_two_animals/000000129756/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000129756/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000129756/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9602,8 +9602,8 @@ const MANIFEST = [
   {
     "id": 600,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9618,8 +9618,8 @@ const MANIFEST = [
   {
     "id": 601,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9634,8 +9634,8 @@ const MANIFEST = [
   {
     "id": 602,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9650,8 +9650,8 @@ const MANIFEST = [
   {
     "id": 603,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9666,8 +9666,8 @@ const MANIFEST = [
   {
     "id": 604,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9682,8 +9682,8 @@ const MANIFEST = [
   {
     "id": 605,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9698,8 +9698,8 @@ const MANIFEST = [
   {
     "id": 606,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9714,8 +9714,8 @@ const MANIFEST = [
   {
     "id": 607,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9730,8 +9730,8 @@ const MANIFEST = [
   {
     "id": 608,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9746,8 +9746,8 @@ const MANIFEST = [
   {
     "id": 609,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9762,8 +9762,8 @@ const MANIFEST = [
   {
     "id": 610,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9778,8 +9778,8 @@ const MANIFEST = [
   {
     "id": 611,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9794,8 +9794,8 @@ const MANIFEST = [
   {
     "id": 612,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9810,8 +9810,8 @@ const MANIFEST = [
   {
     "id": 613,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9826,8 +9826,8 @@ const MANIFEST = [
   {
     "id": 614,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9842,8 +9842,8 @@ const MANIFEST = [
   {
     "id": 615,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9858,8 +9858,8 @@ const MANIFEST = [
   {
     "id": 616,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9874,8 +9874,8 @@ const MANIFEST = [
   {
     "id": 617,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9890,8 +9890,8 @@ const MANIFEST = [
   {
     "id": 618,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9906,8 +9906,8 @@ const MANIFEST = [
   {
     "id": 619,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9922,8 +9922,8 @@ const MANIFEST = [
   {
     "id": 620,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9938,8 +9938,8 @@ const MANIFEST = [
   {
     "id": 621,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9954,8 +9954,8 @@ const MANIFEST = [
   {
     "id": 622,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9970,8 +9970,8 @@ const MANIFEST = [
   {
     "id": 623,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -9986,8 +9986,8 @@ const MANIFEST = [
   {
     "id": 624,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -10002,8 +10002,8 @@ const MANIFEST = [
   {
     "id": 625,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -10018,8 +10018,8 @@ const MANIFEST = [
   {
     "id": 626,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -10034,8 +10034,8 @@ const MANIFEST = [
   {
     "id": 627,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -10050,8 +10050,8 @@ const MANIFEST = [
   {
     "id": 628,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -10066,8 +10066,8 @@ const MANIFEST = [
   {
     "id": 629,
     "image_id": "000000225184",
-    "original_image": "full_data_two_animals/000000225184/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000225184/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000225184/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Sheep",
@@ -10082,8 +10082,8 @@ const MANIFEST = [
   {
     "id": 630,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10098,8 +10098,8 @@ const MANIFEST = [
   {
     "id": 631,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10114,8 +10114,8 @@ const MANIFEST = [
   {
     "id": 632,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10130,8 +10130,8 @@ const MANIFEST = [
   {
     "id": 633,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10146,8 +10146,8 @@ const MANIFEST = [
   {
     "id": 634,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10162,8 +10162,8 @@ const MANIFEST = [
   {
     "id": 635,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10178,8 +10178,8 @@ const MANIFEST = [
   {
     "id": 636,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10194,8 +10194,8 @@ const MANIFEST = [
   {
     "id": 637,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10210,8 +10210,8 @@ const MANIFEST = [
   {
     "id": 638,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10226,8 +10226,8 @@ const MANIFEST = [
   {
     "id": 639,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10242,8 +10242,8 @@ const MANIFEST = [
   {
     "id": 640,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10258,8 +10258,8 @@ const MANIFEST = [
   {
     "id": 641,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10274,8 +10274,8 @@ const MANIFEST = [
   {
     "id": 642,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10290,8 +10290,8 @@ const MANIFEST = [
   {
     "id": 643,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10306,8 +10306,8 @@ const MANIFEST = [
   {
     "id": 644,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10322,8 +10322,8 @@ const MANIFEST = [
   {
     "id": 645,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10338,8 +10338,8 @@ const MANIFEST = [
   {
     "id": 646,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10354,8 +10354,8 @@ const MANIFEST = [
   {
     "id": 647,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10370,8 +10370,8 @@ const MANIFEST = [
   {
     "id": 648,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10386,8 +10386,8 @@ const MANIFEST = [
   {
     "id": 649,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10402,8 +10402,8 @@ const MANIFEST = [
   {
     "id": 650,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10418,8 +10418,8 @@ const MANIFEST = [
   {
     "id": 651,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10434,8 +10434,8 @@ const MANIFEST = [
   {
     "id": 652,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10450,8 +10450,8 @@ const MANIFEST = [
   {
     "id": 653,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10466,8 +10466,8 @@ const MANIFEST = [
   {
     "id": 654,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10482,8 +10482,8 @@ const MANIFEST = [
   {
     "id": 655,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10498,8 +10498,8 @@ const MANIFEST = [
   {
     "id": 656,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10514,8 +10514,8 @@ const MANIFEST = [
   {
     "id": 657,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10530,8 +10530,8 @@ const MANIFEST = [
   {
     "id": 658,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10546,8 +10546,8 @@ const MANIFEST = [
   {
     "id": 659,
     "image_id": "000000046378",
-    "original_image": "full_data_two_animals/000000046378/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000046378/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000046378/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -10562,8 +10562,8 @@ const MANIFEST = [
   {
     "id": 660,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10578,8 +10578,8 @@ const MANIFEST = [
   {
     "id": 661,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10594,8 +10594,8 @@ const MANIFEST = [
   {
     "id": 662,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10610,8 +10610,8 @@ const MANIFEST = [
   {
     "id": 663,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10626,8 +10626,8 @@ const MANIFEST = [
   {
     "id": 664,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10642,8 +10642,8 @@ const MANIFEST = [
   {
     "id": 665,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10658,8 +10658,8 @@ const MANIFEST = [
   {
     "id": 666,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10674,8 +10674,8 @@ const MANIFEST = [
   {
     "id": 667,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10690,8 +10690,8 @@ const MANIFEST = [
   {
     "id": 668,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10706,8 +10706,8 @@ const MANIFEST = [
   {
     "id": 669,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10722,8 +10722,8 @@ const MANIFEST = [
   {
     "id": 670,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10738,8 +10738,8 @@ const MANIFEST = [
   {
     "id": 671,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10754,8 +10754,8 @@ const MANIFEST = [
   {
     "id": 672,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10770,8 +10770,8 @@ const MANIFEST = [
   {
     "id": 673,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10786,8 +10786,8 @@ const MANIFEST = [
   {
     "id": 674,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10802,8 +10802,8 @@ const MANIFEST = [
   {
     "id": 675,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10818,8 +10818,8 @@ const MANIFEST = [
   {
     "id": 676,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10834,8 +10834,8 @@ const MANIFEST = [
   {
     "id": 677,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10850,8 +10850,8 @@ const MANIFEST = [
   {
     "id": 678,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10866,8 +10866,8 @@ const MANIFEST = [
   {
     "id": 679,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_1_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10882,8 +10882,8 @@ const MANIFEST = [
   {
     "id": 680,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10898,8 +10898,8 @@ const MANIFEST = [
   {
     "id": 681,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10914,8 +10914,8 @@ const MANIFEST = [
   {
     "id": 682,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10930,8 +10930,8 @@ const MANIFEST = [
   {
     "id": 683,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10946,8 +10946,8 @@ const MANIFEST = [
   {
     "id": 684,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10962,8 +10962,8 @@ const MANIFEST = [
   {
     "id": 685,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10978,8 +10978,8 @@ const MANIFEST = [
   {
     "id": 686,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -10994,8 +10994,8 @@ const MANIFEST = [
   {
     "id": 687,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_2_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11010,8 +11010,8 @@ const MANIFEST = [
   {
     "id": 688,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11026,8 +11026,8 @@ const MANIFEST = [
   {
     "id": 689,
     "image_id": "000000064359",
-    "original_image": "full_data_two_animals/000000064359/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000064359/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000064359/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11042,8 +11042,8 @@ const MANIFEST = [
   {
     "id": 690,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11058,8 +11058,8 @@ const MANIFEST = [
   {
     "id": 691,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11074,8 +11074,8 @@ const MANIFEST = [
   {
     "id": 692,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11090,8 +11090,8 @@ const MANIFEST = [
   {
     "id": 693,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11106,8 +11106,8 @@ const MANIFEST = [
   {
     "id": 694,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11122,8 +11122,8 @@ const MANIFEST = [
   {
     "id": 695,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11138,8 +11138,8 @@ const MANIFEST = [
   {
     "id": 696,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11154,8 +11154,8 @@ const MANIFEST = [
   {
     "id": 697,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11170,8 +11170,8 @@ const MANIFEST = [
   {
     "id": 698,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11186,8 +11186,8 @@ const MANIFEST = [
   {
     "id": 699,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11202,8 +11202,8 @@ const MANIFEST = [
   {
     "id": 700,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11218,8 +11218,8 @@ const MANIFEST = [
   {
     "id": 701,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11234,8 +11234,8 @@ const MANIFEST = [
   {
     "id": 702,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11250,8 +11250,8 @@ const MANIFEST = [
   {
     "id": 703,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11266,8 +11266,8 @@ const MANIFEST = [
   {
     "id": 704,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11282,8 +11282,8 @@ const MANIFEST = [
   {
     "id": 705,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11298,8 +11298,8 @@ const MANIFEST = [
   {
     "id": 706,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11314,8 +11314,8 @@ const MANIFEST = [
   {
     "id": 707,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11330,8 +11330,8 @@ const MANIFEST = [
   {
     "id": 708,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11346,8 +11346,8 @@ const MANIFEST = [
   {
     "id": 709,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_1_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11362,8 +11362,8 @@ const MANIFEST = [
   {
     "id": 710,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11378,8 +11378,8 @@ const MANIFEST = [
   {
     "id": 711,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11394,8 +11394,8 @@ const MANIFEST = [
   {
     "id": 712,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11410,8 +11410,8 @@ const MANIFEST = [
   {
     "id": 713,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11426,8 +11426,8 @@ const MANIFEST = [
   {
     "id": 714,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11442,8 +11442,8 @@ const MANIFEST = [
   {
     "id": 715,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11458,8 +11458,8 @@ const MANIFEST = [
   {
     "id": 716,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11474,8 +11474,8 @@ const MANIFEST = [
   {
     "id": 717,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_2_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11490,8 +11490,8 @@ const MANIFEST = [
   {
     "id": 718,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11506,8 +11506,8 @@ const MANIFEST = [
   {
     "id": 719,
     "image_id": "000000433243",
-    "original_image": "full_data_two_animals/000000433243/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000433243/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000433243/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11522,8 +11522,8 @@ const MANIFEST = [
   {
     "id": 720,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11538,8 +11538,8 @@ const MANIFEST = [
   {
     "id": 721,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11554,8 +11554,8 @@ const MANIFEST = [
   {
     "id": 722,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11570,8 +11570,8 @@ const MANIFEST = [
   {
     "id": 723,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11586,8 +11586,8 @@ const MANIFEST = [
   {
     "id": 724,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11602,8 +11602,8 @@ const MANIFEST = [
   {
     "id": 725,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11618,8 +11618,8 @@ const MANIFEST = [
   {
     "id": 726,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11634,8 +11634,8 @@ const MANIFEST = [
   {
     "id": 727,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11650,8 +11650,8 @@ const MANIFEST = [
   {
     "id": 728,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11666,8 +11666,8 @@ const MANIFEST = [
   {
     "id": 729,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11682,8 +11682,8 @@ const MANIFEST = [
   {
     "id": 730,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11698,8 +11698,8 @@ const MANIFEST = [
   {
     "id": 731,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11714,8 +11714,8 @@ const MANIFEST = [
   {
     "id": 732,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11730,8 +11730,8 @@ const MANIFEST = [
   {
     "id": 733,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11746,8 +11746,8 @@ const MANIFEST = [
   {
     "id": 734,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11762,8 +11762,8 @@ const MANIFEST = [
   {
     "id": 735,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11778,8 +11778,8 @@ const MANIFEST = [
   {
     "id": 736,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11794,8 +11794,8 @@ const MANIFEST = [
   {
     "id": 737,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11810,8 +11810,8 @@ const MANIFEST = [
   {
     "id": 738,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11826,8 +11826,8 @@ const MANIFEST = [
   {
     "id": 739,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_1_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11842,8 +11842,8 @@ const MANIFEST = [
   {
     "id": 740,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11858,8 +11858,8 @@ const MANIFEST = [
   {
     "id": 741,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11874,8 +11874,8 @@ const MANIFEST = [
   {
     "id": 742,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11890,8 +11890,8 @@ const MANIFEST = [
   {
     "id": 743,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11906,8 +11906,8 @@ const MANIFEST = [
   {
     "id": 744,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11922,8 +11922,8 @@ const MANIFEST = [
   {
     "id": 745,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11938,8 +11938,8 @@ const MANIFEST = [
   {
     "id": 746,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11954,8 +11954,8 @@ const MANIFEST = [
   {
     "id": 747,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_2_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11970,8 +11970,8 @@ const MANIFEST = [
   {
     "id": 748,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -11986,8 +11986,8 @@ const MANIFEST = [
   {
     "id": 749,
     "image_id": "000000486046",
-    "original_image": "full_data_two_animals/000000486046/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000486046/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000486046/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -12002,8 +12002,8 @@ const MANIFEST = [
   {
     "id": 750,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12018,8 +12018,8 @@ const MANIFEST = [
   {
     "id": 751,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12034,8 +12034,8 @@ const MANIFEST = [
   {
     "id": 752,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12050,8 +12050,8 @@ const MANIFEST = [
   {
     "id": 753,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12066,8 +12066,8 @@ const MANIFEST = [
   {
     "id": 754,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12082,8 +12082,8 @@ const MANIFEST = [
   {
     "id": 755,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12098,8 +12098,8 @@ const MANIFEST = [
   {
     "id": 756,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12114,8 +12114,8 @@ const MANIFEST = [
   {
     "id": 757,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12130,8 +12130,8 @@ const MANIFEST = [
   {
     "id": 758,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12146,8 +12146,8 @@ const MANIFEST = [
   {
     "id": 759,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12162,8 +12162,8 @@ const MANIFEST = [
   {
     "id": 760,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12178,8 +12178,8 @@ const MANIFEST = [
   {
     "id": 761,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12194,8 +12194,8 @@ const MANIFEST = [
   {
     "id": 762,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12210,8 +12210,8 @@ const MANIFEST = [
   {
     "id": 763,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12226,8 +12226,8 @@ const MANIFEST = [
   {
     "id": 764,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12242,8 +12242,8 @@ const MANIFEST = [
   {
     "id": 765,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12258,8 +12258,8 @@ const MANIFEST = [
   {
     "id": 766,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12274,8 +12274,8 @@ const MANIFEST = [
   {
     "id": 767,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12290,8 +12290,8 @@ const MANIFEST = [
   {
     "id": 768,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12306,8 +12306,8 @@ const MANIFEST = [
   {
     "id": 769,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12322,8 +12322,8 @@ const MANIFEST = [
   {
     "id": 770,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12338,8 +12338,8 @@ const MANIFEST = [
   {
     "id": 771,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12354,8 +12354,8 @@ const MANIFEST = [
   {
     "id": 772,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12370,8 +12370,8 @@ const MANIFEST = [
   {
     "id": 773,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12386,8 +12386,8 @@ const MANIFEST = [
   {
     "id": 774,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12402,8 +12402,8 @@ const MANIFEST = [
   {
     "id": 775,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12418,8 +12418,8 @@ const MANIFEST = [
   {
     "id": 776,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12434,8 +12434,8 @@ const MANIFEST = [
   {
     "id": 777,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12450,8 +12450,8 @@ const MANIFEST = [
   {
     "id": 778,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12466,8 +12466,8 @@ const MANIFEST = [
   {
     "id": 779,
     "image_id": "000000079229",
-    "original_image": "full_data_two_animals/000000079229/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000079229/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000079229/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -12482,8 +12482,8 @@ const MANIFEST = [
   {
     "id": 780,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12498,8 +12498,8 @@ const MANIFEST = [
   {
     "id": 781,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12514,8 +12514,8 @@ const MANIFEST = [
   {
     "id": 782,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12530,8 +12530,8 @@ const MANIFEST = [
   {
     "id": 783,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12546,8 +12546,8 @@ const MANIFEST = [
   {
     "id": 784,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12562,8 +12562,8 @@ const MANIFEST = [
   {
     "id": 785,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12578,8 +12578,8 @@ const MANIFEST = [
   {
     "id": 786,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12594,8 +12594,8 @@ const MANIFEST = [
   {
     "id": 787,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12610,8 +12610,8 @@ const MANIFEST = [
   {
     "id": 788,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12626,8 +12626,8 @@ const MANIFEST = [
   {
     "id": 789,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12642,8 +12642,8 @@ const MANIFEST = [
   {
     "id": 790,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12658,8 +12658,8 @@ const MANIFEST = [
   {
     "id": 791,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12674,8 +12674,8 @@ const MANIFEST = [
   {
     "id": 792,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12690,8 +12690,8 @@ const MANIFEST = [
   {
     "id": 793,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12706,8 +12706,8 @@ const MANIFEST = [
   {
     "id": 794,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12722,8 +12722,8 @@ const MANIFEST = [
   {
     "id": 795,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12738,8 +12738,8 @@ const MANIFEST = [
   {
     "id": 796,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12754,8 +12754,8 @@ const MANIFEST = [
   {
     "id": 797,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12770,8 +12770,8 @@ const MANIFEST = [
   {
     "id": 798,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12786,8 +12786,8 @@ const MANIFEST = [
   {
     "id": 799,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12802,8 +12802,8 @@ const MANIFEST = [
   {
     "id": 800,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12818,8 +12818,8 @@ const MANIFEST = [
   {
     "id": 801,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12834,8 +12834,8 @@ const MANIFEST = [
   {
     "id": 802,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12850,8 +12850,8 @@ const MANIFEST = [
   {
     "id": 803,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12866,8 +12866,8 @@ const MANIFEST = [
   {
     "id": 804,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12882,8 +12882,8 @@ const MANIFEST = [
   {
     "id": 805,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12898,8 +12898,8 @@ const MANIFEST = [
   {
     "id": 806,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12914,8 +12914,8 @@ const MANIFEST = [
   {
     "id": 807,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12930,8 +12930,8 @@ const MANIFEST = [
   {
     "id": 808,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12946,8 +12946,8 @@ const MANIFEST = [
   {
     "id": 809,
     "image_id": "000000219578",
-    "original_image": "full_data_two_animals/000000219578/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000219578/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000219578/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12962,8 +12962,8 @@ const MANIFEST = [
   {
     "id": 810,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12978,8 +12978,8 @@ const MANIFEST = [
   {
     "id": 811,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -12994,8 +12994,8 @@ const MANIFEST = [
   {
     "id": 812,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13010,8 +13010,8 @@ const MANIFEST = [
   {
     "id": 813,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13026,8 +13026,8 @@ const MANIFEST = [
   {
     "id": 814,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13042,8 +13042,8 @@ const MANIFEST = [
   {
     "id": 815,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13058,8 +13058,8 @@ const MANIFEST = [
   {
     "id": 816,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13074,8 +13074,8 @@ const MANIFEST = [
   {
     "id": 817,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13090,8 +13090,8 @@ const MANIFEST = [
   {
     "id": 818,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13106,8 +13106,8 @@ const MANIFEST = [
   {
     "id": 819,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13122,8 +13122,8 @@ const MANIFEST = [
   {
     "id": 820,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13138,8 +13138,8 @@ const MANIFEST = [
   {
     "id": 821,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13154,8 +13154,8 @@ const MANIFEST = [
   {
     "id": 822,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13170,8 +13170,8 @@ const MANIFEST = [
   {
     "id": 823,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13186,8 +13186,8 @@ const MANIFEST = [
   {
     "id": 824,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13202,8 +13202,8 @@ const MANIFEST = [
   {
     "id": 825,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13218,8 +13218,8 @@ const MANIFEST = [
   {
     "id": 826,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13234,8 +13234,8 @@ const MANIFEST = [
   {
     "id": 827,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13250,8 +13250,8 @@ const MANIFEST = [
   {
     "id": 828,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13266,8 +13266,8 @@ const MANIFEST = [
   {
     "id": 829,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13282,8 +13282,8 @@ const MANIFEST = [
   {
     "id": 830,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13298,8 +13298,8 @@ const MANIFEST = [
   {
     "id": 831,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13314,8 +13314,8 @@ const MANIFEST = [
   {
     "id": 832,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13330,8 +13330,8 @@ const MANIFEST = [
   {
     "id": 833,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13346,8 +13346,8 @@ const MANIFEST = [
   {
     "id": 834,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13362,8 +13362,8 @@ const MANIFEST = [
   {
     "id": 835,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13378,8 +13378,8 @@ const MANIFEST = [
   {
     "id": 836,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13394,8 +13394,8 @@ const MANIFEST = [
   {
     "id": 837,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13410,8 +13410,8 @@ const MANIFEST = [
   {
     "id": 838,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13426,8 +13426,8 @@ const MANIFEST = [
   {
     "id": 839,
     "image_id": "000000241326",
-    "original_image": "full_data_two_animals/000000241326/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000241326/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000241326/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13442,8 +13442,8 @@ const MANIFEST = [
   {
     "id": 840,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13458,8 +13458,8 @@ const MANIFEST = [
   {
     "id": 841,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13474,8 +13474,8 @@ const MANIFEST = [
   {
     "id": 842,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13490,8 +13490,8 @@ const MANIFEST = [
   {
     "id": 843,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13506,8 +13506,8 @@ const MANIFEST = [
   {
     "id": 844,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13522,8 +13522,8 @@ const MANIFEST = [
   {
     "id": 845,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13538,8 +13538,8 @@ const MANIFEST = [
   {
     "id": 846,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13554,8 +13554,8 @@ const MANIFEST = [
   {
     "id": 847,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13570,8 +13570,8 @@ const MANIFEST = [
   {
     "id": 848,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13586,8 +13586,8 @@ const MANIFEST = [
   {
     "id": 849,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13602,8 +13602,8 @@ const MANIFEST = [
   {
     "id": 850,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13618,8 +13618,8 @@ const MANIFEST = [
   {
     "id": 851,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13634,8 +13634,8 @@ const MANIFEST = [
   {
     "id": 852,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13650,8 +13650,8 @@ const MANIFEST = [
   {
     "id": 853,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13666,8 +13666,8 @@ const MANIFEST = [
   {
     "id": 854,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13682,8 +13682,8 @@ const MANIFEST = [
   {
     "id": 855,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13698,8 +13698,8 @@ const MANIFEST = [
   {
     "id": 856,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13714,8 +13714,8 @@ const MANIFEST = [
   {
     "id": 857,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13730,8 +13730,8 @@ const MANIFEST = [
   {
     "id": 858,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13746,8 +13746,8 @@ const MANIFEST = [
   {
     "id": 859,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13762,8 +13762,8 @@ const MANIFEST = [
   {
     "id": 860,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13778,8 +13778,8 @@ const MANIFEST = [
   {
     "id": 861,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13794,8 +13794,8 @@ const MANIFEST = [
   {
     "id": 862,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13810,8 +13810,8 @@ const MANIFEST = [
   {
     "id": 863,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13826,8 +13826,8 @@ const MANIFEST = [
   {
     "id": 864,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13842,8 +13842,8 @@ const MANIFEST = [
   {
     "id": 865,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13858,8 +13858,8 @@ const MANIFEST = [
   {
     "id": 866,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13874,8 +13874,8 @@ const MANIFEST = [
   {
     "id": 867,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13890,8 +13890,8 @@ const MANIFEST = [
   {
     "id": 868,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13906,8 +13906,8 @@ const MANIFEST = [
   {
     "id": 869,
     "image_id": "000000189806",
-    "original_image": "full_data_two_animals/000000189806/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000189806/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000189806/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -13922,8 +13922,8 @@ const MANIFEST = [
   {
     "id": 870,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -13938,8 +13938,8 @@ const MANIFEST = [
   {
     "id": 871,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -13954,8 +13954,8 @@ const MANIFEST = [
   {
     "id": 872,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -13970,8 +13970,8 @@ const MANIFEST = [
   {
     "id": 873,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -13986,8 +13986,8 @@ const MANIFEST = [
   {
     "id": 874,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14002,8 +14002,8 @@ const MANIFEST = [
   {
     "id": 875,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14018,8 +14018,8 @@ const MANIFEST = [
   {
     "id": 876,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14034,8 +14034,8 @@ const MANIFEST = [
   {
     "id": 877,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14050,8 +14050,8 @@ const MANIFEST = [
   {
     "id": 878,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14066,8 +14066,8 @@ const MANIFEST = [
   {
     "id": 879,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14082,8 +14082,8 @@ const MANIFEST = [
   {
     "id": 880,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14098,8 +14098,8 @@ const MANIFEST = [
   {
     "id": 881,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14114,8 +14114,8 @@ const MANIFEST = [
   {
     "id": 882,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14130,8 +14130,8 @@ const MANIFEST = [
   {
     "id": 883,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14146,8 +14146,8 @@ const MANIFEST = [
   {
     "id": 884,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14162,8 +14162,8 @@ const MANIFEST = [
   {
     "id": 885,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14178,8 +14178,8 @@ const MANIFEST = [
   {
     "id": 886,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14194,8 +14194,8 @@ const MANIFEST = [
   {
     "id": 887,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14210,8 +14210,8 @@ const MANIFEST = [
   {
     "id": 888,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14226,8 +14226,8 @@ const MANIFEST = [
   {
     "id": 889,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14242,8 +14242,8 @@ const MANIFEST = [
   {
     "id": 890,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14258,8 +14258,8 @@ const MANIFEST = [
   {
     "id": 891,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14274,8 +14274,8 @@ const MANIFEST = [
   {
     "id": 892,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14290,8 +14290,8 @@ const MANIFEST = [
   {
     "id": 893,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14306,8 +14306,8 @@ const MANIFEST = [
   {
     "id": 894,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14322,8 +14322,8 @@ const MANIFEST = [
   {
     "id": 895,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14338,8 +14338,8 @@ const MANIFEST = [
   {
     "id": 896,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14354,8 +14354,8 @@ const MANIFEST = [
   {
     "id": 897,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14370,8 +14370,8 @@ const MANIFEST = [
   {
     "id": 898,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14386,8 +14386,8 @@ const MANIFEST = [
   {
     "id": 899,
     "image_id": "000000117374",
-    "original_image": "full_data_two_animals/000000117374/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000117374/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000117374/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cat",
@@ -14402,8 +14402,8 @@ const MANIFEST = [
   {
     "id": 900,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14418,8 +14418,8 @@ const MANIFEST = [
   {
     "id": 901,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14434,8 +14434,8 @@ const MANIFEST = [
   {
     "id": 902,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14450,8 +14450,8 @@ const MANIFEST = [
   {
     "id": 903,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14466,8 +14466,8 @@ const MANIFEST = [
   {
     "id": 904,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14482,8 +14482,8 @@ const MANIFEST = [
   {
     "id": 905,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14498,8 +14498,8 @@ const MANIFEST = [
   {
     "id": 906,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14514,8 +14514,8 @@ const MANIFEST = [
   {
     "id": 907,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14530,8 +14530,8 @@ const MANIFEST = [
   {
     "id": 908,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14546,8 +14546,8 @@ const MANIFEST = [
   {
     "id": 909,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14562,8 +14562,8 @@ const MANIFEST = [
   {
     "id": 910,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14578,8 +14578,8 @@ const MANIFEST = [
   {
     "id": 911,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14594,8 +14594,8 @@ const MANIFEST = [
   {
     "id": 912,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14610,8 +14610,8 @@ const MANIFEST = [
   {
     "id": 913,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14626,8 +14626,8 @@ const MANIFEST = [
   {
     "id": 914,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14642,8 +14642,8 @@ const MANIFEST = [
   {
     "id": 915,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14658,8 +14658,8 @@ const MANIFEST = [
   {
     "id": 916,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14674,8 +14674,8 @@ const MANIFEST = [
   {
     "id": 917,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14690,8 +14690,8 @@ const MANIFEST = [
   {
     "id": 918,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14706,8 +14706,8 @@ const MANIFEST = [
   {
     "id": 919,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14722,8 +14722,8 @@ const MANIFEST = [
   {
     "id": 920,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14738,8 +14738,8 @@ const MANIFEST = [
   {
     "id": 921,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14754,8 +14754,8 @@ const MANIFEST = [
   {
     "id": 922,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14770,8 +14770,8 @@ const MANIFEST = [
   {
     "id": 923,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14786,8 +14786,8 @@ const MANIFEST = [
   {
     "id": 924,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14802,8 +14802,8 @@ const MANIFEST = [
   {
     "id": 925,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14818,8 +14818,8 @@ const MANIFEST = [
   {
     "id": 926,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14834,8 +14834,8 @@ const MANIFEST = [
   {
     "id": 927,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14850,8 +14850,8 @@ const MANIFEST = [
   {
     "id": 928,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14866,8 +14866,8 @@ const MANIFEST = [
   {
     "id": 929,
     "image_id": "000000061171",
-    "original_image": "full_data_two_animals/000000061171/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000061171/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000061171/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Horse",
@@ -14882,8 +14882,8 @@ const MANIFEST = [
   {
     "id": 930,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -14898,8 +14898,8 @@ const MANIFEST = [
   {
     "id": 931,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -14914,8 +14914,8 @@ const MANIFEST = [
   {
     "id": 932,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -14930,8 +14930,8 @@ const MANIFEST = [
   {
     "id": 933,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -14946,8 +14946,8 @@ const MANIFEST = [
   {
     "id": 934,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -14962,8 +14962,8 @@ const MANIFEST = [
   {
     "id": 935,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -14978,8 +14978,8 @@ const MANIFEST = [
   {
     "id": 936,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -14994,8 +14994,8 @@ const MANIFEST = [
   {
     "id": 937,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15010,8 +15010,8 @@ const MANIFEST = [
   {
     "id": 938,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15026,8 +15026,8 @@ const MANIFEST = [
   {
     "id": 939,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15042,8 +15042,8 @@ const MANIFEST = [
   {
     "id": 940,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15058,8 +15058,8 @@ const MANIFEST = [
   {
     "id": 941,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15074,8 +15074,8 @@ const MANIFEST = [
   {
     "id": 942,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15090,8 +15090,8 @@ const MANIFEST = [
   {
     "id": 943,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15106,8 +15106,8 @@ const MANIFEST = [
   {
     "id": 944,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15122,8 +15122,8 @@ const MANIFEST = [
   {
     "id": 945,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15138,8 +15138,8 @@ const MANIFEST = [
   {
     "id": 946,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15154,8 +15154,8 @@ const MANIFEST = [
   {
     "id": 947,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15170,8 +15170,8 @@ const MANIFEST = [
   {
     "id": 948,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15186,8 +15186,8 @@ const MANIFEST = [
   {
     "id": 949,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15202,8 +15202,8 @@ const MANIFEST = [
   {
     "id": 950,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15218,8 +15218,8 @@ const MANIFEST = [
   {
     "id": 951,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15234,8 +15234,8 @@ const MANIFEST = [
   {
     "id": 952,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15250,8 +15250,8 @@ const MANIFEST = [
   {
     "id": 953,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15266,8 +15266,8 @@ const MANIFEST = [
   {
     "id": 954,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15282,8 +15282,8 @@ const MANIFEST = [
   {
     "id": 955,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15298,8 +15298,8 @@ const MANIFEST = [
   {
     "id": 956,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15314,8 +15314,8 @@ const MANIFEST = [
   {
     "id": 957,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15330,8 +15330,8 @@ const MANIFEST = [
   {
     "id": 958,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15346,8 +15346,8 @@ const MANIFEST = [
   {
     "id": 959,
     "image_id": "000000401991",
-    "original_image": "full_data_two_animals/000000401991/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000401991/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000401991/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15362,8 +15362,8 @@ const MANIFEST = [
   {
     "id": 960,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15378,8 +15378,8 @@ const MANIFEST = [
   {
     "id": 961,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15394,8 +15394,8 @@ const MANIFEST = [
   {
     "id": 962,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15410,8 +15410,8 @@ const MANIFEST = [
   {
     "id": 963,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15426,8 +15426,8 @@ const MANIFEST = [
   {
     "id": 964,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15442,8 +15442,8 @@ const MANIFEST = [
   {
     "id": 965,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15458,8 +15458,8 @@ const MANIFEST = [
   {
     "id": 966,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15474,8 +15474,8 @@ const MANIFEST = [
   {
     "id": 967,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15490,8 +15490,8 @@ const MANIFEST = [
   {
     "id": 968,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15506,8 +15506,8 @@ const MANIFEST = [
   {
     "id": 969,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15522,8 +15522,8 @@ const MANIFEST = [
   {
     "id": 970,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15538,8 +15538,8 @@ const MANIFEST = [
   {
     "id": 971,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15554,8 +15554,8 @@ const MANIFEST = [
   {
     "id": 972,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15570,8 +15570,8 @@ const MANIFEST = [
   {
     "id": 973,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15586,8 +15586,8 @@ const MANIFEST = [
   {
     "id": 974,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15602,8 +15602,8 @@ const MANIFEST = [
   {
     "id": 975,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15618,8 +15618,8 @@ const MANIFEST = [
   {
     "id": 976,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15634,8 +15634,8 @@ const MANIFEST = [
   {
     "id": 977,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15650,8 +15650,8 @@ const MANIFEST = [
   {
     "id": 978,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15666,8 +15666,8 @@ const MANIFEST = [
   {
     "id": 979,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15682,8 +15682,8 @@ const MANIFEST = [
   {
     "id": 980,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15698,8 +15698,8 @@ const MANIFEST = [
   {
     "id": 981,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15714,8 +15714,8 @@ const MANIFEST = [
   {
     "id": 982,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15730,8 +15730,8 @@ const MANIFEST = [
   {
     "id": 983,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15746,8 +15746,8 @@ const MANIFEST = [
   {
     "id": 984,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15762,8 +15762,8 @@ const MANIFEST = [
   {
     "id": 985,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15778,8 +15778,8 @@ const MANIFEST = [
   {
     "id": 986,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15794,8 +15794,8 @@ const MANIFEST = [
   {
     "id": 987,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15810,8 +15810,8 @@ const MANIFEST = [
   {
     "id": 988,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15826,8 +15826,8 @@ const MANIFEST = [
   {
     "id": 989,
     "image_id": "000000049269",
-    "original_image": "full_data_two_animals/000000049269/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049269/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049269/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Horse",
@@ -15842,8 +15842,8 @@ const MANIFEST = [
   {
     "id": 990,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15858,8 +15858,8 @@ const MANIFEST = [
   {
     "id": 991,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15874,8 +15874,8 @@ const MANIFEST = [
   {
     "id": 992,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15890,8 +15890,8 @@ const MANIFEST = [
   {
     "id": 993,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15906,8 +15906,8 @@ const MANIFEST = [
   {
     "id": 994,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15922,8 +15922,8 @@ const MANIFEST = [
   {
     "id": 995,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15938,8 +15938,8 @@ const MANIFEST = [
   {
     "id": 996,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15954,8 +15954,8 @@ const MANIFEST = [
   {
     "id": 997,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15970,8 +15970,8 @@ const MANIFEST = [
   {
     "id": 998,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -15986,8 +15986,8 @@ const MANIFEST = [
   {
     "id": 999,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16002,8 +16002,8 @@ const MANIFEST = [
   {
     "id": 1000,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16018,8 +16018,8 @@ const MANIFEST = [
   {
     "id": 1001,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16034,8 +16034,8 @@ const MANIFEST = [
   {
     "id": 1002,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16050,8 +16050,8 @@ const MANIFEST = [
   {
     "id": 1003,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16066,8 +16066,8 @@ const MANIFEST = [
   {
     "id": 1004,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16082,8 +16082,8 @@ const MANIFEST = [
   {
     "id": 1005,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16098,8 +16098,8 @@ const MANIFEST = [
   {
     "id": 1006,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16114,8 +16114,8 @@ const MANIFEST = [
   {
     "id": 1007,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16130,8 +16130,8 @@ const MANIFEST = [
   {
     "id": 1008,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16146,8 +16146,8 @@ const MANIFEST = [
   {
     "id": 1009,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16162,8 +16162,8 @@ const MANIFEST = [
   {
     "id": 1010,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16178,8 +16178,8 @@ const MANIFEST = [
   {
     "id": 1011,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16194,8 +16194,8 @@ const MANIFEST = [
   {
     "id": 1012,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16210,8 +16210,8 @@ const MANIFEST = [
   {
     "id": 1013,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16226,8 +16226,8 @@ const MANIFEST = [
   {
     "id": 1014,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16242,8 +16242,8 @@ const MANIFEST = [
   {
     "id": 1015,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16258,8 +16258,8 @@ const MANIFEST = [
   {
     "id": 1016,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16274,8 +16274,8 @@ const MANIFEST = [
   {
     "id": 1017,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16290,8 +16290,8 @@ const MANIFEST = [
   {
     "id": 1018,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16306,8 +16306,8 @@ const MANIFEST = [
   {
     "id": 1019,
     "image_id": "000000071226",
-    "original_image": "full_data_two_animals/000000071226/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000071226/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000071226/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -16322,8 +16322,8 @@ const MANIFEST = [
   {
     "id": 1020,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16338,8 +16338,8 @@ const MANIFEST = [
   {
     "id": 1021,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16354,8 +16354,8 @@ const MANIFEST = [
   {
     "id": 1022,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16370,8 +16370,8 @@ const MANIFEST = [
   {
     "id": 1023,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16386,8 +16386,8 @@ const MANIFEST = [
   {
     "id": 1024,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16402,8 +16402,8 @@ const MANIFEST = [
   {
     "id": 1025,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16418,8 +16418,8 @@ const MANIFEST = [
   {
     "id": 1026,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16434,8 +16434,8 @@ const MANIFEST = [
   {
     "id": 1027,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16450,8 +16450,8 @@ const MANIFEST = [
   {
     "id": 1028,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16466,8 +16466,8 @@ const MANIFEST = [
   {
     "id": 1029,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16482,8 +16482,8 @@ const MANIFEST = [
   {
     "id": 1030,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16498,8 +16498,8 @@ const MANIFEST = [
   {
     "id": 1031,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16514,8 +16514,8 @@ const MANIFEST = [
   {
     "id": 1032,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16530,8 +16530,8 @@ const MANIFEST = [
   {
     "id": 1033,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16546,8 +16546,8 @@ const MANIFEST = [
   {
     "id": 1034,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16562,8 +16562,8 @@ const MANIFEST = [
   {
     "id": 1035,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16578,8 +16578,8 @@ const MANIFEST = [
   {
     "id": 1036,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_LeGrad/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16594,8 +16594,8 @@ const MANIFEST = [
   {
     "id": 1037,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_LeGrad/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16610,8 +16610,8 @@ const MANIFEST = [
   {
     "id": 1038,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16626,8 +16626,8 @@ const MANIFEST = [
   {
     "id": 1039,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_1_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16642,8 +16642,8 @@ const MANIFEST = [
   {
     "id": 1040,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16658,8 +16658,8 @@ const MANIFEST = [
   {
     "id": 1041,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16674,8 +16674,8 @@ const MANIFEST = [
   {
     "id": 1042,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_DAAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16690,8 +16690,8 @@ const MANIFEST = [
   {
     "id": 1043,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_DAAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16706,8 +16706,8 @@ const MANIFEST = [
   {
     "id": 1044,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16722,8 +16722,8 @@ const MANIFEST = [
   {
     "id": 1045,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16738,8 +16738,8 @@ const MANIFEST = [
   {
     "id": 1046,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_GradCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16754,8 +16754,8 @@ const MANIFEST = [
   {
     "id": 1047,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_2_GradCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16770,8 +16770,8 @@ const MANIFEST = [
   {
     "id": 1048,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16786,8 +16786,8 @@ const MANIFEST = [
   {
     "id": 1049,
     "image_id": "000000237864",
-    "original_image": "full_data_two_animals/000000237864/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000237864/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000237864/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Dog",
       "Elephant",
@@ -16802,8 +16802,8 @@ const MANIFEST = [
   {
     "id": 1050,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16818,8 +16818,8 @@ const MANIFEST = [
   {
     "id": 1051,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16834,8 +16834,8 @@ const MANIFEST = [
   {
     "id": 1052,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16850,8 +16850,8 @@ const MANIFEST = [
   {
     "id": 1053,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16866,8 +16866,8 @@ const MANIFEST = [
   {
     "id": 1054,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16882,8 +16882,8 @@ const MANIFEST = [
   {
     "id": 1055,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16898,8 +16898,8 @@ const MANIFEST = [
   {
     "id": 1056,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16914,8 +16914,8 @@ const MANIFEST = [
   {
     "id": 1057,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16930,8 +16930,8 @@ const MANIFEST = [
   {
     "id": 1058,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16946,8 +16946,8 @@ const MANIFEST = [
   {
     "id": 1059,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16962,8 +16962,8 @@ const MANIFEST = [
   {
     "id": 1060,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16978,8 +16978,8 @@ const MANIFEST = [
   {
     "id": 1061,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -16994,8 +16994,8 @@ const MANIFEST = [
   {
     "id": 1062,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17010,8 +17010,8 @@ const MANIFEST = [
   {
     "id": 1063,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17026,8 +17026,8 @@ const MANIFEST = [
   {
     "id": 1064,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17042,8 +17042,8 @@ const MANIFEST = [
   {
     "id": 1065,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17058,8 +17058,8 @@ const MANIFEST = [
   {
     "id": 1066,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17074,8 +17074,8 @@ const MANIFEST = [
   {
     "id": 1067,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17090,8 +17090,8 @@ const MANIFEST = [
   {
     "id": 1068,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17106,8 +17106,8 @@ const MANIFEST = [
   {
     "id": 1069,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17122,8 +17122,8 @@ const MANIFEST = [
   {
     "id": 1070,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17138,8 +17138,8 @@ const MANIFEST = [
   {
     "id": 1071,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17154,8 +17154,8 @@ const MANIFEST = [
   {
     "id": 1072,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17170,8 +17170,8 @@ const MANIFEST = [
   {
     "id": 1073,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17186,8 +17186,8 @@ const MANIFEST = [
   {
     "id": 1074,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17202,8 +17202,8 @@ const MANIFEST = [
   {
     "id": 1075,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17218,8 +17218,8 @@ const MANIFEST = [
   {
     "id": 1076,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17234,8 +17234,8 @@ const MANIFEST = [
   {
     "id": 1077,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17250,8 +17250,8 @@ const MANIFEST = [
   {
     "id": 1078,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17266,8 +17266,8 @@ const MANIFEST = [
   {
     "id": 1079,
     "image_id": "000000329447",
-    "original_image": "full_data_two_animals/000000329447/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000329447/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000329447/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -17282,8 +17282,8 @@ const MANIFEST = [
   {
     "id": 1080,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17298,8 +17298,8 @@ const MANIFEST = [
   {
     "id": 1081,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17314,8 +17314,8 @@ const MANIFEST = [
   {
     "id": 1082,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17330,8 +17330,8 @@ const MANIFEST = [
   {
     "id": 1083,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17346,8 +17346,8 @@ const MANIFEST = [
   {
     "id": 1084,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17362,8 +17362,8 @@ const MANIFEST = [
   {
     "id": 1085,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17378,8 +17378,8 @@ const MANIFEST = [
   {
     "id": 1086,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17394,8 +17394,8 @@ const MANIFEST = [
   {
     "id": 1087,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17410,8 +17410,8 @@ const MANIFEST = [
   {
     "id": 1088,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17426,8 +17426,8 @@ const MANIFEST = [
   {
     "id": 1089,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17442,8 +17442,8 @@ const MANIFEST = [
   {
     "id": 1090,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17458,8 +17458,8 @@ const MANIFEST = [
   {
     "id": 1091,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17474,8 +17474,8 @@ const MANIFEST = [
   {
     "id": 1092,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17490,8 +17490,8 @@ const MANIFEST = [
   {
     "id": 1093,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17506,8 +17506,8 @@ const MANIFEST = [
   {
     "id": 1094,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17522,8 +17522,8 @@ const MANIFEST = [
   {
     "id": 1095,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17538,8 +17538,8 @@ const MANIFEST = [
   {
     "id": 1096,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17554,8 +17554,8 @@ const MANIFEST = [
   {
     "id": 1097,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17570,8 +17570,8 @@ const MANIFEST = [
   {
     "id": 1098,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17586,8 +17586,8 @@ const MANIFEST = [
   {
     "id": 1099,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17602,8 +17602,8 @@ const MANIFEST = [
   {
     "id": 1100,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17618,8 +17618,8 @@ const MANIFEST = [
   {
     "id": 1101,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17634,8 +17634,8 @@ const MANIFEST = [
   {
     "id": 1102,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17650,8 +17650,8 @@ const MANIFEST = [
   {
     "id": 1103,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17666,8 +17666,8 @@ const MANIFEST = [
   {
     "id": 1104,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17682,8 +17682,8 @@ const MANIFEST = [
   {
     "id": 1105,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17698,8 +17698,8 @@ const MANIFEST = [
   {
     "id": 1106,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17714,8 +17714,8 @@ const MANIFEST = [
   {
     "id": 1107,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17730,8 +17730,8 @@ const MANIFEST = [
   {
     "id": 1108,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17746,8 +17746,8 @@ const MANIFEST = [
   {
     "id": 1109,
     "image_id": "000000229997",
-    "original_image": "full_data_two_animals/000000229997/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000229997/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000229997/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17762,8 +17762,8 @@ const MANIFEST = [
   {
     "id": 1110,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17778,8 +17778,8 @@ const MANIFEST = [
   {
     "id": 1111,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17794,8 +17794,8 @@ const MANIFEST = [
   {
     "id": 1112,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17810,8 +17810,8 @@ const MANIFEST = [
   {
     "id": 1113,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17826,8 +17826,8 @@ const MANIFEST = [
   {
     "id": 1114,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17842,8 +17842,8 @@ const MANIFEST = [
   {
     "id": 1115,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17858,8 +17858,8 @@ const MANIFEST = [
   {
     "id": 1116,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17874,8 +17874,8 @@ const MANIFEST = [
   {
     "id": 1117,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17890,8 +17890,8 @@ const MANIFEST = [
   {
     "id": 1118,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17906,8 +17906,8 @@ const MANIFEST = [
   {
     "id": 1119,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17922,8 +17922,8 @@ const MANIFEST = [
   {
     "id": 1120,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17938,8 +17938,8 @@ const MANIFEST = [
   {
     "id": 1121,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17954,8 +17954,8 @@ const MANIFEST = [
   {
     "id": 1122,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17970,8 +17970,8 @@ const MANIFEST = [
   {
     "id": 1123,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -17986,8 +17986,8 @@ const MANIFEST = [
   {
     "id": 1124,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18002,8 +18002,8 @@ const MANIFEST = [
   {
     "id": 1125,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18018,8 +18018,8 @@ const MANIFEST = [
   {
     "id": 1126,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18034,8 +18034,8 @@ const MANIFEST = [
   {
     "id": 1127,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18050,8 +18050,8 @@ const MANIFEST = [
   {
     "id": 1128,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18066,8 +18066,8 @@ const MANIFEST = [
   {
     "id": 1129,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18082,8 +18082,8 @@ const MANIFEST = [
   {
     "id": 1130,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18098,8 +18098,8 @@ const MANIFEST = [
   {
     "id": 1131,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18114,8 +18114,8 @@ const MANIFEST = [
   {
     "id": 1132,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18130,8 +18130,8 @@ const MANIFEST = [
   {
     "id": 1133,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18146,8 +18146,8 @@ const MANIFEST = [
   {
     "id": 1134,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18162,8 +18162,8 @@ const MANIFEST = [
   {
     "id": 1135,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18178,8 +18178,8 @@ const MANIFEST = [
   {
     "id": 1136,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18194,8 +18194,8 @@ const MANIFEST = [
   {
     "id": 1137,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18210,8 +18210,8 @@ const MANIFEST = [
   {
     "id": 1138,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18226,8 +18226,8 @@ const MANIFEST = [
   {
     "id": 1139,
     "image_id": "000000186422",
-    "original_image": "full_data_two_animals/000000186422/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000186422/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000186422/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18242,8 +18242,8 @@ const MANIFEST = [
   {
     "id": 1140,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18258,8 +18258,8 @@ const MANIFEST = [
   {
     "id": 1141,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18274,8 +18274,8 @@ const MANIFEST = [
   {
     "id": 1142,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18290,8 +18290,8 @@ const MANIFEST = [
   {
     "id": 1143,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18306,8 +18306,8 @@ const MANIFEST = [
   {
     "id": 1144,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18322,8 +18322,8 @@ const MANIFEST = [
   {
     "id": 1145,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18338,8 +18338,8 @@ const MANIFEST = [
   {
     "id": 1146,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18354,8 +18354,8 @@ const MANIFEST = [
   {
     "id": 1147,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18370,8 +18370,8 @@ const MANIFEST = [
   {
     "id": 1148,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18386,8 +18386,8 @@ const MANIFEST = [
   {
     "id": 1149,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18402,8 +18402,8 @@ const MANIFEST = [
   {
     "id": 1150,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18418,8 +18418,8 @@ const MANIFEST = [
   {
     "id": 1151,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18434,8 +18434,8 @@ const MANIFEST = [
   {
     "id": 1152,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18450,8 +18450,8 @@ const MANIFEST = [
   {
     "id": 1153,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18466,8 +18466,8 @@ const MANIFEST = [
   {
     "id": 1154,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18482,8 +18482,8 @@ const MANIFEST = [
   {
     "id": 1155,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18498,8 +18498,8 @@ const MANIFEST = [
   {
     "id": 1156,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18514,8 +18514,8 @@ const MANIFEST = [
   {
     "id": 1157,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18530,8 +18530,8 @@ const MANIFEST = [
   {
     "id": 1158,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18546,8 +18546,8 @@ const MANIFEST = [
   {
     "id": 1159,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18562,8 +18562,8 @@ const MANIFEST = [
   {
     "id": 1160,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18578,8 +18578,8 @@ const MANIFEST = [
   {
     "id": 1161,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18594,8 +18594,8 @@ const MANIFEST = [
   {
     "id": 1162,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_DAAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18610,8 +18610,8 @@ const MANIFEST = [
   {
     "id": 1163,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_DAAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18626,8 +18626,8 @@ const MANIFEST = [
   {
     "id": 1164,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18642,8 +18642,8 @@ const MANIFEST = [
   {
     "id": 1165,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18658,8 +18658,8 @@ const MANIFEST = [
   {
     "id": 1166,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18674,8 +18674,8 @@ const MANIFEST = [
   {
     "id": 1167,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18690,8 +18690,8 @@ const MANIFEST = [
   {
     "id": 1168,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18706,8 +18706,8 @@ const MANIFEST = [
   {
     "id": 1169,
     "image_id": "000000572517",
-    "original_image": "full_data_two_animals/000000572517/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000572517/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000572517/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bear",
       "Bird",
@@ -18722,8 +18722,8 @@ const MANIFEST = [
   {
     "id": 1170,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18738,8 +18738,8 @@ const MANIFEST = [
   {
     "id": 1171,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18754,8 +18754,8 @@ const MANIFEST = [
   {
     "id": 1172,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18770,8 +18770,8 @@ const MANIFEST = [
   {
     "id": 1173,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18786,8 +18786,8 @@ const MANIFEST = [
   {
     "id": 1174,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18802,8 +18802,8 @@ const MANIFEST = [
   {
     "id": 1175,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18818,8 +18818,8 @@ const MANIFEST = [
   {
     "id": 1176,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18834,8 +18834,8 @@ const MANIFEST = [
   {
     "id": 1177,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18850,8 +18850,8 @@ const MANIFEST = [
   {
     "id": 1178,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18866,8 +18866,8 @@ const MANIFEST = [
   {
     "id": 1179,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18882,8 +18882,8 @@ const MANIFEST = [
   {
     "id": 1180,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18898,8 +18898,8 @@ const MANIFEST = [
   {
     "id": 1181,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18914,8 +18914,8 @@ const MANIFEST = [
   {
     "id": 1182,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18930,8 +18930,8 @@ const MANIFEST = [
   {
     "id": 1183,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18946,8 +18946,8 @@ const MANIFEST = [
   {
     "id": 1184,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18962,8 +18962,8 @@ const MANIFEST = [
   {
     "id": 1185,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18978,8 +18978,8 @@ const MANIFEST = [
   {
     "id": 1186,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -18994,8 +18994,8 @@ const MANIFEST = [
   {
     "id": 1187,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19010,8 +19010,8 @@ const MANIFEST = [
   {
     "id": 1188,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19026,8 +19026,8 @@ const MANIFEST = [
   {
     "id": 1189,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19042,8 +19042,8 @@ const MANIFEST = [
   {
     "id": 1190,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19058,8 +19058,8 @@ const MANIFEST = [
   {
     "id": 1191,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19074,8 +19074,8 @@ const MANIFEST = [
   {
     "id": 1192,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19090,8 +19090,8 @@ const MANIFEST = [
   {
     "id": 1193,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19106,8 +19106,8 @@ const MANIFEST = [
   {
     "id": 1194,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19122,8 +19122,8 @@ const MANIFEST = [
   {
     "id": 1195,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19138,8 +19138,8 @@ const MANIFEST = [
   {
     "id": 1196,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19154,8 +19154,8 @@ const MANIFEST = [
   {
     "id": 1197,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19170,8 +19170,8 @@ const MANIFEST = [
   {
     "id": 1198,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19186,8 +19186,8 @@ const MANIFEST = [
   {
     "id": 1199,
     "image_id": "000000060823",
-    "original_image": "full_data_two_animals/000000060823/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000060823/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000060823/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19202,8 +19202,8 @@ const MANIFEST = [
   {
     "id": 1200,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19218,8 +19218,8 @@ const MANIFEST = [
   {
     "id": 1201,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19234,8 +19234,8 @@ const MANIFEST = [
   {
     "id": 1202,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19250,8 +19250,8 @@ const MANIFEST = [
   {
     "id": 1203,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19266,8 +19266,8 @@ const MANIFEST = [
   {
     "id": 1204,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19282,8 +19282,8 @@ const MANIFEST = [
   {
     "id": 1205,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19298,8 +19298,8 @@ const MANIFEST = [
   {
     "id": 1206,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19314,8 +19314,8 @@ const MANIFEST = [
   {
     "id": 1207,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19330,8 +19330,8 @@ const MANIFEST = [
   {
     "id": 1208,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19346,8 +19346,8 @@ const MANIFEST = [
   {
     "id": 1209,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19362,8 +19362,8 @@ const MANIFEST = [
   {
     "id": 1210,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19378,8 +19378,8 @@ const MANIFEST = [
   {
     "id": 1211,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19394,8 +19394,8 @@ const MANIFEST = [
   {
     "id": 1212,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19410,8 +19410,8 @@ const MANIFEST = [
   {
     "id": 1213,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19426,8 +19426,8 @@ const MANIFEST = [
   {
     "id": 1214,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19442,8 +19442,8 @@ const MANIFEST = [
   {
     "id": 1215,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19458,8 +19458,8 @@ const MANIFEST = [
   {
     "id": 1216,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_LeGrad/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19474,8 +19474,8 @@ const MANIFEST = [
   {
     "id": 1217,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_LeGrad/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19490,8 +19490,8 @@ const MANIFEST = [
   {
     "id": 1218,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19506,8 +19506,8 @@ const MANIFEST = [
   {
     "id": 1219,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_1_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19522,8 +19522,8 @@ const MANIFEST = [
   {
     "id": 1220,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19538,8 +19538,8 @@ const MANIFEST = [
   {
     "id": 1221,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19554,8 +19554,8 @@ const MANIFEST = [
   {
     "id": 1222,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_DAAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19570,8 +19570,8 @@ const MANIFEST = [
   {
     "id": 1223,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_DAAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19586,8 +19586,8 @@ const MANIFEST = [
   {
     "id": 1224,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19602,8 +19602,8 @@ const MANIFEST = [
   {
     "id": 1225,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19618,8 +19618,8 @@ const MANIFEST = [
   {
     "id": 1226,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_GradCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19634,8 +19634,8 @@ const MANIFEST = [
   {
     "id": 1227,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_2_GradCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19650,8 +19650,8 @@ const MANIFEST = [
   {
     "id": 1228,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19666,8 +19666,8 @@ const MANIFEST = [
   {
     "id": 1229,
     "image_id": "000000492992",
-    "original_image": "full_data_two_animals/000000492992/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000492992/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000492992/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Bird",
       "Cow",
@@ -19682,8 +19682,8 @@ const MANIFEST = [
   {
     "id": 1230,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_DAAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19698,8 +19698,8 @@ const MANIFEST = [
   {
     "id": 1231,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_DAAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19714,8 +19714,8 @@ const MANIFEST = [
   {
     "id": 1232,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_LeGrad/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19730,8 +19730,8 @@ const MANIFEST = [
   {
     "id": 1233,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_LeGrad/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19746,8 +19746,8 @@ const MANIFEST = [
   {
     "id": 1234,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19762,8 +19762,8 @@ const MANIFEST = [
   {
     "id": 1235,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19778,8 +19778,8 @@ const MANIFEST = [
   {
     "id": 1236,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_DAAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19794,8 +19794,8 @@ const MANIFEST = [
   {
     "id": 1237,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_DAAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19810,8 +19810,8 @@ const MANIFEST = [
   {
     "id": 1238,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19826,8 +19826,8 @@ const MANIFEST = [
   {
     "id": 1239,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19842,8 +19842,8 @@ const MANIFEST = [
   {
     "id": 1240,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19858,8 +19858,8 @@ const MANIFEST = [
   {
     "id": 1241,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19874,8 +19874,8 @@ const MANIFEST = [
   {
     "id": 1242,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19890,8 +19890,8 @@ const MANIFEST = [
   {
     "id": 1243,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19906,8 +19906,8 @@ const MANIFEST = [
   {
     "id": 1244,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19922,8 +19922,8 @@ const MANIFEST = [
   {
     "id": 1245,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19938,8 +19938,8 @@ const MANIFEST = [
   {
     "id": 1246,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_LeGrad/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19954,8 +19954,8 @@ const MANIFEST = [
   {
     "id": 1247,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_LeGrad/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19970,8 +19970,8 @@ const MANIFEST = [
   {
     "id": 1248,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_GradCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -19986,8 +19986,8 @@ const MANIFEST = [
   {
     "id": 1249,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_1_GradCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20002,8 +20002,8 @@ const MANIFEST = [
   {
     "id": 1250,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20018,8 +20018,8 @@ const MANIFEST = [
   {
     "id": 1251,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20034,8 +20034,8 @@ const MANIFEST = [
   {
     "id": 1252,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_DAAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20050,8 +20050,8 @@ const MANIFEST = [
   {
     "id": 1253,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_DAAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20066,8 +20066,8 @@ const MANIFEST = [
   {
     "id": 1254,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20082,8 +20082,8 @@ const MANIFEST = [
   {
     "id": 1255,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20098,8 +20098,8 @@ const MANIFEST = [
   {
     "id": 1256,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_GradCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20114,8 +20114,8 @@ const MANIFEST = [
   {
     "id": 1257,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_2_GradCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20130,8 +20130,8 @@ const MANIFEST = [
   {
     "id": 1258,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20146,8 +20146,8 @@ const MANIFEST = [
   {
     "id": 1259,
     "image_id": "000000379533",
-    "original_image": "full_data_two_animals/000000379533/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000379533/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000379533/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Elephant",
       "Zebra",
@@ -20162,8 +20162,8 @@ const MANIFEST = [
   {
     "id": 1260,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20178,8 +20178,8 @@ const MANIFEST = [
   {
     "id": 1261,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20194,8 +20194,8 @@ const MANIFEST = [
   {
     "id": 1262,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20210,8 +20210,8 @@ const MANIFEST = [
   {
     "id": 1263,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20226,8 +20226,8 @@ const MANIFEST = [
   {
     "id": 1264,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20242,8 +20242,8 @@ const MANIFEST = [
   {
     "id": 1265,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20258,8 +20258,8 @@ const MANIFEST = [
   {
     "id": 1266,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20274,8 +20274,8 @@ const MANIFEST = [
   {
     "id": 1267,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20290,8 +20290,8 @@ const MANIFEST = [
   {
     "id": 1268,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20306,8 +20306,8 @@ const MANIFEST = [
   {
     "id": 1269,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20322,8 +20322,8 @@ const MANIFEST = [
   {
     "id": 1270,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20338,8 +20338,8 @@ const MANIFEST = [
   {
     "id": 1271,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20354,8 +20354,8 @@ const MANIFEST = [
   {
     "id": 1272,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20370,8 +20370,8 @@ const MANIFEST = [
   {
     "id": 1273,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20386,8 +20386,8 @@ const MANIFEST = [
   {
     "id": 1274,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20402,8 +20402,8 @@ const MANIFEST = [
   {
     "id": 1275,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20418,8 +20418,8 @@ const MANIFEST = [
   {
     "id": 1276,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20434,8 +20434,8 @@ const MANIFEST = [
   {
     "id": 1277,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20450,8 +20450,8 @@ const MANIFEST = [
   {
     "id": 1278,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20466,8 +20466,8 @@ const MANIFEST = [
   {
     "id": 1279,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_1_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20482,8 +20482,8 @@ const MANIFEST = [
   {
     "id": 1280,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20498,8 +20498,8 @@ const MANIFEST = [
   {
     "id": 1281,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20514,8 +20514,8 @@ const MANIFEST = [
   {
     "id": 1282,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20530,8 +20530,8 @@ const MANIFEST = [
   {
     "id": 1283,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20546,8 +20546,8 @@ const MANIFEST = [
   {
     "id": 1284,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20562,8 +20562,8 @@ const MANIFEST = [
   {
     "id": 1285,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20578,8 +20578,8 @@ const MANIFEST = [
   {
     "id": 1286,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20594,8 +20594,8 @@ const MANIFEST = [
   {
     "id": 1287,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_2_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20610,8 +20610,8 @@ const MANIFEST = [
   {
     "id": 1288,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20626,8 +20626,8 @@ const MANIFEST = [
   {
     "id": 1289,
     "image_id": "000000163290",
-    "original_image": "full_data_two_animals/000000163290/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000163290/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000163290/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -20642,8 +20642,8 @@ const MANIFEST = [
   {
     "id": 1290,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_DAAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20658,8 +20658,8 @@ const MANIFEST = [
   {
     "id": 1291,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_DAAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20674,8 +20674,8 @@ const MANIFEST = [
   {
     "id": 1292,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_LeGrad/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20690,8 +20690,8 @@ const MANIFEST = [
   {
     "id": 1293,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_LeGrad/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20706,8 +20706,8 @@ const MANIFEST = [
   {
     "id": 1294,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20722,8 +20722,8 @@ const MANIFEST = [
   {
     "id": 1295,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20738,8 +20738,8 @@ const MANIFEST = [
   {
     "id": 1296,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_DAAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20754,8 +20754,8 @@ const MANIFEST = [
   {
     "id": 1297,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_DAAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20770,8 +20770,8 @@ const MANIFEST = [
   {
     "id": 1298,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20786,8 +20786,8 @@ const MANIFEST = [
   {
     "id": 1299,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20802,8 +20802,8 @@ const MANIFEST = [
   {
     "id": 1300,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20818,8 +20818,8 @@ const MANIFEST = [
   {
     "id": 1301,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20834,8 +20834,8 @@ const MANIFEST = [
   {
     "id": 1302,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20850,8 +20850,8 @@ const MANIFEST = [
   {
     "id": 1303,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20866,8 +20866,8 @@ const MANIFEST = [
   {
     "id": 1304,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20882,8 +20882,8 @@ const MANIFEST = [
   {
     "id": 1305,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20898,8 +20898,8 @@ const MANIFEST = [
   {
     "id": 1306,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_LeGrad/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20914,8 +20914,8 @@ const MANIFEST = [
   {
     "id": 1307,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_LeGrad/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20930,8 +20930,8 @@ const MANIFEST = [
   {
     "id": 1308,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_GradCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20946,8 +20946,8 @@ const MANIFEST = [
   {
     "id": 1309,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_1_GradCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20962,8 +20962,8 @@ const MANIFEST = [
   {
     "id": 1310,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20978,8 +20978,8 @@ const MANIFEST = [
   {
     "id": 1311,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -20994,8 +20994,8 @@ const MANIFEST = [
   {
     "id": 1312,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_DAAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21010,8 +21010,8 @@ const MANIFEST = [
   {
     "id": 1313,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_DAAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21026,8 +21026,8 @@ const MANIFEST = [
   {
     "id": 1314,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21042,8 +21042,8 @@ const MANIFEST = [
   {
     "id": 1315,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21058,8 +21058,8 @@ const MANIFEST = [
   {
     "id": 1316,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_GradCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21074,8 +21074,8 @@ const MANIFEST = [
   {
     "id": 1317,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_2_GradCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21090,8 +21090,8 @@ const MANIFEST = [
   {
     "id": 1318,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21106,8 +21106,8 @@ const MANIFEST = [
   {
     "id": 1319,
     "image_id": "000000049761",
-    "original_image": "full_data_two_animals/000000049761/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000049761/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000049761/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21122,8 +21122,8 @@ const MANIFEST = [
   {
     "id": 1320,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_DAAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21138,8 +21138,8 @@ const MANIFEST = [
   {
     "id": 1321,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_DAAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21154,8 +21154,8 @@ const MANIFEST = [
   {
     "id": 1322,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_LeGrad/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21170,8 +21170,8 @@ const MANIFEST = [
   {
     "id": 1323,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_LeGrad/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21186,8 +21186,8 @@ const MANIFEST = [
   {
     "id": 1324,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21202,8 +21202,8 @@ const MANIFEST = [
   {
     "id": 1325,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21218,8 +21218,8 @@ const MANIFEST = [
   {
     "id": 1326,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_DAAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21234,8 +21234,8 @@ const MANIFEST = [
   {
     "id": 1327,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_DAAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21250,8 +21250,8 @@ const MANIFEST = [
   {
     "id": 1328,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21266,8 +21266,8 @@ const MANIFEST = [
   {
     "id": 1329,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21282,8 +21282,8 @@ const MANIFEST = [
   {
     "id": 1330,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21298,8 +21298,8 @@ const MANIFEST = [
   {
     "id": 1331,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21314,8 +21314,8 @@ const MANIFEST = [
   {
     "id": 1332,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21330,8 +21330,8 @@ const MANIFEST = [
   {
     "id": 1333,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21346,8 +21346,8 @@ const MANIFEST = [
   {
     "id": 1334,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21362,8 +21362,8 @@ const MANIFEST = [
   {
     "id": 1335,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21378,8 +21378,8 @@ const MANIFEST = [
   {
     "id": 1336,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_LeGrad/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21394,8 +21394,8 @@ const MANIFEST = [
   {
     "id": 1337,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_LeGrad/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21410,8 +21410,8 @@ const MANIFEST = [
   {
     "id": 1338,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_GradCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21426,8 +21426,8 @@ const MANIFEST = [
   {
     "id": 1339,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_1_GradCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21442,8 +21442,8 @@ const MANIFEST = [
   {
     "id": 1340,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21458,8 +21458,8 @@ const MANIFEST = [
   {
     "id": 1341,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21474,8 +21474,8 @@ const MANIFEST = [
   {
     "id": 1342,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_DAAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21490,8 +21490,8 @@ const MANIFEST = [
   {
     "id": 1343,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_DAAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21506,8 +21506,8 @@ const MANIFEST = [
   {
     "id": 1344,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21522,8 +21522,8 @@ const MANIFEST = [
   {
     "id": 1345,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21538,8 +21538,8 @@ const MANIFEST = [
   {
     "id": 1346,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_GradCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21554,8 +21554,8 @@ const MANIFEST = [
   {
     "id": 1347,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_2_GradCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21570,8 +21570,8 @@ const MANIFEST = [
   {
     "id": 1348,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21586,8 +21586,8 @@ const MANIFEST = [
   {
     "id": 1349,
     "image_id": "000000516316",
-    "original_image": "full_data_two_animals/000000516316/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000516316/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000516316/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Wildebeest (Antelope)",
       "Zebra",
@@ -21602,8 +21602,8 @@ const MANIFEST = [
   {
     "id": 1350,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21618,8 +21618,8 @@ const MANIFEST = [
   {
     "id": 1351,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21634,8 +21634,8 @@ const MANIFEST = [
   {
     "id": 1352,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21650,8 +21650,8 @@ const MANIFEST = [
   {
     "id": 1353,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21666,8 +21666,8 @@ const MANIFEST = [
   {
     "id": 1354,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21682,8 +21682,8 @@ const MANIFEST = [
   {
     "id": 1355,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21698,8 +21698,8 @@ const MANIFEST = [
   {
     "id": 1356,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21714,8 +21714,8 @@ const MANIFEST = [
   {
     "id": 1357,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21730,8 +21730,8 @@ const MANIFEST = [
   {
     "id": 1358,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21746,8 +21746,8 @@ const MANIFEST = [
   {
     "id": 1359,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21762,8 +21762,8 @@ const MANIFEST = [
   {
     "id": 1360,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21778,8 +21778,8 @@ const MANIFEST = [
   {
     "id": 1361,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21794,8 +21794,8 @@ const MANIFEST = [
   {
     "id": 1362,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21810,8 +21810,8 @@ const MANIFEST = [
   {
     "id": 1363,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21826,8 +21826,8 @@ const MANIFEST = [
   {
     "id": 1364,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21842,8 +21842,8 @@ const MANIFEST = [
   {
     "id": 1365,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21858,8 +21858,8 @@ const MANIFEST = [
   {
     "id": 1366,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21874,8 +21874,8 @@ const MANIFEST = [
   {
     "id": 1367,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21890,8 +21890,8 @@ const MANIFEST = [
   {
     "id": 1368,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21906,8 +21906,8 @@ const MANIFEST = [
   {
     "id": 1369,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_1_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21922,8 +21922,8 @@ const MANIFEST = [
   {
     "id": 1370,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21938,8 +21938,8 @@ const MANIFEST = [
   {
     "id": 1371,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21954,8 +21954,8 @@ const MANIFEST = [
   {
     "id": 1372,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21970,8 +21970,8 @@ const MANIFEST = [
   {
     "id": 1373,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -21986,8 +21986,8 @@ const MANIFEST = [
   {
     "id": 1374,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -22002,8 +22002,8 @@ const MANIFEST = [
   {
     "id": 1375,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -22018,8 +22018,8 @@ const MANIFEST = [
   {
     "id": 1376,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -22034,8 +22034,8 @@ const MANIFEST = [
   {
     "id": 1377,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_2_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -22050,8 +22050,8 @@ const MANIFEST = [
   {
     "id": 1378,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -22066,8 +22066,8 @@ const MANIFEST = [
   {
     "id": 1379,
     "image_id": "000000509735",
-    "original_image": "full_data_two_animals/000000509735/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000509735/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000509735/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -22082,8 +22082,8 @@ const MANIFEST = [
   {
     "id": 1380,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22098,8 +22098,8 @@ const MANIFEST = [
   {
     "id": 1381,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22114,8 +22114,8 @@ const MANIFEST = [
   {
     "id": 1382,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22130,8 +22130,8 @@ const MANIFEST = [
   {
     "id": 1383,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22146,8 +22146,8 @@ const MANIFEST = [
   {
     "id": 1384,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22162,8 +22162,8 @@ const MANIFEST = [
   {
     "id": 1385,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22178,8 +22178,8 @@ const MANIFEST = [
   {
     "id": 1386,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22194,8 +22194,8 @@ const MANIFEST = [
   {
     "id": 1387,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22210,8 +22210,8 @@ const MANIFEST = [
   {
     "id": 1388,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22226,8 +22226,8 @@ const MANIFEST = [
   {
     "id": 1389,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22242,8 +22242,8 @@ const MANIFEST = [
   {
     "id": 1390,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22258,8 +22258,8 @@ const MANIFEST = [
   {
     "id": 1391,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22274,8 +22274,8 @@ const MANIFEST = [
   {
     "id": 1392,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22290,8 +22290,8 @@ const MANIFEST = [
   {
     "id": 1393,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22306,8 +22306,8 @@ const MANIFEST = [
   {
     "id": 1394,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22322,8 +22322,8 @@ const MANIFEST = [
   {
     "id": 1395,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22338,8 +22338,8 @@ const MANIFEST = [
   {
     "id": 1396,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22354,8 +22354,8 @@ const MANIFEST = [
   {
     "id": 1397,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22370,8 +22370,8 @@ const MANIFEST = [
   {
     "id": 1398,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22386,8 +22386,8 @@ const MANIFEST = [
   {
     "id": 1399,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22402,8 +22402,8 @@ const MANIFEST = [
   {
     "id": 1400,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22418,8 +22418,8 @@ const MANIFEST = [
   {
     "id": 1401,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22434,8 +22434,8 @@ const MANIFEST = [
   {
     "id": 1402,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22450,8 +22450,8 @@ const MANIFEST = [
   {
     "id": 1403,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22466,8 +22466,8 @@ const MANIFEST = [
   {
     "id": 1404,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22482,8 +22482,8 @@ const MANIFEST = [
   {
     "id": 1405,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22498,8 +22498,8 @@ const MANIFEST = [
   {
     "id": 1406,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22514,8 +22514,8 @@ const MANIFEST = [
   {
     "id": 1407,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22530,8 +22530,8 @@ const MANIFEST = [
   {
     "id": 1408,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22546,8 +22546,8 @@ const MANIFEST = [
   {
     "id": 1409,
     "image_id": "000000318238",
-    "original_image": "full_data_two_animals/000000318238/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000318238/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000318238/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22562,8 +22562,8 @@ const MANIFEST = [
   {
     "id": 1410,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22578,8 +22578,8 @@ const MANIFEST = [
   {
     "id": 1411,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22594,8 +22594,8 @@ const MANIFEST = [
   {
     "id": 1412,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22610,8 +22610,8 @@ const MANIFEST = [
   {
     "id": 1413,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22626,8 +22626,8 @@ const MANIFEST = [
   {
     "id": 1414,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22642,8 +22642,8 @@ const MANIFEST = [
   {
     "id": 1415,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22658,8 +22658,8 @@ const MANIFEST = [
   {
     "id": 1416,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22674,8 +22674,8 @@ const MANIFEST = [
   {
     "id": 1417,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22690,8 +22690,8 @@ const MANIFEST = [
   {
     "id": 1418,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22706,8 +22706,8 @@ const MANIFEST = [
   {
     "id": 1419,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22722,8 +22722,8 @@ const MANIFEST = [
   {
     "id": 1420,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22738,8 +22738,8 @@ const MANIFEST = [
   {
     "id": 1421,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22754,8 +22754,8 @@ const MANIFEST = [
   {
     "id": 1422,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22770,8 +22770,8 @@ const MANIFEST = [
   {
     "id": 1423,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22786,8 +22786,8 @@ const MANIFEST = [
   {
     "id": 1424,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22802,8 +22802,8 @@ const MANIFEST = [
   {
     "id": 1425,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22818,8 +22818,8 @@ const MANIFEST = [
   {
     "id": 1426,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22834,8 +22834,8 @@ const MANIFEST = [
   {
     "id": 1427,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22850,8 +22850,8 @@ const MANIFEST = [
   {
     "id": 1428,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22866,8 +22866,8 @@ const MANIFEST = [
   {
     "id": 1429,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22882,8 +22882,8 @@ const MANIFEST = [
   {
     "id": 1430,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22898,8 +22898,8 @@ const MANIFEST = [
   {
     "id": 1431,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22914,8 +22914,8 @@ const MANIFEST = [
   {
     "id": 1432,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_DAAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22930,8 +22930,8 @@ const MANIFEST = [
   {
     "id": 1433,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_DAAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22946,8 +22946,8 @@ const MANIFEST = [
   {
     "id": 1434,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22962,8 +22962,8 @@ const MANIFEST = [
   {
     "id": 1435,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22978,8 +22978,8 @@ const MANIFEST = [
   {
     "id": 1436,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -22994,8 +22994,8 @@ const MANIFEST = [
   {
     "id": 1437,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -23010,8 +23010,8 @@ const MANIFEST = [
   {
     "id": 1438,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -23026,8 +23026,8 @@ const MANIFEST = [
   {
     "id": 1439,
     "image_id": "000000543581",
-    "original_image": "full_data_two_animals/000000543581/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000543581/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000543581/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cat",
       "Dog",
@@ -23042,8 +23042,8 @@ const MANIFEST = [
   {
     "id": 1440,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23058,8 +23058,8 @@ const MANIFEST = [
   {
     "id": 1441,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23074,8 +23074,8 @@ const MANIFEST = [
   {
     "id": 1442,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23090,8 +23090,8 @@ const MANIFEST = [
   {
     "id": 1443,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23106,8 +23106,8 @@ const MANIFEST = [
   {
     "id": 1444,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23122,8 +23122,8 @@ const MANIFEST = [
   {
     "id": 1445,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23138,8 +23138,8 @@ const MANIFEST = [
   {
     "id": 1446,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23154,8 +23154,8 @@ const MANIFEST = [
   {
     "id": 1447,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23170,8 +23170,8 @@ const MANIFEST = [
   {
     "id": 1448,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23186,8 +23186,8 @@ const MANIFEST = [
   {
     "id": 1449,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23202,8 +23202,8 @@ const MANIFEST = [
   {
     "id": 1450,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23218,8 +23218,8 @@ const MANIFEST = [
   {
     "id": 1451,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23234,8 +23234,8 @@ const MANIFEST = [
   {
     "id": 1452,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23250,8 +23250,8 @@ const MANIFEST = [
   {
     "id": 1453,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23266,8 +23266,8 @@ const MANIFEST = [
   {
     "id": 1454,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23282,8 +23282,8 @@ const MANIFEST = [
   {
     "id": 1455,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23298,8 +23298,8 @@ const MANIFEST = [
   {
     "id": 1456,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_LeGrad/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23314,8 +23314,8 @@ const MANIFEST = [
   {
     "id": 1457,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_LeGrad/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23330,8 +23330,8 @@ const MANIFEST = [
   {
     "id": 1458,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23346,8 +23346,8 @@ const MANIFEST = [
   {
     "id": 1459,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_1_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23362,8 +23362,8 @@ const MANIFEST = [
   {
     "id": 1460,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23378,8 +23378,8 @@ const MANIFEST = [
   {
     "id": 1461,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23394,8 +23394,8 @@ const MANIFEST = [
   {
     "id": 1462,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_DAAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23410,8 +23410,8 @@ const MANIFEST = [
   {
     "id": 1463,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_DAAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23426,8 +23426,8 @@ const MANIFEST = [
   {
     "id": 1464,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23442,8 +23442,8 @@ const MANIFEST = [
   {
     "id": 1465,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23458,8 +23458,8 @@ const MANIFEST = [
   {
     "id": 1466,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_GradCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23474,8 +23474,8 @@ const MANIFEST = [
   {
     "id": 1467,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_2_GradCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23490,8 +23490,8 @@ const MANIFEST = [
   {
     "id": 1468,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23506,8 +23506,8 @@ const MANIFEST = [
   {
     "id": 1469,
     "image_id": "000000159977",
-    "original_image": "full_data_two_animals/000000159977/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000159977/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000159977/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Giraffe",
       "Zebra",
@@ -23522,8 +23522,8 @@ const MANIFEST = [
   {
     "id": 1470,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23538,8 +23538,8 @@ const MANIFEST = [
   {
     "id": 1471,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23554,8 +23554,8 @@ const MANIFEST = [
   {
     "id": 1472,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23570,8 +23570,8 @@ const MANIFEST = [
   {
     "id": 1473,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23586,8 +23586,8 @@ const MANIFEST = [
   {
     "id": 1474,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23602,8 +23602,8 @@ const MANIFEST = [
   {
     "id": 1475,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23618,8 +23618,8 @@ const MANIFEST = [
   {
     "id": 1476,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23634,8 +23634,8 @@ const MANIFEST = [
   {
     "id": 1477,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23650,8 +23650,8 @@ const MANIFEST = [
   {
     "id": 1478,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23666,8 +23666,8 @@ const MANIFEST = [
   {
     "id": 1479,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23682,8 +23682,8 @@ const MANIFEST = [
   {
     "id": 1480,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23698,8 +23698,8 @@ const MANIFEST = [
   {
     "id": 1481,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23714,8 +23714,8 @@ const MANIFEST = [
   {
     "id": 1482,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23730,8 +23730,8 @@ const MANIFEST = [
   {
     "id": 1483,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23746,8 +23746,8 @@ const MANIFEST = [
   {
     "id": 1484,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23762,8 +23762,8 @@ const MANIFEST = [
   {
     "id": 1485,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23778,8 +23778,8 @@ const MANIFEST = [
   {
     "id": 1486,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_LeGrad/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_LeGrad/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23794,8 +23794,8 @@ const MANIFEST = [
   {
     "id": 1487,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_LeGrad/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_LeGrad/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_LeGrad/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_LeGrad/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23810,8 +23810,8 @@ const MANIFEST = [
   {
     "id": 1488,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23826,8 +23826,8 @@ const MANIFEST = [
   {
     "id": 1489,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_1_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_1_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_1_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_1_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23842,8 +23842,8 @@ const MANIFEST = [
   {
     "id": 1490,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_CheferCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_CheferCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23858,8 +23858,8 @@ const MANIFEST = [
   {
     "id": 1491,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_CheferCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_CheferCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_CheferCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_CheferCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23874,8 +23874,8 @@ const MANIFEST = [
   {
     "id": 1492,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_DAAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_DAAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23890,8 +23890,8 @@ const MANIFEST = [
   {
     "id": 1493,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_DAAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_DAAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_DAAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_DAAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23906,8 +23906,8 @@ const MANIFEST = [
   {
     "id": 1494,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23922,8 +23922,8 @@ const MANIFEST = [
   {
     "id": 1495,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23938,8 +23938,8 @@ const MANIFEST = [
   {
     "id": 1496,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_GradCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_GradCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23954,8 +23954,8 @@ const MANIFEST = [
   {
     "id": 1497,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_2_GradCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_2_GradCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_2_GradCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_2_GradCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23970,8 +23970,8 @@ const MANIFEST = [
   {
     "id": 1498,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_AttentionCAM/normal.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_AttentionCAM/normal.jpg",
     "options": [
       "Cow",
       "Dog",
@@ -23986,8 +23986,8 @@ const MANIFEST = [
   {
     "id": 1499,
     "image_id": "000000193162",
-    "original_image": "full_data_two_animals/000000193162/Target_fake_AttentionCAM/original.png",
-    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_AttentionCAM/omp.png",
+    "original_image": "full_data_two_animals/000000193162/Target_fake_AttentionCAM/original.jpg",
+    "heatmap_image": "full_data_two_animals/000000193162/Target_fake_AttentionCAM/omp.jpg",
     "options": [
       "Cow",
       "Dog",

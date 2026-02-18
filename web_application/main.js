@@ -310,13 +310,13 @@ function generateSessionQuestions(allQuestions) {
 
     // Insert Attention Check (Question 16, Index 15)
     // Image: 2007_001763 (Cat/Dog)
-    // Heatmap: Target_1_LeGrad/omp.png (Attention Check)
+    // Heatmap: Target_1_LeGrad/omp.jpg (Attention Check)
     const attentionCheckQuestion = {
         id: "attention_check",
         image_id: "training_example",
         // Ensure paths are correct relative to index.html
-        original_image: "training_images/cat_dog.png",
-        heatmap_image: "training_images/cat_LeGrad.png",
+        original_image: "training_images/cat_dog.jpg",
+        heatmap_image: "training_images/cat_LeGrad.jpg",
         options: [
             "Cat",
             "Dog",
