@@ -363,7 +363,7 @@ function showQuestion() {
     document.getElementById('heatmap-img').src = q.heatmap_image;
 
     // Update question text if provided, otherwise use default
-    const defaultQuestion = "Does the saliency map highlight the correct region, and when the class is not present, does it avoid focusing on any specific object?";
+    const defaultQuestion = "Based on the heatmap, which class is the model focusing on?";
     document.getElementById('question-text').textContent = q.question_text || defaultQuestion;
 
     const optionsContainer = document.getElementById('options-container');
@@ -373,6 +373,7 @@ function showQuestion() {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.textContent = option;
+        // Logic change: Clicking option selects it and shows confidence
         btn.onclick = () => handleAnswer(index);
         optionsContainer.appendChild(btn);
     });
@@ -389,6 +390,7 @@ function showQuestion() {
     document.getElementById('result-section').classList.add('hidden');
     document.getElementById('clarity-survey').classList.add('hidden');
     document.getElementById('next-btn').classList.add('hidden');
+    document.getElementById('confidence-section').classList.add('hidden');
 
     // Clear clarity selection
     document.querySelectorAll('.clarity-option').forEach(opt => opt.classList.remove('selected'));
@@ -397,6 +399,7 @@ function showQuestion() {
     document.querySelectorAll('.option-btn').forEach(btn => {
         btn.disabled = false;
         btn.classList.remove('correct', 'wrong', 'selected');
+        // Remove confirm text if any
     });
 }
 
@@ -407,29 +410,39 @@ let originalButtonTexts = []; // Store original button texts
 function handleAnswer(selectedIndex) {
     const btns = document.querySelectorAll('#options-container .option-btn');
 
-    // If clicking the same button that's already selected, confirm the answer
-    if (currentSelection === selectedIndex) {
-        confirmAnswer();
-        return;
-    }
-
-    // First click - select and show "Confirm" on the button
+    // Select the button
     currentSelection = selectedIndex;
 
-    // Reset all buttons to their original text and remove selection
+    // Reset all buttons visual state
     btns.forEach((btn, index) => {
         btn.classList.remove('selected');
-        if (originalButtonTexts[index]) {
-            btn.textContent = originalButtonTexts[index];
-        }
     });
 
-    // Highlight and change text of selected button
+    // Highlight selected button
     btns[selectedIndex].classList.add('selected');
-    btns[selectedIndex].textContent = 'Confirm';
+
+    // Show Confidence Section
+    document.getElementById('confidence-section').classList.remove('hidden');
+
+    // Clear previous confidence selection
+    document.querySelectorAll('#confidence-scale .confidence-opt').forEach(opt => opt.classList.remove('selected'));
 }
 
-function confirmAnswer() {
+// Handle Confidence Selection
+document.querySelectorAll('.confidence-opt').forEach(opt => {
+    opt.onclick = () => {
+        const val = parseInt(opt.dataset.value);
+
+        // Visual selection
+        document.querySelectorAll('#confidence-scale .confidence-opt').forEach(o => o.classList.remove('selected'));
+        opt.classList.add('selected');
+
+        // Confirm answer after short delay or immediately
+        confirmAnswer(val);
+    };
+});
+
+function confirmAnswer(confidenceVal) {
     if (currentSelection === null) {
         return;
     }
@@ -446,19 +459,19 @@ function confirmAnswer() {
         heatmapType: q.heatmap_type,
         answer: currentSelection,
         isCorrect: isCorrect,
+        confidence: confidenceVal,
         trustScore: null
     };
 
     if (isCorrect) score++;
 
+    // Hide Confidence Section
+    document.getElementById('confidence-section').classList.add('hidden');
+
     // Disable all buttons and show correct/wrong on user's selection
     const btns = document.querySelectorAll('#options-container .option-btn');
     btns.forEach((btn, index) => {
         btn.disabled = true;
-        // Restore original text
-        if (originalButtonTexts[index]) {
-            btn.textContent = originalButtonTexts[index];
-        }
         btn.classList.remove('selected');
         // Color the user's selection green or red
         if (index === currentSelection) {

@@ -250,11 +250,37 @@
                 </div>
 
                 <div class="interaction-area">
-                    <h2 id="question-text">Does the saliency map highlight the correct region, and when the class is not
-                        present, does it avoid focusing on any specific object?</h2>
+                    <h2 id="question-text">Based on the heatmap, which class is the model focusing on?</h2>
 
                     <div id="options-container" class="options-grid">
                         <!-- Options will be injected here -->
+                    </div>
+
+                    <!-- Confidence Section (Hidden initially) -->
+                    <div id="confidence-section" class="hidden">
+                        <h3>How confident are you?</h3>
+                        <div class="clarity-scale" id="confidence-scale">
+                            <div class="clarity-option confidence-opt" data-value="1">
+                                <span class="clarity-number">1</span>
+                                <span class="clarity-label">Not Confident</span>
+                            </div>
+                            <div class="clarity-option confidence-opt" data-value="2">
+                                <span class="clarity-number">2</span>
+                                <span class="clarity-label">Somehow Not Confident</span>
+                            </div>
+                            <div class="clarity-option confidence-opt" data-value="3">
+                                <span class="clarity-number">3</span>
+                                <span class="clarity-label">Neutral</span>
+                            </div>
+                            <div class="clarity-option confidence-opt" data-value="4">
+                                <span class="clarity-number">4</span>
+                                <span class="clarity-label">Somehow Confident</span>
+                            </div>
+                            <div class="clarity-option confidence-opt" data-value="5">
+                                <span class="clarity-number">5</span>
+                                <span class="clarity-label">Confident</span>
+                            </div>
+                        </div>
                     </div>
 
                     <div id="feedback-area" class="hidden">
@@ -265,8 +291,8 @@
 
                         <div id="clarity-survey" class="hidden">
                             <div class="clarity-explanation">
-                                <p><strong>Overall the explanation provided for the model prediction can be
-                                        trusted?</strong></p>
+                                <p><strong>Does the saliency map highlight the correct region, and when the class is not
+                                        present, does it avoid focusing on any specific object?</strong></p>
                             </div>
                             <div class="clarity-scale" id="trust-scale">
                                 <div class="clarity-option per-q-feedback" data-type="trust" data-value="1">
