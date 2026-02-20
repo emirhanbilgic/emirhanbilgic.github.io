@@ -11,6 +11,20 @@ let experimentStartTime;
 const TOTAL_QUESTIONS_LIMIT = 30;
 
 // ==================
+// PROLIFIC INTEGRATION
+// ==================
+const urlParams = new URLSearchParams(window.location.search);
+const prolificData = {
+    prolific_pid: urlParams.get('PROLIFIC_PID') || null,
+    study_id: urlParams.get('STUDY_ID') || null,
+    session_id: urlParams.get('SESSION_ID') || null
+};
+
+if (prolificData.prolific_pid) {
+    console.log("Prolific Participant ID detected:", prolificData.prolific_pid);
+}
+
+// ==================
 // FIREBASE INIT
 // ==================
 // ==================
@@ -79,6 +93,7 @@ function createExperimentSession() {
 
     const initialData = {
         demographics: demographics,
+        prolificData: prolificData,
         startTime: firebase.firestore.FieldValue.serverTimestamp(),
         userAgent: navigator.userAgent,
         status: "started", // Track incomplete sessions
@@ -626,6 +641,7 @@ function submitFeedback() {
         responses: userResponses,
         stats: statsArray, // Saved but not shown
         feedback: feedbackData, // New feedback field
+        prolificData: prolificData, // Include Prolific IDs in final submission
         durationSeconds: durationSeconds,
         attentionCheckPassed: attentionCheckPassed,
         endTime: firebase.firestore.FieldValue.serverTimestamp(),
