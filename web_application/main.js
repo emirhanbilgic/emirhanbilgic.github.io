@@ -504,7 +504,7 @@ function confirmAnswer(confidenceVal) {
     // Show result message
     const resultSection = document.getElementById('result-section');
     const feedbackMsg = document.getElementById('feedback-message');
-    feedbackMsg.textContent = isCorrect ? 'Correct for this specific XAI technique.' : `For this specific XAI technique, the correct answer was ${q.options[q.correct_index]}.`;
+    feedbackMsg.textContent = isCorrect ? 'Correct.' : `For this specific XAI technique, the correct answer was ${q.options[q.correct_index]}.`;
     feedbackMsg.style.color = isCorrect ? 'var(--success)' : 'var(--error)';
     resultSection.classList.remove('hidden');
 
