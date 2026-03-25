@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Study</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="logo">
+                <span class="gradient-text">Experiment</span> Session
+            </div>
+            <div class="progress-wrapper hidden">
+                <div class="progress-text">Question <span id="current-q">1</span> of <span id="total-q">20</span></div>
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- DEMOGRAPHICS SECTION -->
+            <section id="demographics-area" class="glass-panel">
+                <h1 class="gradient-text">Welcome to the Experiment</h1>
+                <p class="section-intro">Before we begin, please provide some information about yourself. All data is anonymous and used only for research purposes.</p>
+
+                <form id="demographics-form" class="demographics-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="age">Age Range</label>
+                            <select id="age" required>
+                                <option value="">Select...</option>
+                                <option value="18-24">18-24</option>
+                                <option value="25-34">25-34</option>
+                                <option value="35-44">35-44</option>
+                                <option value="45-54">45-54</option>
+                                <option value="55-64">55-64</option>
+                                <option value="65+">65+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" required>
+                                <option value="">Select...</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="non-binary">Non-binary</option>
+                                <option value="prefer-not">Prefer not to say</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="education">Education Level</label>
+                            <select id="education" required>
+                                <option value="">Select...</option>
+                                <option value="high-school">High School</option>
+                                <option value="bachelors">Bachelor's Degree</option>
+                                <option value="masters">Master's Degree</option>
+                                <option value="phd">PhD / Doctorate</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country of Residence</label>
+                            <input type="text" id="country" placeholder="e.g., France" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width" style="align-items: center;">
+                            <label for="ai-expertise">AI/ML Expertise (1=None, 7=Expert)</label>
+                            <div class="range-container"
+                                style="display: flex; align-items: center; gap: 10px; width: 100%; max-width: 400px;">
+                                <span>1</span>
+                                <input type="range" id="ai-expertise" min="1" max="7" value="4" style="flex: 1;">
+                                <span>7</span>
+                            </div>
+                            <div style="text-align: center; font-size: 0.9rem; margin-top: 5px;">
+                                Current: <span id="ai-expertise-val">4</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="primary-btn">Continue</button>
+                </form>
+            </section>
+
+            <!-- TRAINING SECTION -->
+            <section id="training-area" class="glass-panel hidden">
+                <div class="training-header">
+                    <h1 class="gradient-text">Instructions</h1>
+                </div>
+
+                <div class="training-step" id="training-step-1">
+                    <h2>Task Description</h2>
+                    <div class="training-content">
+                        <p>In this study, you will be presented with images one by one. <strong>Please judge at least 20 images, but it would help us if you can go beyond.</strong> Some images are real photographs, while others have been manipulated or generated by Artificial Intelligence algorithms.</p>
+                        
+                        <p>For each image, your task is to decide whether it is <strong>Real</strong> or <strong>AI-Manipulated</strong>.</p>
+                        
+                        <div class="example-comparison" style="display: flex; gap: 1.5rem; justify-content: center; margin: 1rem 0;">
+                            <div class="example-card" style="margin: 0;">
+                                <div class="badge">Real</div>
+                                <img src="training_images/original.jpg" alt="Real Image Example">
+                            </div>
+                            <div class="example-card" style="margin: 0;">
+                                <div class="badge" style="background: rgba(239, 68, 68, 0.6);">AI-Manipulated</div>
+                                <img src="training_images/manipulated.png" alt="AI-Manipulated Image Example">
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <h3>🔍 Goal</h3>
+                            <p>Try your best to identify which images have been modified by AI. Your accuracy will be shown at the end of the experiment!</p>
+                        </div>
+                    </div>
+                    <button class="primary-btn" onclick="startMainExperiment()">Begin the Experiment</button>
+                </div>
+            </section>
+
+            <!-- EXPERIMENT SECTION -->
+            <section id="experiment-area" class="glass-panel hidden">
+                <div class="image-comparison" style="justify-content: center; text-align: center;">
+                    <div class="image-card" style="margin: 0 auto;">
+                        <div class="badge" id="image-badge">Image</div>
+                        <img id="experiment-img" src="" alt="Experiment Image">
+                    </div>
+                </div>
+
+                <div class="interaction-area">
+                    <h2 id="question-text">Is this image Real or AI-Manipulated?</h2>
+
+                    <div id="options-container" class="options-grid" style="grid-template-columns: 1fr 1fr;">
+                        <button class="option-btn" onclick="handleAnswer('Real')">Real</button>
+                        <button class="option-btn" onclick="handleAnswer('AI-Manipulated')">AI-Manipulated</button>
+                    </div>
+
+                    <!-- Confidence Section -->
+                    <div id="confidence-section" class="hidden">
+                        <h3 style="margin-bottom: 30px;">How confident are you?</h3>
+                        <div class="clarity-scale" id="confidence-scale">
+                            <div class="clarity-option confidence-opt" data-value="1">
+                                <span class="clarity-number">1</span>
+                                <span class="clarity-label">Not Confident</span>
+                            </div>
+                            <div class="clarity-option confidence-opt" data-value="2">
+                                <span class="clarity-number">2</span>
+                                <span class="clarity-label">Slightly Confident</span>
+                            </div>
+                            <div class="clarity-option confidence-opt" data-value="3">
+                                <span class="clarity-number">3</span>
+                                <span class="clarity-label">Neutral</span>
+                            </div>
+                            <div class="clarity-option confidence-opt" data-value="4">
+                                <span class="clarity-number">4</span>
+                                <span class="clarity-label">Quite Confident</span>
+                            </div>
+                            <div class="clarity-option confidence-opt" data-value="5">
+                                <span class="clarity-number">5</span>
+                                <span class="clarity-label">Very Confident</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COMPLETION SECTION -->
+            <section id="completion-area" class="glass-panel hidden">
+                <h1 class="gradient-text">Experiment Completed</h1>
+                <p>Thank you for participating! Your responses have been saved.</p>
+                
+                <div class="results-box" style="margin-top: 2rem; padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 12px; text-align: left;">
+                    <h2 style="margin-bottom: 1rem;">Your Accuracy</h2>
+                    <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Real Images (Originals): <span id="acc-orig" style="font-weight: bold; color: var(--success);">0%</span></p>
+                    <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">AI-Manipulated (Combined): <span id="acc-ai-combined" style="font-weight: bold; color: var(--success);">0%</span></p>
+                    
+                    <button class="secondary-btn small-btn" style="margin-top: 1rem; padding: 5px 10px; font-size: 0.9rem;" onclick="document.getElementById('advanced-stats').classList.toggle('hidden')">Advanced Options</button>
+                    <div id="advanced-stats" class="hidden" style="margin-top: 1rem; padding-left: 1rem; border-left: 2px solid var(--primary); background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px;">
+                        <p style="font-size: 1rem; margin-bottom: 0.5rem;">Standard Inpainting: <span id="acc-std" style="font-weight: bold;">0%</span></p>
+                        <p style="font-size: 1rem; margin-bottom: 0.5rem;">Inpainting Exchange: <span id="acc-exc" style="font-weight: bold;">0%</span></p>
+                    </div>
+                    <br>
+                    <p style="font-size: 1.2rem; font-weight: bold;">Overall Accuracy: <span id="acc-total" style="color: var(--primary);">0%</span></p>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <button class="primary-btn" onclick="continueExperiment()">Continue Judging (Next 20)</button>
+                    <button class="secondary-btn" onclick="location.reload()" style="padding: 1rem 3rem; border-radius: 12px;">Return to Start</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+    <script src="firebase_config.js"></script>
+
+    <!-- Data script generated by Python -->
+    <script src="data.js"></script>
+    <!-- Main JS logic -->
+    <script src="main.js"></script>
+</body>
+
+</html>
