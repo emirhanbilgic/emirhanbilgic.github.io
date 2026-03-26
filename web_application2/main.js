@@ -157,22 +157,15 @@ function showQuestion() {
     document.getElementById('experiment-img').src = q.image_path;
 
     // Reset UI
-    document.getElementById('confidence-section').classList.add('hidden');
     document.querySelectorAll('.option-btn').forEach(btn => {
         btn.classList.remove('selected', 'correct', 'wrong');
         btn.disabled = false;
     });
-    
-    // Clear confidence
-    document.querySelectorAll('.confidence-opt').forEach(opt => opt.classList.remove('selected'));
-    currentSelectionValue = null;
 }
 
 let currentSelectionValue = null;
 
 function handleAnswer(answerValue) {
-    currentSelectionValue = answerValue;
-
     // Highlight selected button
     const btns = document.querySelectorAll('#options-container .option-btn');
     btns.forEach(btn => {
@@ -180,49 +173,28 @@ function handleAnswer(answerValue) {
         if (btn.textContent === answerValue) btn.classList.add('selected');
     });
 
-    // Show Confidence Section
-    document.getElementById('confidence-section').classList.remove('hidden');
-}
-
-// Confidence Logic
-document.querySelectorAll('.confidence-opt').forEach(opt => {
-    opt.onclick = () => {
-        const confidenceVal = parseInt(opt.dataset.value);
-
-        // Visual selection
-        document.querySelectorAll('.confidence-opt').forEach(o => o.classList.remove('selected'));
-        opt.classList.add('selected');
-
-        // Delay briefly then confirm
-        setTimeout(() => {
-            confirmAnswer(confidenceVal);
-        }, 300);
-    };
-});
-
-function confirmAnswer(confidenceVal) {
-    if (!currentSelectionValue) return;
-
     const q = questions[currentQuestionIndex];
-    const isCorrect = (currentSelectionValue === q.expected_answer);
+    const isCorrect = (answerValue === q.expected_answer);
 
     // Record response
     userResponses.push({
         questionId: q.id,
         category: q.category,
         imagePath: q.image_path,
-        userAnswer: currentSelectionValue,
+        userAnswer: answerValue,
         expectedAnswer: q.expected_answer,
-        isCorrect: isCorrect,
-        confidence: confidenceVal
+        isCorrect: isCorrect
     });
 
-    currentQuestionIndex++;
-    if (currentQuestionIndex < currentMaxQuestions) {
-        showQuestion();
-    } else {
-        showCompletion();
-    }
+    // Brief delay to show what was clicked
+    setTimeout(() => {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < currentMaxQuestions) {
+            showQuestion();
+        } else {
+            showCompletion();
+        }
+    }, 250);
 }
 
 function continueExperiment() {
